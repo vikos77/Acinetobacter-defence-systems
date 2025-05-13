@@ -61,27 +61,26 @@ The bioinformatic workflow involved:
 
 The repository includes key visualizations:
 
-![Defence System Distribution](results/figures/defense_system_distribution.png)
+![Defence System Distribution](results/figures/defense_systems_by_species_simple.png)
 *Distribution of defence systems across A. baumannii, A. pittii, and other Acinetobacter species*
 
-## Dependencies
+## Prerequisites
 
-```
-R v4.4.2
-R packages: tidyverse, ggplot2, pheatmap, gridExtra
-DefenseFinder v1.2.0
-PADLOC v1.0.1
-HMMER v3.4
-```
+- R (version 4.4.0 or higher)
+- [DefenseFinder](https://github.com/mdmparis/defense-finder)
+- [PADLOC](https://github.com/padlocbio/padloc)
+- NCBI E-utilities (for genome download)
 
-## Reproduction
+## Installation
 
-To reproduce the analysis:
+1. Clone this repository: https://github.com/vikos77/Acinetobacter-defence-systems.git
 
-1. Clone this repository
-2. Install required dependencies
-3. Run the main analysis pipeline: `bash code/pipeline/main_pipeline.sh`
-4. Generate figures: `Rscript code/visualization/generate_figures.R`
+2. Install R and required packages
+
+3. Install bioinformatics tools:
+DefenseFinder: Follow instructions at https://github.com/mdmparis/defense-finder
+PADLOC: Follow instructions at https://github.com/padlocbio/padloc
+
 
 ## Citation
 

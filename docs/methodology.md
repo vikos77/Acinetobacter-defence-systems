@@ -28,30 +28,18 @@ For the primary analysis, we used a combined dataset of 132 complete genomes (10
 Two specialized bioinformatic tools were used:
 
 #### DefenseFinder v1.2.0
-
-```bash
-defense-finder run -o results/defensefinder_output/[GenomeID] [GenomeFASTA]
-```
-
-Key output files:
-- `[GenomeID]_defence_finder_genes.tsv`: Gene-level data
-- `[GenomeID]_defence_finder_hmmer.tsv`: HMMER hit data
-- `[GenomeID]_defence_finder_systems.tsv`: System-level summary
+  - GitHub: https://github.com/mdmparis/defense-finder
+  - Installation and usage instructions available in the repository
 
 #### PADLOC v1.0.1
+  - GitHub: https://github.com/padlocbio/padloc
+  - Comprehensive documentation and tutorials available in the repository
 
-Two-step process:
-1. CRISPR array detection with CRISPRCasFinder
-2. PADLOC analysis with CRISPR integration
 
-```bash
-padloc --genome [GenomeFASTA] --out results/padloc_output/[GenomeID] --crisp [CRISPROutputGFF]
-```
-
-### 4. Anti-Defence System Prediction
+### 4. Anti-Defence System Prediction (part of DefenseFinder program)
 
 ```bash
-defense-finder run --antidefensefinder-only -o results/antidefense_output/[GenomeID] [GenomeFASTA]
+defense-finder run -A -o results/antidefense_output/[GenomeID] [GenomeFASTA file]
 ```
 
 ### 5. Data Consolidation
