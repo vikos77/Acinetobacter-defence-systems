@@ -61,8 +61,8 @@ The bioinformatic workflow involved:
 
 The repository includes key visualizations:
 
-![Defence System Distribution](results/figures/defense_systems_by_species_simple.png)
-*Distribution of defence systems across A. baumannii, A. pittii, and other Acinetobacter species*
+![Defence System Distribution](results/figures/panel_a.png)
+*Defence system Co-occurrence across 132 Acinetobacter species*
 
 ## Prerequisites
 
