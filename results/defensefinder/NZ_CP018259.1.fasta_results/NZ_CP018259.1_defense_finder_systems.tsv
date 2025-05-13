@@ -1,0 +1,6 @@
+sys_id	type	subtype	activity	sys_beg	sys_end	protein_in_syst	genes_count	name_of_profiles_in_sys
+NZ_CP018259.1_Lamassu-Cap4_nuclease_1	Lamassu-Fam	Lamassu-Cap4_nuclease	Defense	NZ_CP018259.1_1274	NZ_CP018259.1_1275	NZ_CP018259.1_1274,NZ_CP018259.1_1275	2	Lamassu-Fam__LmuA_effector_Cap4_nuclease,Lamassu-Fam__LmuB_SMC_Cap4_nuclease
+NZ_CP018259.1_PD-T7-4_3	PD-T7-4	PD-T7-4	Defense	NZ_CP018259.1_2566	NZ_CP018259.1_2566	NZ_CP018259.1_2566	1	PD-T7-4__PD-T7-4
+NZ_CP018259.1_PD-T4-3_2	PD-T4-3	PD-T4-3	Defense	NZ_CP018259.1_3126	NZ_CP018259.1_3126	NZ_CP018259.1_3126	1	PD-T4-3__PD-T4-3
+NZ_CP018259.1_RM_Type_IV_5	RM	RM_Type_IV	Defense	NZ_CP018259.1_3923	NZ_CP018259.1_3924	NZ_CP018259.1_3923,NZ_CP018259.1_3924	2	RM_Type_IV__Type_IV_REases,RM_Type_IV__Type_IV_REases
+NZ_CP018259.1_RM_Type_II_4	RM	RM_Type_II	Defense	NZ_CP018259.1_4026	NZ_CP018259.1_4027	NZ_CP018259.1_4026,NZ_CP018259.1_4027	2	RM_Type_II__Type_II_MTases,RM_Type_II__Type_II_REases
