@@ -1,0 +1,55 @@
+Aminoglycoside
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP091596.1 Acinetobacter baumannii strain Nord4-2 chromosome, complete genome	1834737..1835552	Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin, Unknown Aminoglycoside, Kanamycin, Kanamycin, Neomycin	X62115
+
+Beta-lactam
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+blaADC-25	96.62	1153/1152	99.91319444444444	1..1152	NZ_CP091596.1 Acinetobacter baumannii strain Nord4-2 chromosome, complete genome	3303011..3304162	Unknown Beta-lactam	EF016355
+blaOXA-64	100.00	825/825	100.0	1..825	NZ_CP091596.1 Acinetobacter baumannii strain Nord4-2 chromosome, complete genome	4000659..4001483	Unknown Beta-lactam	AY750907
+blaNDM-1	100.00	813/813	100.0	1..813	NZ_CP091596.1 Acinetobacter baumannii strain Nord4-2 chromosome, complete genome	1941208..1942020	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ceftazidime+Avibactam, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam, Temocillin	FN396876
+
+Colistin
+No hit found
+
+Fosfomycin
+No hit found
+
+Fusidic Acid
+No hit found
+
+MLS - Macrolide, Lincosamide and Streptogramin B
+No hit found
+
+Misc
+No hit found
+
+Nitroimidazole
+No hit found
+
+Oxazolidinone
+No hit found
+
+Phenicol
+No hit found
+
+Fluoroquinolone
+No hit found
+
+Rifampicin
+No hit found
+
+Sulphonamide
+No hit found
+
+Tetracycline
+No hit found
+
+Trimethoprim
+No hit found
+
+Glycopeptide
+No hit found
+
+Pseudomonic Acid
+No hit found
+

@@ -1,0 +1,2 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aadA2b	99.87	780/780	100.0	1..780	NZ_CP019041.1 Acinetobacter junii strain 65 chromosome, complete genome	2307246..2308025	Spectinomycin, Streptomycin	D43625

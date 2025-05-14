@@ -1,0 +1,3 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+blaADC-25	96.44	1153/1152	99.91319444444444	1..1152	NZ_CP098791.1 Acinetobacter baumannii strain 280820 chromosome, complete genome	2928136..2929287	Unknown Beta-lactam	EF016355
+blaOXA-64	100.00	825/825	100.0	1..825	NZ_CP098791.1 Acinetobacter baumannii strain 280820 chromosome, complete genome	1800396..1801220	Unknown Beta-lactam	AY750907

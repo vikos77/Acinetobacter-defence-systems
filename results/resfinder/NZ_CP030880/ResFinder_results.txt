@@ -1,0 +1,172 @@
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                                        Aminoglycoside                                                                                                                                        |
++-------------------+------------+--------------------------------+------------+-------------------------+-----------------------------------------------------------------------------------+----------------------+--------------------------------------------------------+-----------------+
+| Resistance gene   |   Identity | Alignment Length/Gene Length   |   Coverage | Position in reference   | Contig                                                                            | Position in contig   | Phenotype                                              | Accession no.   |
+|-------------------+------------+--------------------------------+------------+-------------------------+-----------------------------------------------------------------------------------+----------------------+--------------------------------------------------------+-----------------|
+| aac(6')-Ig        |    99.0868 | 438/438                        |        100 | 1..438                  | NZ_CP030880.1 Acinetobacter haemolyticus strain HW-2A chromosome, complete genome | 2447998..2448435     | Tobramycin, Dibekacin, Amikacin, Sisomicin, Netilmicin | L09246          |
++-------------------+------------+--------------------------------+------------+-------------------------+-----------------------------------------------------------------------------------+----------------------+--------------------------------------------------------+-----------------+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                        Beta-lactam                                                                                                                        |
++-------------------+------------+--------------------------------+------------+-------------------------+-----------------------------------------------------------------------------------+----------------------+---------------------+-----------------+
+| Resistance gene   |   Identity | Alignment Length/Gene Length   |   Coverage | Position in reference   | Contig                                                                            | Position in contig   | Phenotype           | Accession no.   |
+|-------------------+------------+--------------------------------+------------+-------------------------+-----------------------------------------------------------------------------------+----------------------+---------------------+-----------------|
+| blaOXA-264        |    99.5169 | 828/828                        |        100 | 1..828                  | NZ_CP030880.1 Acinetobacter haemolyticus strain HW-2A chromosome, complete genome | 177879..178706       | Unknown Beta-lactam | APQQ01000012    |
+| blaOXA-215        |    99.5169 | 828/828                        |        100 | 1..828                  | NZ_CP030880.1 Acinetobacter haemolyticus strain HW-2A chromosome, complete genome | 177879..178706       | Unknown Beta-lactam | JN861783        |
++-------------------+------------+--------------------------------+------------+-------------------------+-----------------------------------------------------------------------------------+----------------------+---------------------+-----------------+
+
+##################### aminoglycoside #####################
+aac(6')-Ig, ID: 99.09 %, Alignment Length/Gene Length: 438/438, Coverage: 100.0, Positions in reference: 1..438, Contig name: NZ_CP030880.1 Acinetobacter haemolyticus strain HW-2A chromosome, complete genome, Position: 2447998..2448435
+
+ATGAATATTAAACCTGCATCAGAAGCTTCACTCAAAGATTGGTTAGAATTAAGAAATAAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATGAATATTAAACCTGCATCAGAAGCTTCACTCAAAGATTGGTTAGAATTAAGAAATAAA
+
+TTGTGGAGTGATTCGGAAGCTTCTCATTTACAAGAGATGCATCAATTATTAGCCGAAAAA
+|||||||||||||| ||| |||||||||||||||||||||||||||||||| ||||||||
+TTGTGGAGTGATTCTGAATCTTCTCATTTACAAGAGATGCATCAATTATTAACCGAAAAA
+
+TATGCCCTACAATTATTGGCCTATTCCGATCACCAAGCTATTGCGATGTTAGAAGCCTCA
+||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||
+TATGCCCTACAATTATTAGCCTATTCCGATCACCAAGCTATTGCGATGTTAGAAGCCTCA
+
+ATTCGGTTTGAATATGTGAATGGGACTGAGACTTCTCCTGTGGGTTTTTTGGAAGGTATT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATTCGGTTTGAATATGTGAATGGGACTGAGACTTCTCCTGTGGGTTTTTTGGAAGGTATT
+
+TACGTACTTCCGGCACATCGTCGCTCGGGCGTTGCAACGATGCTTATTCGACAGGCCGAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TACGTACTTCCGGCACATCGTCGCTCGGGCGTTGCAACGATGCTTATTCGACAGGCCGAA
+
+GTGTGGGCAAAACAATTTTCTTGCACTGAATTTGCATCTGATGCTGCATTGGACAATGTA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTGTGGGCAAAACAATTTTCTTGCACTGAATTTGCATCTGATGCTGCATTGGACAATGTA
+
+ATTAGTCATGCTATGCATCGTTCATTAGGTTTTCAAGAAACTGAAAAAGTCGTTTATTTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATTAGTCATGCTATGCATCGTTCATTAGGTTTTCAAGAAACTGAAAAAGTCGTTTATTTT
+
+AGTAAAAAAATAGATTAA
+||||||||||||||||||
+AGTAAAAAAATAGATTAA
+
+
+##################### beta-lactam #####################
+blaOXA-264, ID: 99.52 %, Alignment Length/Gene Length: 828/828, Coverage: 100.0, Positions in reference: 1..828, Contig name: NZ_CP030880.1 Acinetobacter haemolyticus strain HW-2A chromosome, complete genome, Position: 177879..178706
+
+ATGAAGCTATCAAAATTATACACCCTCACTGTGCTCATAGGATTTGGATTAAGCGGTGTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATGAAGCTATCAAAATTATACACCCTCACTGTGCTCATAGGATTTGGATTAAGCGGTGTC
+
+GCCTGCCAGCATATCCATACTCCAGTCTTGTTCAATCAAATTGAAAACGATCAAACAAAG
+|||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||
+GCCTGCCAGCATATCCATACTCCAGTCTCGTTCAATCAAATTGAAAACGATCAAACAAAG
+
+CAGATCGCTTCCTTGTTTGAGAATGTTCAAACAACAGGTGTTCTAATTACCTTTGATGGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CAGATCGCTTCCTTGTTTGAGAATGTTCAAACAACAGGTGTTCTAATTACCTTTGATGGA
+
+CAGGCGTATAAAGCATACGGTAATGATCTGAATCGTGCCAAAACTGCGTATATCCCAGCA
+||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+CAGGCGTATAAAGCATACGGTAATGATCTGAATCGTGCCAAAACTGCTTATATCCCAGCA
+
+TCTACTTTCAAAATATTAAATGCTTTGATTGGTATTGAACATGATAAAACTTCACCAAAT
+|||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||
+TCTACTTTCAAAATATTAAATGCTTTGATTGGCATTGAACATGATAAAACTTCACCAAAT
+
+GAAGTATTTAAGTGGGATGGTCAGAAACGTGCTTTTGAAAGTTGGGAAAAAGATCTGACT
+|||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||
+GAAGTATTTAAGTGGGATGGTCAGAAGCGTGCTTTTGAAAGTTGGGAAAAAGATCTGACT
+
+TTAGCTGAAGCCATGCAAGCTTCTGCTGTACCTGTTTATCAAGCGCTTGCCCAGAGAATC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTAGCTGAAGCCATGCAAGCTTCTGCTGTACCTGTTTATCAAGCGCTTGCCCAGAGAATC
+
+GGATTGGATTTGATGGCAAAGGAAGTCAAAAGAGTCGGCTTCGGTAATACACGCATCGGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGATTGGATTTGATGGCAAAGGAAGTCAAAAGAGTCGGCTTCGGTAATACACGCATCGGA
+
+ACACAAGTTGATAACTTCTGGCTCATTGGACCTTTAAAGATCACGCCAATCGAAGAAGCT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ACACAAGTTGATAACTTCTGGCTCATTGGACCTTTAAAGATCACGCCAATCGAAGAAGCT
+
+CAATTTGCTTACAGGCTTGCGAAACAGGAGTTACCATTTACCCCAAAAACACAACAGCAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CAATTTGCTTACAGGCTTGCGAAACAGGAGTTACCATTTACCCCAAAAACACAACAGCAA
+
+GTGATTGATATGCTGCTGGTGGATGAAATACGGGGAACTAAAGTTTACGCCAAAAGTGGT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTGATTGATATGCTGCTGGTGGATGAAATACGGGGAACTAAAGTTTACGCCAAAAGTGGT
+
+TGGGGAATGGATATTACTCCGCAAGTAGGATGGTGGACTGGATGGATTGAAGATCCGAAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TGGGGAATGGATATTACTCCGCAAGTAGGATGGTGGACTGGATGGATTGAAGATCCGAAC
+
+GGAAAAGTGATCGCTTTTTCTCTCAATATGGAAATGAATCAACCTGCGCATGCAGCTGCA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGAAAAGTGATCGCTTTTTCTCTCAATATGGAAATGAATCAACCTGCGCATGCAGCTGCA
+
+CGTAAAGAAATTGTTTATCAGGCACTTACGCAATTGAAATTATTGTAA
+||||||||||||||||||||||||||||||||||||||||||||||||
+CGTAAAGAAATTGTTTATCAGGCACTTACGCAATTGAAATTATTGTAA
+
+
+blaOXA-215, ID: 99.52 %, Alignment Length/Gene Length: 828/828, Coverage: 100.0, Positions in reference: 1..828, Contig name: NZ_CP030880.1 Acinetobacter haemolyticus strain HW-2A chromosome, complete genome, Position: 177879..178706
+
+ATGAAGCTATCAAAATTATACACCCTCACTGTGCTCATAGGATTTGGATTAAGCGGTGTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATGAAGCTATCAAAATTATACACCCTCACTGTGCTCATAGGATTTGGATTAAGCGGTGTC
+
+GCCTGCCAGCATATCCATACTCCAGTCTCGTTCAATCAAATTGAAAACGATCAAACAAAG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCCTGCCAGCATATCCATACTCCAGTCTCGTTCAATCAAATTGAAAACGATCAAACAAAG
+
+CAGATCGCTTCCTTGTTTGAGAATGTTCAAACAACAGGTGTTCTAATTACCTTTGATGGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CAGATCGCTTCCTTGTTTGAGAATGTTCAAACAACAGGTGTTCTAATTACCTTTGATGGA
+
+CAGGCGTATAAAGCATACGGTAATGATCTGAATCGTGCCAAAACTGCGTATATCCCAGCA
+||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+CAGGCGTATAAAGCATACGGTAATGATCTGAATCGTGCCAAAACTGCTTATATCCCAGCA
+
+TCTACTTTCAAAATATTAAATGCTTTGATTGGCATTGAACATGATAAAACTTCACCAAAT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCTACTTTCAAAATATTAAATGCTTTGATTGGCATTGAACATGATAAAACTTCACCAAAT
+
+GAAGTATTTAAGTGGGATGGTCAGAAGCGTGCTTTTGAAAGTTGGGAAAAAGATCTGACT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GAAGTATTTAAGTGGGATGGTCAGAAGCGTGCTTTTGAAAGTTGGGAAAAAGATCTGACT
+
+TTAGCTGAAGCCATGCAAGCTTCTGCTGTACCTGTTTATCAAGCGCTTGCCCAGAGAATC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTAGCTGAAGCCATGCAAGCTTCTGCTGTACCTGTTTATCAAGCGCTTGCCCAGAGAATC
+
+GGATTGGATTTGATGGCAAAGGAAGTCAAAAGAGTCGGCTTCGGTAATACACGCATCGGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGATTGGATTTGATGGCAAAGGAAGTCAAAAGAGTCGGCTTCGGTAATACACGCATCGGA
+
+ACACAAGTTGATAACTTCTGGCTCATTGGACCTTTAAAGATCACGCCAATCGAAGAAGCT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ACACAAGTTGATAACTTCTGGCTCATTGGACCTTTAAAGATCACGCCAATCGAAGAAGCT
+
+CAATTTGCTTACAGGCTTGCGAAACAGGAGTTACCGTTTACCCCAAAAACACAACAGCAA
+||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||
+CAATTTGCTTACAGGCTTGCGAAACAGGAGTTACCATTTACCCCAAAAACACAACAGCAA
+
+GTGATTGATATGCTGCTGGTGGATGAAATACGGGGAACTAAAGTTTACGCCAAAAGTGGT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTGATTGATATGCTGCTGGTGGATGAAATACGGGGAACTAAAGTTTACGCCAAAAGTGGT
+
+TGGGGAATGGATATTACTCCGCAAGTAGGATGGTGGACTGGATGGATTGAAGATCCGAAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TGGGGAATGGATATTACTCCGCAAGTAGGATGGTGGACTGGATGGATTGAAGATCCGAAC
+
+GGAAAAGTGATCGCTTTTTCTCTCAATATGGAAATGAATCAACCTACACATGCAGCTGCA
+||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||||
+GGAAAAGTGATCGCTTTTTCTCTCAATATGGAAATGAATCAACCTGCGCATGCAGCTGCA
+
+CGTAAAGAAATTGTTTATCAGGCACTTACGCAATTGAAATTATTGTAA
+||||||||||||||||||||||||||||||||||||||||||||||||
+CGTAAAGAAATTGTTTATCAGGCACTTACGCAATTGAAATTATTGTAA
+
+

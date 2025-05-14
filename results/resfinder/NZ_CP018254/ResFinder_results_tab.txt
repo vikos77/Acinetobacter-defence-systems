@@ -1,0 +1,14 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aac(3)-IIa	100.00	861/861	100.0	1..861	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	305254..306114	Apramycin, Gentamicin, Tobramycin, Dibekacin, Netilmicin, Sisomicin, Gentamicin, Tobramycin	X51534
+aph(6)-Id	100.00	837/837	100.0	1..837	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	292255..293091	Streptomycin	M28829
+aph(3'')-Ib	100.00	803/804	99.87562189054727	2..804	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	291453..292255	Streptomycin	AF024602
+aph(3'')-Ib	99.88	804/804	100.0	1..804	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	291452..292255	Streptomycin	AF321551
+aph(3'')-Ib	99.88	804/804	100.0	1..804	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	291452..292255	Streptomycin	AF313472
+aph(3'')-Ib	99.88	804/804	100.0	1..804	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	291452..292255	Streptomycin	AF321550
+aac(6')-Ian	100.00	573/573	100.0	1..573	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	309879..310451	Tobramycin, Dibekacin, Amikacin, Sisomicin, Netilmicin	AP014611
+blaADC-25	96.18	1153/1152	99.91319444444444	1..1152	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	1229394..1230545	Unknown Beta-lactam	EF016355
+blaTEM-1B	100.00	861/861	100.0	1..861	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	306256..307116	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin	AY458016
+blaOXA-235	100.00	831/831	100.0	1..831	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	321279..322109	Amoxicillin, Ampicillin, Cefoxitin, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	JQ820240
+blaOXA-65	100.00	825/825	100.0	1..825	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	2474433..2475257	Unknown Beta-lactam	AY750908
+cmlB1	86.58	1267/1266	99.92101105845181	1..1266	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	298964..300229	Chloramphenicol	AM296481
+sul2	100.00	816/816	100.0	1..816	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	312935..313750	Sulfamethoxazole	AY034138

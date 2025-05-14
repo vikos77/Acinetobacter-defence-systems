@@ -1,0 +1,4 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+blaADC-25	96.62	1153/1152	99.91319444444444	1..1152	NZ_CP050385.1 Acinetobacter baumannii strain VB82 chromosome, complete genome	2575313..2576464	Unknown Beta-lactam	EF016355
+blaOXA-64	100.00	825/825	100.0	1..825	NZ_CP050385.1 Acinetobacter baumannii strain VB82 chromosome, complete genome	1294870..1295694	Unknown Beta-lactam	AY750907
+blaOXA-23	100.00	822/822	100.0	1..822	NZ_CP050385.1 Acinetobacter baumannii strain VB82 chromosome, complete genome	3983058..3983879	Imipenem, Meropenem	AY795964

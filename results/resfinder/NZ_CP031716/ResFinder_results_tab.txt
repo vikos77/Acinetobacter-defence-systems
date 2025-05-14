@@ -1,0 +1,2 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+blaNDM-1	100.00	813/813	100.0	1..813	NZ_CP031716.1 Acinetobacter wuhouensis strain WCHA60 chromosome, complete genome	2091118..2091930	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ceftazidime+Avibactam, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam, Temocillin	FN396876

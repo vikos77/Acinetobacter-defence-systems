@@ -78,9 +78,8 @@ The repository includes key visualizations:
 2. Install R and required packages
 
 3. Install bioinformatics tools:
-DefenseFinder: Follow instructions at https://github.com/mdmparis/defense-finder
-PADLOC: Follow instructions at https://github.com/padlocbio/padloc
-
+DefenseFinder: Follow instructions at [DefenseFinder](https://github.com/mdmparis/defense-finder)
+PADLOC: Follow instructions at [PADLOC](https://github.com/padlocbio/padloc)
 
 ## Citation
 

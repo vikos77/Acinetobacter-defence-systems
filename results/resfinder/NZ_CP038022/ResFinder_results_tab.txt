@@ -1,0 +1,2 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+blaOXA-102	100.00	822/822	100.0	1..822	NZ_CP038022.1 Acinetobacter radioresistens strain DD78 chromosome, complete genome	1120819..1121640	Ertapenem, Imipenem	NZ_LWGP01000001

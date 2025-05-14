@@ -1,0 +1,216 @@
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                                                  Aminoglycoside                                                                                                                                                   |
++-------------------+------------+--------------------------------+------------+-------------------------+-------------------------------------------------------------------------------+----------------------+---------------------------------------------------------------------------------+-----------------+
+| Resistance gene   |   Identity | Alignment Length/Gene Length   |   Coverage | Position in reference   | Contig                                                                        | Position in contig   | Phenotype                                                                       | Accession no.   |
+|-------------------+------------+--------------------------------+------------+-------------------------+-------------------------------------------------------------------------------+----------------------+---------------------------------------------------------------------------------+-----------------|
+| aph(3')-VIa       |        100 | 780/780                        |        100 | 1..780                  | NZ_CP022283.1 Acinetobacter baumannii strain 7804 chromosome, complete genome | 1419017..1419796     | Kanamycin, Neomycin, Paromomycin, Ribostamycin, Butirosin, Gentamicin, Amikacin | X07753          |
++-------------------+------------+--------------------------------+------------+-------------------------+-------------------------------------------------------------------------------+----------------------+---------------------------------------------------------------------------------+-----------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                      Beta-lactam                                                                                                                      |
++-------------------+------------+--------------------------------+------------+-------------------------+-------------------------------------------------------------------------------+----------------------+---------------------+-----------------+
+| Resistance gene   |   Identity | Alignment Length/Gene Length   |   Coverage | Position in reference   | Contig                                                                        | Position in contig   | Phenotype           | Accession no.   |
+|-------------------+------------+--------------------------------+------------+-------------------------+-------------------------------------------------------------------------------+----------------------+---------------------+-----------------|
+| blaADC-25         |    96.5308 | 1153/1152                      |    99.9132 | 1..1152                 | NZ_CP022283.1 Acinetobacter baumannii strain 7804 chromosome, complete genome | 1460213..1461364     | Unknown Beta-lactam | EF016355        |
+| blaOXA-64         |   100      | 825/825                        |   100      | 1..825                  | NZ_CP022283.1 Acinetobacter baumannii strain 7804 chromosome, complete genome | 2665499..2666323     | Unknown Beta-lactam | AY750907        |
++-------------------+------------+--------------------------------+------------+-------------------------+-------------------------------------------------------------------------------+----------------------+---------------------+-----------------+
+
+##################### aminoglycoside #####################
+aph(3')-VIa, ID: 100.00 %, Alignment Length/Gene Length: 780/780, Coverage: 100.0, Positions in reference: 1..780, Contig name: NZ_CP022283.1 Acinetobacter baumannii strain 7804 chromosome, complete genome, Position: 1419017..1419796
+
+ATGGAATTGCCCAATATTATTCAACAATTTATCGGAAACAGCGTTTTAGAGCCAAATAAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATGGAATTGCCCAATATTATTCAACAATTTATCGGAAACAGCGTTTTAGAGCCAAATAAA
+
+ATTGGTCAGTCGCCATCGGATGTTTATTCTTTTAATCGAAATAATGAAACTTTTTTTCTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATTGGTCAGTCGCCATCGGATGTTTATTCTTTTAATCGAAATAATGAAACTTTTTTTCTT
+
+AAGCGATCTAGCACTTTATATACAGAGACCACATACAGTGTCTCTCGTGAAGCGAAAATG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AAGCGATCTAGCACTTTATATACAGAGACCACATACAGTGTCTCTCGTGAAGCGAAAATG
+
+TTGAGTTGGCTCTCTGAGAAATTAAAGGTGCCTGAACTCATCATGACTTTTCAGGATGAG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTGAGTTGGCTCTCTGAGAAATTAAAGGTGCCTGAACTCATCATGACTTTTCAGGATGAG
+
+CAGTTTGAATTCATGATCACTAAAGCGATCAATGCAAAACCAATTTCAGCGCTTTTTTTA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CAGTTTGAATTCATGATCACTAAAGCGATCAATGCAAAACCAATTTCAGCGCTTTTTTTA
+
+ACAGACCAAGAATTGCTTGCTATCTATAAGGAGGCACTCAATCTGTTAAATTCAATTGCT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ACAGACCAAGAATTGCTTGCTATCTATAAGGAGGCACTCAATCTGTTAAATTCAATTGCT
+
+ATTATTGATTGTCCATTTATTTCAAACATTGATCATCGGTTAAAAGAGTCAAAATTTTTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATTATTGATTGTCCATTTATTTCAAACATTGATCATCGGTTAAAAGAGTCAAAATTTTTT
+
+ATTGATAACCAACTCCTTGACGATATAGATCAAGATGATTTTGACACTGAATTATGGGGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATTGATAACCAACTCCTTGACGATATAGATCAAGATGATTTTGACACTGAATTATGGGGA
+
+GACCATAAAACTTACCTAAGTCTATGGAATGAGTTAACCGAGACTCGTGTTGAAGAAAGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GACCATAAAACTTACCTAAGTCTATGGAATGAGTTAACCGAGACTCGTGTTGAAGAAAGA
+
+TTGGTTTTTTCTCATGGCGATATCACGGATAGTAATATTTTTATAGATAAATTCAATGAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTGGTTTTTTCTCATGGCGATATCACGGATAGTAATATTTTTATAGATAAATTCAATGAA
+
+ATTTATTTTTTAGATCTTGGTCGTGCTGGGTTAGCAGATGAATTTGTAGATATATCCTTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATTTATTTTTTAGATCTTGGTCGTGCTGGGTTAGCAGATGAATTTGTAGATATATCCTTT
+
+GTTGAACGTTGCCTAAGAGAGGATGCATCGGAGGAAACTGCGAAAATATTTTTAAAGCAT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTTGAACGTTGCCTAAGAGAGGATGCATCGGAGGAAACTGCGAAAATATTTTTAAAGCAT
+
+TTAAAAAATGATAGACCTGACAAAAGGAATTATTTTTTAAAACTTGATGAATTGAATTGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTAAAAAATGATAGACCTGACAAAAGGAATTATTTTTTAAAACTTGATGAATTGAATTGA
+
+
+##################### beta-lactam #####################
+blaADC-25, ID: 96.53 %, Alignment Length/Gene Length: 1153/1152, Coverage: 99.91319444444444, Positions in reference: 1..1152, Contig name: NZ_CP022283.1 Acinetobacter baumannii strain 7804 chromosome, complete genome, Position: 1460213..1461364
+
+ATGCGATTTAAAAAAATTTCTTGTCTACTTTTATCCCCGCTTTTTATTTTTAGTACCTCA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATGCGATTTAAAAAAATTTCTTGTCTACTTTTATCCCCGCTTTTTATTTTTAGTACCTCA
+
+ATTTATGCGGGCAATACACCAAAAGACCAAGAAATTAAAAAACTGGTAGATCAAAACTTT
+||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||
+ATTTATGCGGGCAATACCCCAAAAGACCAAGAAATTAAAAAACTGGTAGATCAAAATTTT
+
+AAACCGTTATTAGAAAAATATGATGTGCCAGGTATGGCTGTGGGTGTTATTCAAAATAAT
+||||| ||||||||||||||||||||||| ||||||||||||||||||||||||||||||
+AAACCATTATTAGAAAAATATGATGTGCCGGGTATGGCTGTGGGTGTTATTCAAAATAAT
+
+AAAAAGTATGAAATGTATTATGGTCTTCAATCTGTTCAAGATAAAAAAGCCGTAAATAGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AAAAAGTATGAAATGTATTATGGTCTTCAATCTGTTCAAGATAAAAAAGCCGTAAATAGC
+
+AGTACTATTTTTGAGCTAGGTTCTGTCAGTAAATTATTTACCGCGACAGCAGGTGGATAT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AGTACTATTTTTGAGCTAGGTTCTGTCAGTAAATTATTTACCGCGACAGCAGGTGGATAT
+
+GCAAAAAATAAAGGAAAAATCTCTTTTGACGATACGCCTGGTAAGTATTGGAAAGAACTA
+|||||||||||||||||||||||||||||||||||||||||||| ||||||||||  |||
+GCAAAAAATAAAGGAAAAATCTCTTTTGACGATACGCCTGGTAAATATTGGAAAGTGCTA
+
+AAAAATACACCGATTGACCAAGTTAACTTACTTCAACTCGCGACGTATACAAGTGGTAAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AAAAATACACCGATTGACCAAGTTAACTTACTTCAACTCGCGACGTATACAAGTGGTAAC
+
+CTTGCCTTGCAATTTCCAGATGAAGTAAAAACAGATCAGCAAGTTTTAACATTTTTTAAA
+||||||||||| ||||||||||||||| ||||||| || ||||||||||| ||||| |||
+CTTGCCTTGCAGTTTCCAGATGAAGTACAAACAGACCAACAAGTTTTAACTTTTTTCAAA
+
+GACTGGAAACCTAAAAACTCAATCGGTGAATATCGACAATATTCAAACCCAAGCATTGGT
+|||||||||||||||||| |||||||||||||  ||||||||||||| ||||| ||||| 
+GACTGGAAACCTAAAAACCCAATCGGTGAATACAGACAATATTCAAATCCAAGTATTGGC
+
+TTATTTGGAAAAGTTGTAGCTTTGTCTATGAATAAACCTTTCGACCAAGTCTTAGAAAAA
+ |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||
+CTATTTGGAAAGGTTGTAGCTTTGTCTATGAATAAACCTTTCGACCAAGTCTTAGAAAAA
+
+ACAATTTTTCCGGCCCTTGGCTTAAAACATAGCTATGTAAATGTACCTAAGACCCAGATG
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||
+ACAATTTTTCCGGCCCTTGGCTTAAAACATAGCTATGTAAATGTACCTAAGACCCAAATG
+
+CAAAACTATGCTTTTGGCTATAACCAAGAAAATCAGCCGATTCGAGTTAACCCCGGCCCA
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||
+CAAAACTATGCTTTTGGCTATAACCAAGAAAATCAGCCGATTCGAGTTAACCCCGGTCCA
+
+CTCGATGCCCCAGCATATGGCGTCAAATCGACACTACCCGACATGTTGAGTTTTATTCAT
+||||||||||||||||| ||||||||||| ||  |||| || ||||||||||||||||||
+CTCGATGCCCCAGCATACGGCGTCAAATCCACCTTACCGGATATGTTGAGTTTTATTCAT
+
+GCCAACCTAAATCCACAAAAATATCCAGCAGATATTCAACGGGCAATTAATGAAACACAT
+|||||||| || ||||| |||||||| |||||||||||||||||||||||||||||||||
+GCCAACCTCAACCCACAGAAATATCCGGCAGATATTCAACGGGCAATTAATGAAACACAT
+
+CA-GGGTCGCTATCAAGTAAATACCATGTATCAGGCACTCGGTTGGGAAGAGTTTTCTTA
+|| ||||  |||||||||||||||||||||||||||||||||||||||||||||||||||
+CAAGGGTT-CTATCAAGTAAATACCATGTATCAGGCACTCGGTTGGGAAGAGTTTTCTTA
+
+TCCGGCAACGTTACAAACTTTATTAGACAGTAATTCAGAACAGATTGTGATGAAACCTAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCCGGCAACGTTACAAACTTTATTAGACAGTAATTCAGAACAGATTGTGATGAAACCTAA
+
+TAAAGTGACTGCTATTTCAAAGGAACCTTCAGTTAAGATGTACCATAAAACTGGCTCAAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TAAAGTGACTGCTATTTCAAAGGAACCTTCAGTTAAGATGTACCATAAAACTGGCTCAAC
+
+TAACGGTTTCGGAACATATGTGGTGTTTATTCCTAAAGAAAATATTGGTTTAGTCATGTT
+ | ||||||||||||||||||||| ||||||||||||||||||||||| |||||||||||
+CACCGGTTTCGGAACATATGTGGTCTTTATTCCTAAAGAAAATATTGGCTTAGTCATGTT
+
+AACCAATAAACGTATTCCAAATGAAGAGCGCATTAAGGCAGCTTATGCTGTGCTGAATGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AACCAATAAACGTATTCCAAATGAAGAGCGCATTAAGGCAGCTTATGCTGTGCTGAATGC
+
+AATAAAGAAATAA
+|||||||||||||
+AATAAAGAAATAA
+
+
+blaOXA-64, ID: 100.00 %, Alignment Length/Gene Length: 825/825, Coverage: 100.0, Positions in reference: 1..825, Contig name: NZ_CP022283.1 Acinetobacter baumannii strain 7804 chromosome, complete genome, Position: 2665499..2666323
+
+ATGAACATTAAAGCACTCTTACTTATAACAAGCGCTATTTTTATTTCAGCCTGCTCACCT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATGAACATTAAAGCACTCTTACTTATAACAAGCGCTATTTTTATTTCAGCCTGCTCACCT
+
+TATATAGTGACTGCTAATCCAAATCACAGCGCTTCAAAATCTGATGAAAAAGGAGAGAAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TATATAGTGACTGCTAATCCAAATCACAGCGCTTCAAAATCTGATGAAAAAGGAGAGAAA
+
+ATTAAAAATTTATTTAACGAAGCACACACTACGGGTGTTTTAGTTATCCAACAAGGCCAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATTAAAAATTTATTTAACGAAGCACACACTACGGGTGTTTTAGTTATCCAACAAGGCCAA
+
+ACTCAACAAAGCTATGGTAATGATCTTGCTCGTGCTTCGACCGAGTATGTACCTGCTTCG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ACTCAACAAAGCTATGGTAATGATCTTGCTCGTGCTTCGACCGAGTATGTACCTGCTTCG
+
+ACCTTCAAAATGCTTAATGCTTTGATCGGCCTTGAGCACCATAAGGCAACCACCACAGAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ACCTTCAAAATGCTTAATGCTTTGATCGGCCTTGAGCACCATAAGGCAACCACCACAGAA
+
+GTATTTAAGTGGGACGGGCAAAAAAGGCTATTCCCAGAATGGGAAAAGGACATGACCCTA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTATTTAAGTGGGACGGGCAAAAAAGGCTATTCCCAGAATGGGAAAAGGACATGACCCTA
+
+GGCGATGCTATGAAAGCTTCCGCTATTCCGGTTTATCAAGATTTAGCTCGTCGTATTGGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGCGATGCTATGAAAGCTTCCGCTATTCCGGTTTATCAAGATTTAGCTCGTCGTATTGGA
+
+CTTGAACTCATGTCTAAGGAAGTGAAGCGTGTTGGTTATGGCAATGCAGATATCGGTACC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CTTGAACTCATGTCTAAGGAAGTGAAGCGTGTTGGTTATGGCAATGCAGATATCGGTACC
+
+CAAGTCGATAATTTTTGGCTGGTGGGTCCTTTAAAAATTACTCCTCAGCAAGAGGCACAG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CAAGTCGATAATTTTTGGCTGGTGGGTCCTTTAAAAATTACTCCTCAGCAAGAGGCACAG
+
+TTTGCTTACAAGCTAGCTAATAAAACGCTTCCATTTAGCCCAAAAGTCCAAGATGAAGTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTTGCTTACAAGCTAGCTAATAAAACGCTTCCATTTAGCCCAAAAGTCCAAGATGAAGTG
+
+CAATCCATGTTATTCATAGAAGAAAAGAATGGAAATAAAATATACGCAAAAAGTGGTTGG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CAATCCATGTTATTCATAGAAGAAAAGAATGGAAATAAAATATACGCAAAAAGTGGTTGG
+
+GGATGGGATGTAGACCCACAAGTAGGCTGGTTAACTGGATGGGTTGTTCAGCCTCAAGGG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGATGGGATGTAGACCCACAAGTAGGCTGGTTAACTGGATGGGTTGTTCAGCCTCAAGGG
+
+AATATTGTAGCGTTCTCCCTTAACTTAGAAATGAAAAAAGGAATACCTAGCTCTGTTCGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AATATTGTAGCGTTCTCCCTTAACTTAGAAATGAAAAAAGGAATACCTAGCTCTGTTCGA
+
+AAAGAGATTACTTATAAAAGTTTAGAACAATTAGGTATTTTATAG
+|||||||||||||||||||||||||||||||||||||||||||||
+AAAGAGATTACTTATAAAAGTTTAGAACAATTAGGTATTTTATAG
+
+

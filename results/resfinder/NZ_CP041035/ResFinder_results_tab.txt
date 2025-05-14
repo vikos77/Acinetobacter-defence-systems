@@ -1,0 +1,9 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aadA1	99.75	792/792	100.0	1..792	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	3856406..3857197	Spectinomycin, Streptomycin	JX185132
+aadA1	99.75	792/792	100.0	1..792	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	3856406..3857197	Spectinomycin, Streptomycin	JQ414041
+aac(3)-Ia	99.06	534/534	100.0	1..534	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	3858241..3858774	Gentamicin, Astromicin, Fortimicin	X15852
+blaADC-25	95.92	1153/1152	99.91319444444444	1..1152	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	1271941..1273092	Unknown Beta-lactam	EF016355
+blaOXA-69	100.00	825/825	100.0	1..825	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	2338682..2339506	Amoxicillin, Ampicillin	AY859527
+sul1	100.00	840/840	100.0	1..840	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	3873893..3874732	Sulfamethoxazole	U12338
+sul1	100.00	840/840	100.0	1..840	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	3855062..3855901	Sulfamethoxazole	U12338
+tet(A)	100.00	1200/1200	100.0	1..1200	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	3865135..3866334	Doxycycline, Tetracycline	AJ517790

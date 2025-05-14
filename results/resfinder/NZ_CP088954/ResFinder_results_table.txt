@@ -1,0 +1,57 @@
+Aminoglycoside
+No hit found
+
+Beta-lactam
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+blaADC-25	85.94	1152/1152	100.0	1..1152	NZ_CP088954.1 Acinetobacter calcoaceticus strain ACa13 chromosome, complete genome	1153541..1154692	Unknown Beta-lactam	EF016355
+blaOXA-267	97.57	822/822	100.0	1..822	NZ_CP088954.1 Acinetobacter calcoaceticus strain ACa13 chromosome, complete genome	2224742..2225563	Unknown Beta-lactam	APQH01000006
+blaOXA-349	97.57	822/822	100.0	1..822	NZ_CP088954.1 Acinetobacter calcoaceticus strain ACa13 chromosome, complete genome	2224742..2225563	Unknown Beta-lactam	KF297578
+blaOXA-348	97.57	822/822	100.0	1..822	NZ_CP088954.1 Acinetobacter calcoaceticus strain ACa13 chromosome, complete genome	2224742..2225563	Unknown Beta-lactam	KF297577
+blaOXA-332	97.57	822/822	100.0	1..822	NZ_CP088954.1 Acinetobacter calcoaceticus strain ACa13 chromosome, complete genome	2224742..2225563	Unknown Beta-lactam	KF203106
+blaOXA-323	97.57	822/822	100.0	1..822	NZ_CP088954.1 Acinetobacter calcoaceticus strain ACa13 chromosome, complete genome	2224742..2225563	Unknown Beta-lactam	KF203097
+
+Colistin
+No hit found
+
+Fosfomycin
+No hit found
+
+Fusidic Acid
+No hit found
+
+MLS - Macrolide, Lincosamide and Streptogramin B
+No hit found
+
+Misc
+No hit found
+
+Nitroimidazole
+No hit found
+
+Oxazolidinone
+No hit found
+
+Phenicol
+No hit found
+
+Fluoroquinolone
+No hit found
+
+Rifampicin
+No hit found
+
+Sulphonamide
+No hit found
+
+Tetracycline
+No hit found
+
+Trimethoprim
+No hit found
+
+Glycopeptide
+No hit found
+
+Pseudomonic Acid
+No hit found
+

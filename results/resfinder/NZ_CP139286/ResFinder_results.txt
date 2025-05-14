@@ -1,0 +1,152 @@
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                      Beta-lactam                                                                                                                       |
++-------------------+------------+--------------------------------+------------+-------------------------+----------------------------------------------------------------------------+----------------------+-------------------------+-----------------+
+| Resistance gene   |   Identity | Alignment Length/Gene Length   |   Coverage | Position in reference   | Contig                                                                     | Position in contig   | Phenotype               | Accession no.   |
+|-------------------+------------+--------------------------------+------------+-------------------------+----------------------------------------------------------------------------+----------------------+-------------------------+-----------------|
+| blaADC-25         |    95.9201 | 1152/1152                      |        100 | 1..1152                 | NZ_CP139286.1 Acinetobacter pittii strain AbaK chromosome, complete genome | 1081513..1082664     | Unknown Beta-lactam     | EF016355        |
+| blaOXA-270        |    97.8102 | 822/822                        |        100 | 1..822                  | NZ_CP139286.1 Acinetobacter pittii strain AbaK chromosome, complete genome | 2008620..2009441     | Amoxicillin, Ampicillin | APQM01000006    |
++-------------------+------------+--------------------------------+------------+-------------------------+----------------------------------------------------------------------------+----------------------+-------------------------+-----------------+
+
+##################### beta-lactam #####################
+blaADC-25, ID: 95.92 %, Alignment Length/Gene Length: 1152/1152, Coverage: 100.0, Positions in reference: 1..1152, Contig name: NZ_CP139286.1 Acinetobacter pittii strain AbaK chromosome, complete genome, Position: 1081513..1082664
+
+ATGCGATTTAAAAAAATTTCTTGTCTACTTTTATCCCCGCTTTTTATTTTTAGTACCTCA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATGCGATTTAAAAAAATTTCTTGTCTACTTTTATCCCCGCTTTTTATTTTTAGTACCTCA
+
+ATTTATGCGGGCAATACACCAAAAGACCAAGAAATTAAAAAACTGGTAGATCAAAACTTT
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||
+ATTTATGCGGGCAATACACCAAAAGACCAAGAAATTAAAAAACTGGTAGATCAAAATTTT
+
+AAACCGTTATTAGAAAAATATGATGTGCCAGGTATGGCTGTGGGTGTTATTCAAAATAAT
+||||| ||| ||||||||||||||||||| |||||||||||||| |||||||||||||||
+AAACCATTAATAGAAAAATATGATGTGCCGGGTATGGCTGTGGGGGTTATTCAAAATAAT
+
+AAAAAGTATGAAATGTATTATGGTCTTCAATCTGTTCAAGATAAAAAAGCCGTAAATAGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AAAAAGTATGAAATGTATTATGGTCTTCAATCTGTTCAAGATAAAAAAGCCGTAAATAGC
+
+AGTACTATTTTTGAGCTAGGTTCTGTCAGTAAATTATTTACCGCGACAGCAGGTGGATAT
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||
+AGTACTATTTTTGAGCTAGGTTCTGTCAGTAAATTATTTACCGCGACAGCAGGTGCTTAT
+
+GCAAAAAATAAAGGAAAAATCTCTTTTGACGATACGCCTGGTAAGTATTGGAAAGAACTA
+|||||||||||||||||||||||||||||||||||||||||||| ||||||||||| |||
+GCAAAAAATAAAGGAAAAATCTCTTTTGACGATACGCCTGGTAAATATTGGAAAGAGCTA
+
+AAAAATACACCGATTGACCAAGTTAACTTACTTCAACTCGCGACGTATACAAGTGGTAAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AAAAATACACCGATTGACCAAGTTAACTTACTTCAACTCGCGACGTATACAAGTGGTAAC
+
+CTTGCCTTGCAATTTCCAGATGAAGTAAAAACAGATCAGCAAGTTTTAACATTTTTTAAA
+||||||||||| ||||||||||||||| ||||||| || ||||||||||| ||||| |||
+CTTGCCTTGCAGTTTCCAGATGAAGTACAAACAGACCATCAAGTTTTAACTTTTTTCAAA
+
+GACTGGAAACCTAAAAACTCAATCGGTGAATATCGACAATATTCAAACCCAAGCATTGGT
+|||||||||||||||||| |||||||||||||  ||||||||||||| ||||| ||||| 
+GACTGGAAACCTAAAAACCCAATCGGTGAATACAGACAATATTCAAATCCAAGTATTGGC
+
+TTATTTGGAAAAGTTGTAGCTTTGTCTATGAATAAACCTTTCGACCAAGTCTTAGAAAAA
+|||||||||||| |||| |||||||||||||||||||||||||| |||||||||||||||
+TTATTTGGAAAAATTGTTGCTTTGTCTATGAATAAACCTTTCGATCAAGTCTTAGAAAAA
+
+ACAATTTTTCCGGCCCTTGGCTTAAAACATAGCTATGTAAATGTACCTAAGACCCAGATG
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||
+ACAATTTTTCCGGCCCTTGGCTTAAAACATAGCTATGTAAATGTACCTAAGACCCAAATG
+
+CAAAACTATGCTTTTGGCTATAACCAAGAAAATCAGCCGATTCGAGTTAACCCCGGCCCA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CAAAACTATGCTTTTGGCTATAACCAAGAAAATCAGCCGATTCGAGTTAACCCCGGCCCA
+
+CTCGATGCCCCAGCATATGGCGTCAAATCGACACTACCCGACATGTTGAGTTTTATTCAT
+||||||||||||||||||||||||||||| ||  |||| || ||||||||||||||| ||
+CTCGATGCCCCAGCATATGGCGTCAAATCCACCTTACCGGATATGTTGAGTTTTATTTAT
+
+GCCAACCTAAATCCACAAAAATATCCAGCAGATATTCAACGGGCAATTAATGAAACACAT
+|||||||| || ||||| |||||||| |||||||||||||| ||||||||||||||||||
+GCCAACCTTAACCCACAGAAATATCCGGCAGATATTCAACGTGCAATTAATGAAACACAT
+
+CAGGGTCGCTATCAAGTAAATACCATGTATCAGGCACTCGGTTGGGAAGAGTTTTCTTAT
+|||||||||||||||||||||||||||||||| || || |||||||||||||||||||||
+CAGGGTCGCTATCAAGTAAATACCATGTATCAAGCGCTTGGTTGGGAAGAGTTTTCTTAT
+
+CCGGCAACGTTACAAACTTTATTAGACAGTAATTCAGAACAGATTGTGATGAAACCTAAT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CCGGCAACGTTACAAACTTTATTAGACAGTAATTCAGAACAGATTGTGATGAAACCTAAT
+
+AAAGTGACTGCTATTTCAAAGGAACCTTCAGTTAAGATGTACCATAAAACTGGCTCAACT
+|||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| 
+AAAGTGACTGCTATTTCAAAAGAACCTTCAGTTAAGATGTACCATAAAACTGGCTCAACC
+
+AACGGTTTCGGAACATATGTGGTGTTTATTCCTAAAGAAAATATTGGTTTAGTCATGTTA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AACGGTTTCGGAACATATGTGGTGTTTATTCCTAAAGAAAATATTGGTTTAGTCATGTTA
+
+ACCAATAAACGTATTCCAAATGAAGAGCGCATTAAGGCAGCTTATGCTGTGCTGAATGCA
+|| |||||||||||||| |||||||| |||||||| ||||||||||||||| | ||||||
+ACTAATAAACGTATTCCCAATGAAGAACGCATTAAAGCAGCTTATGCTGTGTTAAATGCA
+
+ATAAAGAAATAA
+||||||||||||
+ATAAAGAAATAA
+
+
+blaOXA-270, ID: 97.81 %, Alignment Length/Gene Length: 822/822, Coverage: 100.0, Positions in reference: 1..822, Contig name: NZ_CP139286.1 Acinetobacter pittii strain AbaK chromosome, complete genome, Position: 2008620..2009441
+
+ATGACTAAAAAAGCTCTTTTCTTTGCCATTAGTACCATATTTTTGTCAGCATGTTCTTTC
+|||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||
+ATGATTAAACAAGCTCTTTTCTTTGCCATTAGTACCATATTTTTGTCAGCATGTTCTTTC
+
+AATACAGTACAACATCACCAAATACACGCTATTTCTACTCATAAAAATTCAGAAGAAATA
+|||||||||||||| || |||||||||||||||||||||||| |||||||| ||||||||
+AATACAGTACAACAGCAGCAAATACACGCTATTTCTACTCATCAAAATTCAAAAGAAATA
+
+AAATCACTGTTTGATCAAGCACAGACCACAGGTGTTTTGGTTATTAAGCGCGGAAATACA
+||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AAATCTCTGTTTGATCAAGCACAGACCACAGGTGTTTTGGTTATTAAGCGCGGAAATACA
+
+GAGGAAATTTATGGCAATGATCTAAAAAGGGCATCAACTGAATATGTCCCTGCATCTACC
+|||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||
+GAGGAACTTTATGGCAATGATCTAAAAAGGGCATCAACCGAATATGTCCCTGCATCTACC
+
+TTTAAAATGTTAAATGCTCTAATTGGTCTTGAACATCATAAAGCAACAACCACTGAAGTG
+||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||||||
+TTTAAAATGCTAAATGCTTTAATTGGTCTTGAACATCATAAAGCAACAACAACTGAAGTG
+
+TTCAAATGGGATGGACAAAAGCGTTTATTTCCTGATTGGGAAAAGGATATGACTCTAGGT
+|| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTTAAATGGGATGGACAAAAGCGTTTATTTCCTGATTGGGAAAAGGATATGACTCTAGGT
+
+GATGCCATGAAAGCTTCTGCTATTCCTGTGTATCAAGAACTAGCTCGACGAATTGGCCTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GATGCCATGAAAGCTTCTGCTATTCCTGTGTATCAAGAACTAGCTCGACGAATTGGCCTT
+
+GATCTTATGTCCAAAGAGGTCAAGCGTATTGGTTTCGGTAATGCTGATATTGGTTCAAAA
+|||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||
+GATCTTATGTCCAAAGAGGTCAAGCGTATTGGCTTCGGTAATGCTGATATTGGTTCAAAA
+
+GTAGATAATTTTTGGCTTATCGGTCCACTCAAAATTACGCCTCAACAGGAAGCACAGTTT
+|||||| ||||||||||| | |||||||||||||||||||||||||||||| ||||||||
+GTAGATGATTTTTGGCTTGTAGGTCCACTCAAAATTACGCCTCAACAGGAAACACAGTTT
+
+GCTTATGAATTAGCACATAAAACTCTTCCCTTTAGCAAAAATGTACAAGAACAAGTTCAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCTTATGAATTAGCACATAAAACTCTTCCCTTTAGCAAAAATGTACAAGAACAAGTTCAA
+
+TCTATGGTGTTCGTAGAAGAAAAAAACGGACGTAAAATTTACGCTAAAAGCGGTTGGGGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCTATGGTGTTCGTAGAAGAAAAAAACGGACGTAAAATTTACGCTAAAAGCGGTTGGGGA
+
+TGGGATGTGGAGCCTCAAGTGGGCTGGTTAACAGGCTGGGTCGTTCAACCACAAGGAGAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TGGGATGTGGAGCCTCAAGTGGGCTGGTTAACAGGCTGGGTCGTTCAACCACAAGGAGAA
+
+ATTGTAGCGTTCTCACTCAATTTAGAAATGAAAAAAGGAACACCTAGTTCTATTCGAAAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATTGTAGCGTTCTCACTCAATTTAGAAATGAAAAAAGGAACACCTAGTTCTATTCGAAAA
+
+GAAATTGCTTATAAAGGATTAGAACAGCTAGGTATTTTATAA
+||||||||||||||||||||||||||||||||||||||||||
+GAAATTGCTTATAAAGGATTAGAACAGCTAGGTATTTTATAA
+
+

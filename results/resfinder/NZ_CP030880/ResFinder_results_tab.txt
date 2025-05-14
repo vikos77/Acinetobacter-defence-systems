@@ -1,0 +1,4 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aac(6')-Ig	99.09	438/438	100.0	1..438	NZ_CP030880.1 Acinetobacter haemolyticus strain HW-2A chromosome, complete genome	2447998..2448435	Tobramycin, Dibekacin, Amikacin, Sisomicin, Netilmicin	L09246
+blaOXA-264	99.52	828/828	100.0	1..828	NZ_CP030880.1 Acinetobacter haemolyticus strain HW-2A chromosome, complete genome	177879..178706	Unknown Beta-lactam	APQQ01000012
+blaOXA-215	99.52	828/828	100.0	1..828	NZ_CP030880.1 Acinetobacter haemolyticus strain HW-2A chromosome, complete genome	177879..178706	Unknown Beta-lactam	JN861783

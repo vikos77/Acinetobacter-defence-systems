@@ -1,0 +1,64 @@
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                     Aminoglycoside                                                                                                                      |
++-------------------+------------+--------------------------------+------------+-------------------------+-------------------------------------------------------------------------+----------------------+-----------------------------+-----------------+
+| Resistance gene   |   Identity | Alignment Length/Gene Length   |   Coverage | Position in reference   | Contig                                                                  | Position in contig   | Phenotype                   | Accession no.   |
+|-------------------+------------+--------------------------------+------------+-------------------------+-------------------------------------------------------------------------+----------------------+-----------------------------+-----------------|
+| aadA2b            |    99.8718 | 780/780                        |        100 | 1..780                  | NZ_CP019041.1 Acinetobacter junii strain 65 chromosome, complete genome | 2307246..2308025     | Spectinomycin, Streptomycin | D43625          |
++-------------------+------------+--------------------------------+------------+-------------------------+-------------------------------------------------------------------------+----------------------+-----------------------------+-----------------+
+
+##################### aminoglycoside #####################
+aadA2b, ID: 99.87 %, Alignment Length/Gene Length: 780/780, Coverage: 100.0, Positions in reference: 1..780, Contig name: NZ_CP019041.1 Acinetobacter junii strain 65 chromosome, complete genome, Position: 2307246..2308025
+
+GTGACCATCGAAATTTCGAACCAACTATCAGAGGTGCTAAGCGTCATTGAGCGCCATCTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTGACCATCGAAATTTCGAACCAACTATCAGAGGTGCTAAGCGTCATTGAGCGCCATCTG
+
+GAATCAACGTTGCTGGCCGTGCATTTGTACGGCTCCGCAGTGGATGGCGGCCTGAAGCCA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GAATCAACGTTGCTGGCCGTGCATTTGTACGGCTCCGCAGTGGATGGCGGCCTGAAGCCA
+
+TACAGCGATATTGATTTGTTGGTTACTGTGGCCGTAAAGCTTGATGAAACGACGCGGCGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TACAGCGATATTGATTTGTTGGTTACTGTGGCCGTAAAGCTTGATGAAACGACGCGGCGA
+
+GCATTGCTCAATGACCTTATGGAGGCTTCGGCTTTCCCTGGCGAGAGCGAGACGCTCCGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCATTGCTCAATGACCTTATGGAGGCTTCGGCTTTCCCTGGCGAGAGCGAGACGCTCCGC
+
+GCTATAGAAGTCACCCTTGTCGTGCATGACGACATCATCCCGTGGCGTTATCCGGCTAAG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCTATAGAAGTCACCCTTGTCGTGCATGACGACATCATCCCGTGGCGTTATCCGGCTAAG
+
+CGCGAGCTGCAATTTGGAGAATGGCAGCGCAATGACATTCTTGCGGGTATCTTCGAGCCA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CGCGAGCTGCAATTTGGAGAATGGCAGCGCAATGACATTCTTGCGGGTATCTTCGAGCCA
+
+GCCATGATCGACATTGATCTAGCTATCCTGCTTACAAAAGCAAGAGAACATAGCGTTGCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCCATGATCGACATTGATCTAGCTATCCTGCTTACAAAAGCAAGAGAACATAGCGTTGCC
+
+TTGGTAGGTCCGGCAGCGGAGGAATTCTTTGACCCGGTTCCTGAACAGGATCTATTCGAG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTGGTAGGTCCGGCAGCGGAGGAATTCTTTGACCCGGTTCCTGAACAGGATCTATTCGAG
+
+GCGCTGAGGGAAACCTTGAAGCTATGGAACTCGCAGCCCGACTGGGCCGGCGATGAGCGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCGCTGAGGGAAACCTTGAAGCTATGGAACTCGCAGCCCGACTGGGCCGGCGATGAGCGA
+
+AATGTAGTGCTTACGTTGTCCCGCATTTGGTACAGCGCAATAACCGGCAAAATCGCGCCG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AATGTAGTGCTTACGTTGTCCCGCATTTGGTACAGCGCAATAACCGGCAAAATCGCGCCG
+
+AAGGGTGTCGCTGCCGACTGGGCAATAAAACGCCTACCTGCCCAGTATCAGCCCGTCTTA
+|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AAGGATGTCGCTGCCGACTGGGCAATAAAACGCCTACCTGCCCAGTATCAGCCCGTCTTA
+
+CTTGAAGCTAAGCAAGCTTATCTGGGACAAAAAGAAGATCACTTGGCCTCACGCGCAGAT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CTTGAAGCTAAGCAAGCTTATCTGGGACAAAAAGAAGATCACTTGGCCTCACGCGCAGAT
+
+CACTTGGAAGAATTTATTCGCTTTGTGAAAGGCGAGATCATCAAGTCAGTTGGTAAATGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CACTTGGAAGAATTTATTCGCTTTGTGAAAGGCGAGATCATCAAGTCAGTTGGTAAATGA
+
+
