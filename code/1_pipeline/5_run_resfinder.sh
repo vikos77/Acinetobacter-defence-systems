@@ -9,7 +9,7 @@ conda activate resfinder
 # Set directories
 GENOME_DIR="data/genomes"
 OUTPUT_DIR="results/resfinder"
-DB_PATH="path/to/resfinder_db"  # resfinder database needs to be setup
+DB_PATH="/home/vicky/miniconda3/resources/resfinder_db"  # resfinder database needs to be setup
 
 # Create output directory if it doesn't exist
 mkdir -p "$OUTPUT_DIR"
@@ -35,7 +35,7 @@ for GENOME in $GENOMES; do
     COUNT=$((COUNT + 1))
     
     # Extract genome ID from filename
-    GENOME_ID=$(basename "$GENOME" | cut -d. -f1)
+    GENOME_ID=$(basename "$GENOME" | cut -d. -f1-2)
     echo "[$COUNT/$TOTAL] Processing $GENOME_ID..."
     
     # Create output directory for this genome

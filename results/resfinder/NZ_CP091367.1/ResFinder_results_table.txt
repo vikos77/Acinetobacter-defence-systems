@@ -1,0 +1,62 @@
+Aminoglycoside
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3215290..3216105	Unknown Aminoglycoside, Kanamycin, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin, Kanamycin, Neomycin	X62115
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3220224..3221015	Spectinomycin, Streptomycin	JX185132
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3220224..3221015	Spectinomycin, Streptomycin	JQ414041
+aac(3)-Ia	99.06	534/534	100.0	1..534	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3218647..3219180	Gentamicin, Astromicin, Fortimicin	X15852
+
+Beta-lactam
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+blaADC-25	99.65	1153/1152	99.91319444444444	1..1152	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	1675880..1677031	Unknown Beta-lactam	EF016355
+blaTEM-1D	100.00	861/861	100.0	1..861	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3208656..3209516	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin	AF188200
+blaOXA-69	100.00	825/825	100.0	1..825	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	721071..721895	Amoxicillin, Ampicillin	AY859527
+
+Colistin
+No hit found
+
+Fosfomycin
+No hit found
+
+Fusidic Acid
+No hit found
+
+MLS - Macrolide, Lincosamide and Streptogramin B
+No hit found
+
+Misc
+No hit found
+
+Nitroimidazole
+No hit found
+
+Oxazolidinone
+No hit found
+
+Phenicol
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+catA1	99.85	660/660	100.0	1..660	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3203101..3203760	Chloramphenicol	V00622
+
+Fluoroquinolone
+No hit found
+
+Rifampicin
+No hit found
+
+Sulphonamide
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+sul1	100.00	840/840	100.0	1..840	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3189658..3190497	Sulfamethoxazole	U12338
+sul1	100.00	840/840	100.0	1..840	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3221520..3222359	Sulfamethoxazole	U12338
+
+Tetracycline
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+tet(A)	100.00	1200/1200	100.0	1..1200	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3198056..3199255	Doxycycline, Tetracycline	AJ517790
+
+Trimethoprim
+No hit found
+
+Glycopeptide
+No hit found
+
+Pseudomonic Acid
+No hit found
+

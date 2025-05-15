@@ -29,7 +29,7 @@ custom_theme <- theme(
 
 # Set file paths based on the repository structure
 defensefinder_file <- "results/consolidated/consolidated_defense_systems.tsv"
-padloc_file <- "results/consolidated/consolidated_padloc_results.csv"
+padloc_file <- "results/consolidated/consolidated_padloc_results.tsv"
 metadata_file <- "data/metadata/genome_metadata.xlsx" 
 
 # Create output directory for figures
@@ -44,18 +44,18 @@ defense_df <- read_tsv(defensefinder_file, show_col_types = FALSE)
 
 # Clean DefenseFinder data - ensure unique defense systems per genome
 defense_df_clean <- defense_df %>%
-  mutate(Genome_ID = sub("^(.*?\\.1).*", "\\1", sys_id)) %>%
+  mutate(Genome_ID = sub("^(.*?\\.[0-9]+).*", "\\1", Genome_ID)) %>%
   group_by(Genome_ID) %>%
   distinct(type, .keep_all = TRUE) %>%
   ungroup()
 
 # Load PADLOC data
 
-padloc_df <- read_csv(padloc_file, show_col_types = FALSE)
+padloc_df <- read_tsv(padloc_file, show_col_types = FALSE)
 
 # Clean PADLOC data - ensure unique defense systems per genome
 padloc_df_clean <- padloc_df %>%
-  mutate(Genome_ID = sub("^(.*?\\.1).*", "\\1", system.number)) %>%
+  mutate(Genome_ID = seqid) %>%
   group_by(Genome_ID) %>%
   distinct(system, .keep_all = TRUE) %>%
   ungroup()

@@ -1,0 +1,142 @@
+Aminoglycoside
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1182883..1183698	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1179806..1180621	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1176729..1177544	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1173652..1174467	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1170575..1171390	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1167498..1168313	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1164421..1165236	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1161344..1162159	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1158267..1159082	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1155190..1156005	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1152113..1152928	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1149036..1149851	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1145959..1146774	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1142882..1143697	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1139805..1140620	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1136728..1137543	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1133651..1134466	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1130574..1131389	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1127497..1128312	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1124420..1125235	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1121343..1122158	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1118266..1119081	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1115189..1116004	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1112112..1112927	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1109035..1109850	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1105958..1106773	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1102881..1103696	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1099804..1100619	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1096727..1097542	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1093650..1094465	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1090573..1091388	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1087496..1088311	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1084419..1085234	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1081342..1082157	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1078265..1079080	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1075188..1076003	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1072111..1072926	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1069034..1069849	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1065957..1066772	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1062880..1063695	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1059803..1060618	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1056726..1057541	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1053649..1054464	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1050572..1051387	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1047495..1048310	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1044418..1045233	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1041341..1042156	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1038264..1039079	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1035187..1036002	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1032110..1032925	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1029033..1029848	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1025956..1026771	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1022879..1023694	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1019802..1020617	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1016725..1017540	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1013648..1014463	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1010571..1011386	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1007494..1008309	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1004417..1005232	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1001340..1002155	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	998263..999078	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	995186..996001	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	992109..992924	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	989032..989847	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	985955..986770	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	982878..983693	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	979801..980616	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	976724..977539	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	973647..974462	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	970570..971385	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	967493..968308	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	964416..965231	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	961339..962154	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	958262..959077	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	955185..956000	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	250404..251219	Kanamycin, Kanamycin, Neomycin, Unknown Aminoglycoside, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	X62115
+aadA1	99.75	792/792	100.0	1..792	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	255338..256129	Spectinomycin, Streptomycin	JX185132
+aadA1	99.75	792/792	100.0	1..792	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	255338..256129	Spectinomycin, Streptomycin	JQ414041
+aadA1	100.00	789/789	100.0	1..789	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	4153779..4154567	Spectinomycin, Streptomycin	JQ480156
+aadA1	100.00	789/789	100.0	1..789	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	2345090..2345878	Spectinomycin, Streptomycin	JQ480156
+aph(6)-Id	100.00	725/837	86.61887694145759	113..837	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	4157961..4158685	Streptomycin	M28829
+aac(3)-Ia	99.06	534/534	100.0	1..534	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	253761..254294	Gentamicin, Astromicin, Fortimicin	X15852
+
+Beta-lactam
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+blaADC-25	96.36	1153/1152	99.91319444444444	1..1152	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	3055775..3056926	Unknown Beta-lactam	EF016355
+blaOXA-69	100.00	825/825	100.0	1..825	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	2015578..2016402	Amoxicillin, Ampicillin	AY859527
+blaOXA-23	100.00	822/822	100.0	1..822	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1191525..1192346	Imipenem, Meropenem	AY795964
+blaOXA-23	100.00	822/822	100.0	1..822	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	4129212..4130033	Imipenem, Meropenem	AY795964
+
+Colistin
+No hit found
+
+Fosfomycin
+No hit found
+
+Fusidic Acid
+No hit found
+
+MLS - Macrolide, Lincosamide and Streptogramin B
+No hit found
+
+Misc
+No hit found
+
+Nitroimidazole
+No hit found
+
+Oxazolidinone
+No hit found
+
+Phenicol
+No hit found
+
+Fluoroquinolone
+No hit found
+
+Rifampicin
+No hit found
+
+Sulphonamide
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+sul1	100.00	840/840	100.0	1..840	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	256634..257473	Sulfamethoxazole	U12338
+sul2	100.00	816/816	100.0	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	4163878..4164693	Sulfamethoxazole	AY034138
+
+Tetracycline
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+tet(B)	100.00	1206/1206	100.0	1..1206	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	4162058..4163263	Doxycycline, Tetracycline, Minocycline	AP000342
+
+Trimethoprim
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+dfrA1	100.00	474/474	100.0	1..474	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	4155244..4155717	Trimethoprim	X00926
+dfrA1	100.00	474/474	100.0	1..474	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	2343940..2344413	Trimethoprim	X00926
+
+Glycopeptide
+No hit found
+
+Pseudomonic Acid
+No hit found
+

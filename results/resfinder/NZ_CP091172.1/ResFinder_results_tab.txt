@@ -1,0 +1,47 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	341664..342479	Unknown Aminoglycoside, Kanamycin, Neomycin, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin, Kanamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	326457..327272	Unknown Aminoglycoside, Kanamycin, Neomycin, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin, Kanamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	311250..312065	Unknown Aminoglycoside, Kanamycin, Neomycin, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin, Kanamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	296043..296858	Unknown Aminoglycoside, Kanamycin, Neomycin, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin, Kanamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	280836..281651	Unknown Aminoglycoside, Kanamycin, Neomycin, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin, Kanamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	265629..266444	Unknown Aminoglycoside, Kanamycin, Neomycin, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin, Kanamycin	X62115
+aph(3')-Ia	100.00	816/816	100.0	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	250422..251237	Unknown Aminoglycoside, Kanamycin, Neomycin, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin, Kanamycin	X62115
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	255356..256147	Spectinomycin, Streptomycin	JX185132
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	270563..271354	Spectinomycin, Streptomycin	JX185132
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	285770..286561	Spectinomycin, Streptomycin	JX185132
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	300977..301768	Spectinomycin, Streptomycin	JX185132
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	316184..316975	Spectinomycin, Streptomycin	JX185132
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	331391..332182	Spectinomycin, Streptomycin	JX185132
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	346598..347389	Spectinomycin, Streptomycin	JX185132
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	255356..256147	Spectinomycin, Streptomycin	JQ414041
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	270563..271354	Spectinomycin, Streptomycin	JQ414041
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	285770..286561	Spectinomycin, Streptomycin	JQ414041
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	300977..301768	Spectinomycin, Streptomycin	JQ414041
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	316184..316975	Spectinomycin, Streptomycin	JQ414041
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	331391..332182	Spectinomycin, Streptomycin	JQ414041
+aadA1	99.75	792/792	100.0	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	346598..347389	Spectinomycin, Streptomycin	JQ414041
+aadA1	100.00	789/789	100.0	1..789	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	4014315..4015103	Spectinomycin, Streptomycin	JQ480156
+aadA1	100.00	789/789	100.0	1..789	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	2205638..2206426	Spectinomycin, Streptomycin	JQ480156
+aph(6)-Id	100.00	725/837	86.61887694145759	113..837	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	4018497..4019221	Streptomycin	M28829
+aac(3)-Ia	99.06	534/534	100.0	1..534	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	253779..254312	Gentamicin, Astromicin, Fortimicin	X15852
+aac(3)-Ia	99.06	534/534	100.0	1..534	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	268986..269519	Gentamicin, Astromicin, Fortimicin	X15852
+aac(3)-Ia	99.06	534/534	100.0	1..534	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	284193..284726	Gentamicin, Astromicin, Fortimicin	X15852
+aac(3)-Ia	99.06	534/534	100.0	1..534	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	299400..299933	Gentamicin, Astromicin, Fortimicin	X15852
+aac(3)-Ia	99.06	534/534	100.0	1..534	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	314607..315140	Gentamicin, Astromicin, Fortimicin	X15852
+aac(3)-Ia	99.06	534/534	100.0	1..534	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	329814..330347	Gentamicin, Astromicin, Fortimicin	X15852
+aac(3)-Ia	99.06	534/534	100.0	1..534	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	345021..345554	Gentamicin, Astromicin, Fortimicin	X15852
+blaADC-25	96.36	1153/1152	99.91319444444444	1..1152	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	2916323..2917474	Unknown Beta-lactam	EF016355
+blaOXA-69	100.00	825/825	100.0	1..825	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	1876126..1876950	Amoxicillin, Ampicillin	AY859527
+blaOXA-23	100.00	822/822	100.0	1..822	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	1052073..1052894	Imipenem, Meropenem	AY795964
+blaOXA-23	100.00	822/822	100.0	1..822	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	3989748..3990569	Imipenem, Meropenem	AY795964
+sul1	100.00	840/840	100.0	1..840	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	256652..257491	Sulfamethoxazole	U12338
+sul1	100.00	840/840	100.0	1..840	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	271859..272698	Sulfamethoxazole	U12338
+sul1	100.00	840/840	100.0	1..840	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	287066..287905	Sulfamethoxazole	U12338
+sul1	100.00	840/840	100.0	1..840	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	302273..303112	Sulfamethoxazole	U12338
+sul1	100.00	840/840	100.0	1..840	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	317480..318319	Sulfamethoxazole	U12338
+sul1	100.00	840/840	100.0	1..840	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	332687..333526	Sulfamethoxazole	U12338
+sul1	100.00	840/840	100.0	1..840	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	347894..348733	Sulfamethoxazole	U12338
+sul2	100.00	816/816	100.0	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	4024414..4025229	Sulfamethoxazole	AY034138
+tet(B)	100.00	1206/1206	100.0	1..1206	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	4022594..4023799	Doxycycline, Tetracycline, Minocycline	AP000342
+dfrA1	100.00	474/474	100.0	1..474	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	4015780..4016253	Trimethoprim	X00926
+dfrA1	100.00	474/474	100.0	1..474	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	2204488..2204961	Trimethoprim	X00926

@@ -1,60 +1,65 @@
 #!/bin/bash
 # Script to consolidate DefenseFinder and PADLOC results
-# Author: Vigneshwaran Muthuraman
 
-# Set directories
 DEFENSE_DIR="results/defensefinder"
 PADLOC_DIR="results/padloc"
 OUTPUT_DIR="results/consolidated"
-
-# Create output directory if it doesn't exist
 mkdir -p "$OUTPUT_DIR"
 
+### Consolidate DefenseFinder ###
 echo "Consolidating DefenseFinder results..."
 
-# Initialize a flag to capture header only once
-first_df_header_written=false
+DF_OUT="$OUTPUT_DIR/consolidated_defense_systems.tsv"
 
-# Find all defense_finder_systems.tsv files
-find "$DEFENSE_DIR" -name "*_defense_finder_systems.tsv" | sort | while read -r FILE; do
-    # Extract genome ID from directory path
-    DIR_NAME=$(dirname "$FILE")
-    GENOME_ID=$(basename "$DIR_NAME")
+# Gather files
+mapfile -t DF_FILES < <(find "$DEFENSE_DIR" -name "*_defense_finder_systems.tsv" | sort)
 
-    if [[ "$first_df_header_written" = false ]]; then
-        # Read header from the very first file and write to output
-        head -n 1 "$FILE" > "$OUTPUT_DIR/consolidated_defense_systems.tsv"
-        first_df_header_written=true
+header_written=false
+for FILE in "${DF_FILES[@]}"; do
+    GENOME_ID=$(basename "$(dirname "$FILE")")
+
+    if ! $header_written; then
+        # Prepend Genome_ID to the first header
+        head -n 1 "$FILE" \
+          | awk 'BEGIN { OFS="\t" } { print "Genome_ID", $0 }' \
+          > "$DF_OUT"
+        header_written=true
     fi
 
-    # Append the rest of the file (skipping header), prepending genome ID
-    tail -n +2 "$FILE" | awk -v genome="$GENOME_ID" '{print genome"\t"$0}' \
-        >> "$OUTPUT_DIR/consolidated_defense_systems.tsv"
+    # Append data lines, skipping header
+    tail -n +2 "$FILE" \
+      | awk -v genome="$GENOME_ID" 'BEGIN { OFS="\t" } { print genome, $0 }' \
+      >> "$DF_OUT"
 done
 
+### Consolidate PADLOC ###
 echo "Consolidating PADLOC results..."
+PL_OUT="$OUTPUT_DIR/consolidated_padloc_results.tsv"
 
-# Initialize a flag to capture header only once
-first_padloc_header_written=false
+# Gather files
+mapfile -t PL_FILES < <(find "$PADLOC_DIR" -name "*_padloc.csv" | sort)
 
-# Find all padloc.csv files
-find "$PADLOC_DIR" -name "*_padloc.csv" | sort | while read -r FILE; do
-    # Extract genome ID from directory path
-    DIR_NAME=$(dirname "$FILE")
-    GENOME_ID=$(basename "$DIR_NAME")
+header_written=false
+for FILE in "${PL_FILES[@]}"; do
+    GENOME_ID=$(basename "$(dirname "$FILE")")
 
-    if [[ "$first_padloc_header_written" = false ]]; then
-        # Read header from the first CSV and write to output
-        head -n 1 "$FILE" > "$OUTPUT_DIR/consolidated_padloc_results.csv"
-        first_padloc_header_written=true
+    if ! $header_written; then
+        # Read the comma-delimited header, convert to TSV, prepend Genome_ID
+        head -n 1 "$FILE" \
+          | sed 's/,/\t/g' \
+          | awk 'BEGIN { OFS="\t" } { print "Genome_ID", $0 }' \
+          > "$PL_OUT"
+        header_written=true
     fi
 
-    # Append data lines (skipping header), prepending genome ID
-    tail -n +2 "$FILE" | awk -v genome="$GENOME_ID" '{OFS="\t";print genome, $0}' \
-        >> "$OUTPUT_DIR/consolidated_padloc_results.csv"
+    # Convert CSV data to TSV, prepend genome ID
+    tail -n +2 "$FILE" \
+      | sed 's/,/\t/g' \
+      | awk -v genome="$GENOME_ID" 'BEGIN { OFS="\t" } { print genome, $0 }' \
+      >> "$PL_OUT"
 done
 
 echo "Results consolidated successfully."
-echo "DefenseFinder results: $OUTPUT_DIR/consolidated_defense_systems.tsv"
-echo "PADLOC results:     $OUTPUT_DIR/consolidated_padloc_results.csv"
+echo "DefenseFinder results: $DF_OUT"
+echo "PADLOC results:       $PL_OUT"
 
