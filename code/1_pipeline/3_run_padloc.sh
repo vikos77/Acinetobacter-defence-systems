@@ -1,15 +1,18 @@
 #!/bin/bash
-# Script to run PADLOC on all downloaded genomes
+# Script to run PADLOC on all downloaded genomes using the wrapper script
 # Author: Vigneshwaran Muthuraman
 
 # Activate PADLOC conda environment
 source $(conda info --base)/etc/profile.d/conda.sh
 conda activate padloc
 
-
 # Set directories
 GENOME_DIR="data/genomes"
 OUTPUT_DIR="results/padloc"
+WRAPPER_SCRIPT="code/1_pipeline/padloc_wrapper.sh" 
+
+# Make sure the wrapper script is executable
+chmod +x "$WRAPPER_SCRIPT"
 
 # Create output directories if they don't exist
 mkdir -p "$OUTPUT_DIR"
@@ -33,13 +36,14 @@ for GENOME in $GENOMES; do
     # Create output directories for this genome
     mkdir -p "$OUTPUT_DIR/$GENOME_ID"
     
-    # Run PADLOC
-    echo "Running PADLOC for $GENOME_ID..."
-
-        padloc --fna "$GENOME" --outdir "$OUTPUT_DIR/$GENOME_ID"
+    # Run PADLOC using our wrapper script
+    echo "Running PADLOC wrapper for $GENOME_ID..."
     
-    # Check if analysis was successful
-    if [ ! -f "$OUTPUT_DIR/$GENOME_ID/${GENOME_ID}_padloc.csv" ]; then
+    # Run the wrapper script with output to the specific directory
+    ./$WRAPPER_SCRIPT --cpu 8 --output "$OUTPUT_DIR/$GENOME_ID" "$GENOME"
+    
+    # Check if analysis was successful (note the changed filename pattern)
+    if [ ! -f "$OUTPUT_DIR/$GENOME_ID/${GENOME_ID}_prodigal_padloc.csv" ]; then
         echo "Warning: PADLOC failed for $GENOME_ID"
     else
         echo "Successfully processed $GENOME_ID"

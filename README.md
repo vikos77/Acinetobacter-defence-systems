@@ -69,6 +69,7 @@ The repository includes key visualizations:
 - R (version 4.4.0 or higher)
 - [DefenseFinder](https://github.com/mdmparis/defense-finder)
 - [PADLOC](https://github.com/padlocbio/padloc)
+- [ResFinder](https://github.com/genomicepidemiology/resfinder)
 - NCBI E-utilities (for genome download)
 
 ## Installation
@@ -80,6 +81,7 @@ The repository includes key visualizations:
 3. Install bioinformatics tools:
 DefenseFinder: Follow instructions at [DefenseFinder](https://github.com/mdmparis/defense-finder)
 PADLOC: Follow instructions at [PADLOC](https://github.com/padlocbio/padloc)
+Resfinder : Follow instructions at [Resfinder](https://github.com/genomicepidemiology/resfinder)
 
 ## Citation
 
