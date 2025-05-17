@@ -1,0 +1,4 @@
+sys_id	type	subtype	activity	sys_beg	sys_end	protein_in_syst	genes_count	name_of_profiles_in_sys
+NZ_CP088954.1_PARIS_I_2	Paris	PARIS_I	Defense	NZ_CP088954.1_221	NZ_CP088954.1_222	NZ_CP088954.1_221,NZ_CP088954.1_222	2	Paris_I__AriA_AAA15,Paris_I__AriB_DUF4435_I
+NZ_CP088954.1_Lamassu-Cap4_nuclease_1	Lamassu-Fam	Lamassu-Cap4_nuclease	Defense	NZ_CP088954.1_2379	NZ_CP088954.1_2381	NZ_CP088954.1_2379,NZ_CP088954.1_2381	2	Lamassu-Fam__LmuA_effector_Cap4_nuclease_II,Lamassu-Fam__LmuB_SMC_Cap4_nuclease_II
+NZ_CP088954.1_CAS_Class1-Subtype-I-F_3	Cas	CAS_Class1-Subtype-I-F	Defense	NZ_CP088954.1_2754	NZ_CP088954.1_2760	NZ_CP088954.1_2754,NZ_CP088954.1_2756,NZ_CP088954.1_2757,NZ_CP088954.1_2758,NZ_CP088954.1_2759,NZ_CP088954.1_2760	6	cas1_I-F_1,cas3f_I-F_1,cas5f_I-F_2,cas6f_I_II_III_IV_V_VI_3,cas7f_I-F_1,cas8f_I-F_6

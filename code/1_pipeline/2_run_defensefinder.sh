@@ -25,8 +25,7 @@ for GENOME in $GENOMES; do
     COUNT=$((COUNT + 1))
     
     # Extract genome ID from filename
-    BASE=$(basename "$GENOME") 
-    GENOME_ID="${BASE%.*}" 
+    GENOME_ID=$(basename "$GENOME" | cut -d. -f1-2) 
     echo "[$COUNT/$TOTAL] Processing $GENOME_ID..."
     
     # Create output directory for this genome

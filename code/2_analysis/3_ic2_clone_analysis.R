@@ -45,7 +45,8 @@ clone_colors <- c("IC2 Clone" = "#E41A1C", "Other A. baumannii" = "#377EB8")
 
 # Load defense systems data
 message("Loading DefenseFinder data...")
-defense_df <- read_tsv(defensefinder_file, show_col_types = FALSE)
+defense_df <- read_tsv(defensefinder_file, show_col_types = FALSE) %>% 
+  
 
 # Load metadata
 message("Loading metadata...")

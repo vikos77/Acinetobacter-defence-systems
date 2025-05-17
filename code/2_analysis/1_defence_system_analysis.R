@@ -44,7 +44,6 @@ defense_df <- read_tsv(defensefinder_file, show_col_types = FALSE)
 
 # Clean DefenseFinder data - ensure unique defense systems per genome
 defense_df_clean <- defense_df %>%
-  mutate(Genome_ID = sub("^(.*?\\.[0-9]+).*", "\\1", Genome_ID)) %>%
   group_by(Genome_ID) %>%
   distinct(type, .keep_all = TRUE) %>%
   ungroup()
@@ -55,7 +54,6 @@ padloc_df <- read_tsv(padloc_file, show_col_types = FALSE)
 
 # Clean PADLOC data - ensure unique defense systems per genome
 padloc_df_clean <- padloc_df %>%
-  mutate(Genome_ID = seqid) %>%
   group_by(Genome_ID) %>%
   distinct(system, .keep_all = TRUE) %>%
   ungroup()

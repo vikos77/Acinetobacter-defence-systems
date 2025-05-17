@@ -1,7 +1,0 @@
-sys_id	type	subtype	activity	sys_beg	sys_end	protein_in_syst	genes_count	name_of_profiles_in_sys
-NC_016603.1_RM_Type_I_6	RM	RM_Type_I	Defense	NC_016603.1_178	NC_016603.1_182	NC_016603.1_178,NC_016603.1_179,NC_016603.1_182	3	RM__Type_I_MTases,RM__Type_I_REases,RM__Type_I_S
-NC_016603.1_PD-Lambda-5_5	PD-Lambda-5	PD-Lambda-5	Defense	NC_016603.1_513	NC_016603.1_514	NC_016603.1_513,NC_016603.1_514	2	PD-Lambda-5__PD-Lambda-5_A,PD-Lambda-5__PD-Lambda-5_B
-NC_016603.1_NLR_like_bNACHT01_2	NLR	NLR_like_bNACHT01	Defense	NC_016603.1_599	NC_016603.1_599	NC_016603.1_599	1	NLR_like_bNACHT01__NLR_like_bNACHT01
-NC_016603.1_Septu_3	Septu	Septu	Defense	NC_016603.1_2186	NC_016603.1_2187	NC_016603.1_2186,NC_016603.1_2187	2	Septu__PtuA,Septu__PtuB
-NC_016603.1_AbiH_1	AbiH	AbiH	Defense	NC_016603.1_2605	NC_016603.1_2605	NC_016603.1_2605	1	AbiH__AbiH
-NC_016603.1_PARIS_II_merge_4	Paris	PARIS_II_merge	Defense	NC_016603.1_2987	NC_016603.1_2987	NC_016603.1_2987	1	Paris_II_merge__AAA_21_DUF4435

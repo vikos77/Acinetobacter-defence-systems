@@ -16,7 +16,8 @@ mapfile -t DF_FILES < <(find "$DEFENSE_DIR" -name "*_defense_finder_systems.tsv"
 
 header_written=false
 for FILE in "${DF_FILES[@]}"; do
-    GENOME_ID=$(basename "$(dirname "$FILE")")
+    FOLDER=$(basename "$(dirname "$FILE")")       
+    GENOME_ID=${FOLDER%.fna_results} 
 
     if ! $header_written; then
         # Prepend Genome_ID to the first header
@@ -42,8 +43,8 @@ mapfile -t PL_FILES < <(find "$PADLOC_DIR" -name "*_prodigal_padloc.csv" | sort)
 
 header_written=false
 for FILE in "${PL_FILES[@]}"; do
-    # Extract the genome ID from directory name to maintain consistency
-    GENOME_ID=$(basename "$(dirname "$FILE")")
+    FOLDER=$(basename "$(dirname "$FILE")")      
+    GENOME_ID=${FOLDER%.fna_results} 
 
     if ! $header_written; then
         # Read the comma-delimited header, convert to TSV, prepend Genome_ID

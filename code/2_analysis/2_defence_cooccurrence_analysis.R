@@ -50,13 +50,11 @@
   
   # Clean data - keep only unique defense system types per genome
   defense_df_clean <- defense_df %>%
-    mutate(Genome_ID = sub("^(.*?\\.1).*", "\\1", sys_id)) %>%
     group_by(Genome_ID) %>%
     distinct(type, .keep_all = TRUE) %>%
     ungroup()
   
   padloc_df_clean <- padloc_df %>%
-    rename(Genome_ID = seqid) %>% 
     group_by(Genome_ID) %>%
     distinct(system, .keep_all = TRUE) %>%
     ungroup()
