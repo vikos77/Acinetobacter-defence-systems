@@ -61,7 +61,7 @@ The bioinformatic workflow involved:
 
 The repository includes key visualizations:
 
-![Defence System Distribution](results/figures/panel_a.png)
+![Defence System Distribution](results/figures/defensefinder_cooccur_circos.png)
 *Defence system Co-occurrence across 132 Acinetobacter species*
 
 ## Prerequisites

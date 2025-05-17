@@ -48,7 +48,7 @@ fi
 
 # Step 6: Run R analysis
 echo "Step 6: Running R analysis..."
-Rscript code/analysis/defense_system_analysis.R
+Rscript code/analysis/defence_system_analysis.R
 if [ $? -ne 0 ]; then
     echo "Error: R analysis failed. Exiting pipeline."
     exit 1
