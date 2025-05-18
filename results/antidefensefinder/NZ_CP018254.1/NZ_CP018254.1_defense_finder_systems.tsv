@@ -1,0 +1,3 @@
+sys_id	type	subtype	activity	sys_beg	sys_end	protein_in_syst	genes_count	name_of_profiles_in_sys
+NZ_CP018254.1_Adnd_p0020_p0021_1	Anti_Dnd	Adnd_p0020_p0021	Antidefense	NZ_CP018254.1_995	NZ_CP018254.1_995	NZ_CP018254.1_995	1	adnd_p0020
+NZ_CP018254.1_NARP1_2	NADP	NARP1	Antidefense	NZ_CP018254.1_1979	NZ_CP018254.1_1980	NZ_CP018254.1_1979,NZ_CP018254.1_1980	2	narp1_adps,narp1_namat

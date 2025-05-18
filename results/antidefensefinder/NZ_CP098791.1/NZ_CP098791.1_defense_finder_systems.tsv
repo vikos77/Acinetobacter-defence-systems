@@ -1,0 +1,2 @@
+sys_id	type	subtype	activity	sys_beg	sys_end	protein_in_syst	genes_count	name_of_profiles_in_sys
+NZ_CP098791.1_NARP1_1	NADP	NARP1	Antidefense	NZ_CP098791.1_2038	NZ_CP098791.1_2039	NZ_CP098791.1_2038,NZ_CP098791.1_2039	2	narp1_adps,narp1_namat

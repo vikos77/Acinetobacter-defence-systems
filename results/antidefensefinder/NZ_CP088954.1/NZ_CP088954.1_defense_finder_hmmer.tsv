@@ -1,0 +1,6 @@
+hit_id	replicon	hit_pos	hit_sequence_length	gene_name	i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP088954.1_192	NZ_CP088954.1	192	198	vcrx091	2.6e-67	224.1	0.544	0.783	2	156
+NZ_CP088954.1_1709	NZ_CP088954.1	1709	295	narp1_adps	7.2e-79	262.7	0.865	0.963	8	291
+NZ_CP088954.1_1710	NZ_CP088954.1	1710	498	narp2_nampt	8.2e-113	375.4	0.856	0.984	6	495
+NZ_CP088954.1_1710	NZ_CP088954.1	1710	498	narp1_namat	2e-152	506.0	0.615	0.663	3	332
+NZ_CP088954.1_2828	NZ_CP088954.1	2828	317	narp1_adps	2.6999999999999998e-67	224.7	0.902	0.89	31	312

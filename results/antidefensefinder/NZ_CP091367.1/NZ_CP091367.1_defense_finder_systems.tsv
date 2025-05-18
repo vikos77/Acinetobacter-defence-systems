@@ -1,0 +1,4 @@
+sys_id	type	subtype	activity	sys_beg	sys_end	protein_in_syst	genes_count	name_of_profiles_in_sys
+NZ_CP091367.1_Adnd_p0020_p0021_1	Anti_Dnd	Adnd_p0020_p0021	Antidefense	NZ_CP091367.1_200	NZ_CP091367.1_200	NZ_CP091367.1_200	1	adnd_p0020
+NZ_CP091367.1_tad1_3	Anti_Thoeris	tad1	Antidefense	NZ_CP091367.1_218	NZ_CP091367.1_218	NZ_CP091367.1_218	1	tad1
+NZ_CP091367.1_NARP1_2	NADP	NARP1	Antidefense	NZ_CP091367.1_1041	NZ_CP091367.1_1042	NZ_CP091367.1_1041,NZ_CP091367.1_1042	2	narp1_adps,narp1_namat

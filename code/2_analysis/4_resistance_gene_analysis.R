@@ -28,9 +28,8 @@ custom_theme <- theme(
 )
 
 # Set file paths
-resfinder_file <- "results/consolidated/ResFinder_results_tab.txt"
-defensefinder_file <- "results/consolidated/consolidated_defense_systems_2_accession.tsv"
-metadata_file <- "data/metadata/ab_genome_id.xlsx"
+resfinder_file <- "results/consolidated/consolidated_resfinder_results.tsv"
+defensefinder_file <- "results/consolidated/consolidated_defense_systems.tsv"
 output_dir <- "results/figures"
 
 # Create output directory if it doesn't exist
@@ -47,9 +46,6 @@ resfinder_df <- read_tsv(resfinder_file, show_col_types = FALSE)
 
 # Load DefenseFinder data for correlation analysis
 defense_df <- read_tsv(defensefinder_file, show_col_types = FALSE)
-
-# Load metadata
-metadata <- readxl::read_excel(metadata_file)
 
 # Clean ResFinder data - focus on unique resistance gene occurrences
 resfinder_clean <- resfinder_df %>%

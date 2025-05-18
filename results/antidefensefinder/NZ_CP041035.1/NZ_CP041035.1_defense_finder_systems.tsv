@@ -1,0 +1,4 @@
+sys_id	type	subtype	activity	sys_beg	sys_end	protein_in_syst	genes_count	name_of_profiles_in_sys
+NZ_CP041035.1_NARP1_2	NADP	NARP1	Antidefense	NZ_CP041035.1_1934	NZ_CP041035.1_1935	NZ_CP041035.1_1934,NZ_CP041035.1_1935	2	narp1_adps,narp1_namat
+NZ_CP041035.1_tad1_3	Anti_Thoeris	tad1	Antidefense	NZ_CP041035.1_3008	NZ_CP041035.1_3008	NZ_CP041035.1_3008	1	tad1
+NZ_CP041035.1_Adnd_p0020_p0021_1	Anti_Dnd	Adnd_p0020_p0021	Antidefense	NZ_CP041035.1_3027	NZ_CP041035.1_3027	NZ_CP041035.1_3027	1	adnd_p0020
