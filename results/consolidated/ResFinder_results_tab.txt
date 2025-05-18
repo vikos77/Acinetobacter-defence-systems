@@ -1,0 +1,700 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aph(6)-Id	100	837/837	100	1..837	NZ_AP024524.1 Acinetobacter variabilis strain RYU24 chromosome, complete genome	2453139..2453975	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aac(3)-IIa	100	861/861	100	1..861	NZ_CP009257.1 Acinetobacter baumannii strain AB30 chromosome, complete genome	2462126..2462986	Aminoglycoside resistance	X51534
+aph(6)-Id	100	837/837	100	1..837	NZ_CP009257.1 Acinetobacter baumannii strain AB30 chromosome, complete genome	2551713..2552549	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aac(6')-Ian	100	573/573	100	1..573	NZ_CP009257.1 Acinetobacter baumannii strain AB30 chromosome, complete genome	2466747..2467319	Warning: gene is missing from Notes file. Please inform curator.	AP014611
+aph(6)-Id	100	837/837	100	1..837	NZ_CP014528.1 Acinetobacter baumannii strain XH858 chromosome, complete genome	3108663..3109499	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aac(3)-IIa	100	861/861	100	1..861	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	305254..306114	Aminoglycoside resistance	X51534
+aph(6)-Id	100	837/837	100	1..837	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	292255..293091	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aac(6')-Ian	100	573/573	100	1..573	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	309879..310451	Warning: gene is missing from Notes file. Please inform curator.	AP014611
+aac(6')-Ig	97.26	438/438	100	1..438	NZ_CP018260.1 Acinetobacter haemolyticus strain XH900 chromosome, complete genome	1064988..1065425	Aminoglycoside resistance	L09246
+aadA2b	99.87	780/780	100	1..780	NZ_CP019041.1 Acinetobacter junii strain 65 chromosome, complete genome	2307246..2308025	Aminoglycoside resistance	D43625
+aph(3')-VIa	100	780/780	100	1..780	NZ_CP022283.1 Acinetobacter baumannii strain 7804 chromosome, complete genome	1419017..1419796	Aminoglycoside resistance	X07753
+aadA5	99.62	789/789	100	1..789	NZ_CP023020.1 Acinetobacter baumannii strain 9201 chromosome, complete genome	2841303..2842091	Aminoglycoside resistance	AF137361
+aph(3')-VIa	98.08	780/780	100	1..780	NZ_CP023020.1 Acinetobacter baumannii strain 9201 chromosome, complete genome	2206567..2207346	Aminoglycoside resistance	X07753
+aph(3')-VIa	98.08	780/780	100	1..780	NZ_CP023020.1 Acinetobacter baumannii strain 9201 chromosome, complete genome	3511814..3512593	Aminoglycoside resistance	X07753
+ant(2'')-Ia	99.81	534/534	100	1..534	NZ_CP023020.1 Acinetobacter baumannii strain 9201 chromosome, complete genome	2840712..2841245	Aminoglycoside resistance Alternate name; ant(2'')-Ia	GQ466184
+ant(2'')-Ia	99.81	534/534	100	1..534	NZ_CP023020.1 Acinetobacter baumannii strain 9201 chromosome, complete genome	2840712..2841245	Aminoglycoside resistance Alternate name; ant(2'')-Ia	DQ176450
+aac(6')-Ig	99.09	438/438	100	1..438	NZ_CP030880.1 Acinetobacter haemolyticus strain HW-2A chromosome, complete genome	2447998..2448435	Aminoglycoside resistance	L09246
+aac(6')-Ig	97.72	438/438	100	1..438	NZ_CP031984.1 Acinetobacter haemolyticus strain AN3 chromosome, complete genome	2167431..2167868	Aminoglycoside resistance	L09246
+aac(6')-Ig	97.95	438/438	100	1..438	NZ_CP031988.1 Acinetobacter haemolyticus strain 5227 chromosome, complete genome	2465358..2465795	Aminoglycoside resistance	L09246
+aac(6')-Ig	98.17	438/438	100	1..438	NZ_CP031991.1 Acinetobacter haemolyticus strain 2126ch chromosome, complete genome	2367317..2367754	Aminoglycoside resistance	L09246
+aph(6)-Id	100	837/837	100	1..837	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	278750..279586	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aadA1	100	789/789	100	1..789	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	101540..102328	Aminoglycoside resistance	JQ480156
+aadA1	100	789/789	100	1..789	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	1898426..1899214	Aminoglycoside resistance	JQ480156
+aadA1	100	789/789	100	1..789	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	1643559..1644347	Aminoglycoside resistance	JQ480156
+aph(3')-VIa	100	780/780	100	1..780	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	781606..782385	Aminoglycoside resistance	X07753
+aadA1	99.75	792/792	100	1..792	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	3856406..3857197	Aminoglycoside resistance	JX185132
+aadA1	99.75	792/792	100	1..792	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	3856406..3857197	Aminoglycoside resistance	JQ414041
+aac(3)-Ia	99.06	534/534	100	1..534	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	3858241..3858774	Aminoglycoside resistance	X15852
+aac(6')-Ix	97.73	441/441	100	1..441	NZ_CP041970.1 Acinetobacter dispersus strain NCCP 16014 chromosome, complete genome	135321..135761	Aminoglycoside resistance Alternate name; aac(6')-Ix	AF031332
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP044463.1 Acinetobacter schindleri strain HZE23-1 chromosome, complete genome	143900..144715	Aminoglycoside resistance	X62115
+aac(3)-IId	99.88	861/861	100	1..861	NZ_CP045198.1 Acinetobacter indicus strain TQ23 chromosome, complete genome	2596921..2597781	Aminoglycoside resistance	EU022314
+aph(6)-Id	100	831/831	100	1..831	NZ_CP045198.1 Acinetobacter indicus strain TQ23 chromosome, complete genome	2619432..2620262	Aminoglycoside resistance Alternate name; aph(6)-Id	CP000971
+aph(3'')-Ib	99.88	803/804	99.87562189054728	2..804	NZ_CP045198.1 Acinetobacter indicus strain TQ23 chromosome, complete genome	2618624..2619426	Aminoglycoside resistance Alternate name; aph(3'')-Ib	AF024602
+aph(3'')-Ib	99.75	804/804	100	1..804	NZ_CP045198.1 Acinetobacter indicus strain TQ23 chromosome, complete genome	2618623..2619426	Aminoglycoside resistance Alternate name; aph(3'')-Ib	AF321551
+aph(3'')-Ib	99.75	804/804	100	1..804	NZ_CP045198.1 Acinetobacter indicus strain TQ23 chromosome, complete genome	2618623..2619426	Aminoglycoside resistance Alternate name; aph(3'')-Ib	AF313472
+aph(3'')-Ib	99.75	804/804	100	1..804	NZ_CP045198.1 Acinetobacter indicus strain TQ23 chromosome, complete genome	2618623..2619426	Aminoglycoside resistance Alternate name; aph(3'')-Ib	AF321550
+aph(6)-Id	100	837/837	100	1..837	NZ_CP045528.1 Acinetobacter baumannii strain 6507 chromosome, complete genome	2146255..2147091	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aph(3')-Ia	99.88	816/816	100	1..816	NZ_CP045528.1 Acinetobacter baumannii strain 6507 chromosome, complete genome	1069047..1069862	Aminoglycoside resistance	X62115
+aadA1	100	792/792	100	1..792	NZ_CP045528.1 Acinetobacter baumannii strain 6507 chromosome, complete genome	1065072..1065863	Aminoglycoside resistance	JQ414041
+armA	100	774/774	100	1..774	NZ_CP045528.1 Acinetobacter baumannii strain 6507 chromosome, complete genome	1059610..1060383	Aminoglycoside resistance	AY220558
+aac(6')-Ib3	99.64	555/555	100	1..555	NZ_CP045528.1 Acinetobacter baumannii strain 6507 chromosome, complete genome	1066646..1067200	Warning: gene is missing from Notes file. Please inform curator.	X60321
+aph(6)-Id	100	837/837	100	1..837	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	3126352..3127188	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aadA1	100	792/792	100	1..792	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	2366287..2367078	Aminoglycoside resistance	JQ414041
+aadA2b	99.87	780/780	100	1..780	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	2368692..2369471	Aminoglycoside resistance	D43625
+armA	100	774/774	100	1..774	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	2351811..2352584	Aminoglycoside resistance	AY220558
+aph(6)-Id	100	837/837	100	1..837	NZ_CP046045.1 Acinetobacter towneri strain 19110F47 chromosome, complete genome	203320..204156	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aph(3')-Ia	99.51	816/816	100	1..816	NZ_CP046045.1 Acinetobacter towneri strain 19110F47 chromosome, complete genome	163890..164705	Aminoglycoside resistance	X62115
+aadA1	100	792/792	100	1..792	NZ_CP046045.1 Acinetobacter towneri strain 19110F47 chromosome, complete genome	170246..171037	Aminoglycoside resistance	JQ414041
+aadA2b	99.87	780/780	100	1..780	NZ_CP046045.1 Acinetobacter towneri strain 19110F47 chromosome, complete genome	167853..168632	Aminoglycoside resistance	D43625
+aph(6)-Id	98.69	837/837	100	1..837	NZ_CP048849.1 Acinetobacter baumannii strain D4 chromosome, complete genome	49646..50482	Aminoglycoside resistance Alternate name; aph(6)-Id	AB109805
+aph(6)-Id	98.69	837/837	100	1..837	NZ_CP048849.1 Acinetobacter baumannii strain D4 chromosome, complete genome	49646..50482	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP048849.1 Acinetobacter baumannii strain D4 chromosome, complete genome	326044..326859	Aminoglycoside resistance	X62115
+aadA2b	99.87	780/780	100	1..780	NZ_CP048849.1 Acinetobacter baumannii strain D4 chromosome, complete genome	71018..71797	Aminoglycoside resistance	D43625
+aadA17	94.82	792/792	100	1..792	NZ_CP048849.1 Acinetobacter baumannii strain D4 chromosome, complete genome	48022..48813	Aminoglycoside resistance	FJ460181
+ant(2'')-Ia	100	534/534	100	1..534	NZ_CP048849.1 Acinetobacter baumannii strain D4 chromosome, complete genome	51902..52435	Aminoglycoside resistance Alternate name; ant(2'')-Ia	X04555
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	669311..670126	Aminoglycoside resistance	X62115
+aadA5	100	789/789	100	1..789	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	640029..640817	Aminoglycoside resistance	AF137361
+armA	100	774/774	100	1..774	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	645510..646283	Aminoglycoside resistance	AY220558
+aac(6')-Ian	100	573/573	100	1..573	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	1248714..1249286	Warning: gene is missing from Notes file. Please inform curator.	AP014611
+ant(2'')-Ia	100	534/534	100	1..534	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	668727..669260	Aminoglycoside resistance Alternate name; ant(2'')-Ia	X04555
+aph(6)-Id	100	837/837	100	1..837	NZ_CP060732.1 Acinetobacter baumannii strain abA1 chromosome, complete genome	238913..239749	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aadA1	100	792/792	100	1..792	NZ_CP060732.1 Acinetobacter baumannii strain abA1 chromosome, complete genome	1657362..1658153	Aminoglycoside resistance	JQ414041
+armA	100	774/774	100	1..774	NZ_CP060732.1 Acinetobacter baumannii strain abA1 chromosome, complete genome	1662842..1663615	Aminoglycoside resistance	AY220558
+aac(6')-Ib3	99.64	555/555	100	1..555	NZ_CP060732.1 Acinetobacter baumannii strain abA1 chromosome, complete genome	1656025..1656579	Warning: gene is missing from Notes file. Please inform curator.	X60321
+aph(6)-Id	100	837/837	100	1..837	NZ_CP076603.1 Acinetobacter schindleri strain MCDA01 chromosome, complete genome	2426787..2427623	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aph(6)-Id	100	837/837	100	1..837	NZ_CP076812.1 Acinetobacter baumannii strain UC23022 chromosome, complete genome	2949702..2950538	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aadA1	100	789/789	100	1..789	NZ_CP076812.1 Acinetobacter baumannii strain UC23022 chromosome, complete genome	3130909..3131697	Aminoglycoside resistance	JQ480156
+aph(3')-VIa	100	780/780	100	1..780	NZ_CP076812.1 Acinetobacter baumannii strain UC23022 chromosome, complete genome	852236..853015	Aminoglycoside resistance	X07753
+aph(6)-Id	100	837/837	100	1..837	NZ_CP078027.1 Acinetobacter variabilis strain AV_175 chromosome, complete genome	2780236..2781072	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aph(3')-VI	100	780/780	100	1..780	NZ_CP078027.1 Acinetobacter variabilis strain AV_175 chromosome, complete genome	323216..323995	Warning: gene is missing from Notes file. Please inform curator.	KC170992
+aph(6)-Id	100	837/837	100	1..837	NZ_CP078045.1 Acinetobacter lwoffii strain AL_065 chromosome, complete genome	1262409..1263245	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aadA2b	99.87	780/780	100	1..780	NZ_CP090382.1 Acinetobacter towneri strain SCLZS30 chromosome, complete genome	1628718..1629497	Aminoglycoside resistance	D43625
+ant(2'')-Ia	100	534/534	100	1..534	NZ_CP090382.1 Acinetobacter towneri strain SCLZS30 chromosome, complete genome	1375356..1375889	Aminoglycoside resistance Alternate name; ant(2'')-Ia	X04555
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1182883..1183698	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1179806..1180621	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1176729..1177544	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1173652..1174467	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1170575..1171390	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1167498..1168313	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1164421..1165236	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1161344..1162159	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1158267..1159082	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1155190..1156005	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1152113..1152928	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1149036..1149851	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1145959..1146774	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1142882..1143697	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1139805..1140620	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1136728..1137543	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1133651..1134466	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1130574..1131389	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1127497..1128312	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1124420..1125235	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1121343..1122158	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1118266..1119081	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1115189..1116004	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1112112..1112927	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1109035..1109850	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1105958..1106773	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1102881..1103696	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1099804..1100619	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1096727..1097542	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1093650..1094465	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1090573..1091388	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1087496..1088311	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1084419..1085234	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1081342..1082157	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1078265..1079080	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1075188..1076003	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1072111..1072926	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1069034..1069849	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1065957..1066772	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1062880..1063695	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1059803..1060618	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1056726..1057541	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1053649..1054464	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1050572..1051387	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1047495..1048310	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1044418..1045233	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1041341..1042156	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1038264..1039079	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1035187..1036002	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1032110..1032925	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1029033..1029848	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1025956..1026771	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1022879..1023694	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1019802..1020617	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1016725..1017540	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1013648..1014463	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1010571..1011386	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1007494..1008309	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1004417..1005232	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1001340..1002155	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	998263..999078	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	995186..996001	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	992109..992924	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	989032..989847	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	985955..986770	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	982878..983693	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	979801..980616	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	976724..977539	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	973647..974462	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	970570..971385	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	967493..968308	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	964416..965231	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	961339..962154	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	958262..959077	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	955185..956000	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	250404..251219	Aminoglycoside resistance	X62115
+aadA1	99.75	792/792	100	1..792	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	255338..256129	Aminoglycoside resistance	JX185132
+aadA1	99.75	792/792	100	1..792	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	255338..256129	Aminoglycoside resistance	JQ414041
+aadA1	100	789/789	100	1..789	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	4153779..4154567	Aminoglycoside resistance	JQ480156
+aadA1	100	789/789	100	1..789	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	2345090..2345878	Aminoglycoside resistance	JQ480156
+aph(6)-Id	100	725/837	86.61887694145759	113..837	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	4157961..4158685	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aac(3)-Ia	99.06	534/534	100	1..534	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	253761..254294	Aminoglycoside resistance	X15852
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	341664..342479	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	326457..327272	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	311250..312065	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	296043..296858	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	280836..281651	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	265629..266444	Aminoglycoside resistance	X62115
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	250422..251237	Aminoglycoside resistance	X62115
+aadA1	99.75	792/792	100	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	255356..256147	Aminoglycoside resistance	JX185132
+aadA1	99.75	792/792	100	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	270563..271354	Aminoglycoside resistance	JX185132
+aadA1	99.75	792/792	100	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	285770..286561	Aminoglycoside resistance	JX185132
+aadA1	99.75	792/792	100	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	300977..301768	Aminoglycoside resistance	JX185132
+aadA1	99.75	792/792	100	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	316184..316975	Aminoglycoside resistance	JX185132
+aadA1	99.75	792/792	100	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	331391..332182	Aminoglycoside resistance	JX185132
+aadA1	99.75	792/792	100	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	346598..347389	Aminoglycoside resistance	JX185132
+aadA1	99.75	792/792	100	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	255356..256147	Aminoglycoside resistance	JQ414041
+aadA1	99.75	792/792	100	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	270563..271354	Aminoglycoside resistance	JQ414041
+aadA1	99.75	792/792	100	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	285770..286561	Aminoglycoside resistance	JQ414041
+aadA1	99.75	792/792	100	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	300977..301768	Aminoglycoside resistance	JQ414041
+aadA1	99.75	792/792	100	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	316184..316975	Aminoglycoside resistance	JQ414041
+aadA1	99.75	792/792	100	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	331391..332182	Aminoglycoside resistance	JQ414041
+aadA1	99.75	792/792	100	1..792	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	346598..347389	Aminoglycoside resistance	JQ414041
+aadA1	100	789/789	100	1..789	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	4014315..4015103	Aminoglycoside resistance	JQ480156
+aadA1	100	789/789	100	1..789	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	2205638..2206426	Aminoglycoside resistance	JQ480156
+aph(6)-Id	100	725/837	86.61887694145759	113..837	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	4018497..4019221	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aac(3)-Ia	99.06	534/534	100	1..534	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	253779..254312	Aminoglycoside resistance	X15852
+aac(3)-Ia	99.06	534/534	100	1..534	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	268986..269519	Aminoglycoside resistance	X15852
+aac(3)-Ia	99.06	534/534	100	1..534	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	284193..284726	Aminoglycoside resistance	X15852
+aac(3)-Ia	99.06	534/534	100	1..534	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	299400..299933	Aminoglycoside resistance	X15852
+aac(3)-Ia	99.06	534/534	100	1..534	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	314607..315140	Aminoglycoside resistance	X15852
+aac(3)-Ia	99.06	534/534	100	1..534	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	329814..330347	Aminoglycoside resistance	X15852
+aac(3)-Ia	99.06	534/534	100	1..534	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	345021..345554	Aminoglycoside resistance	X15852
+aph(6)-Id	100	837/837	100	1..837	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	3847513..3848349	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aph(3')-Ia	99.88	816/816	100	1..816	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	2775966..2776781	Aminoglycoside resistance	X62115
+aadA1	99.87	792/792	100	1..792	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	2771991..2772782	Aminoglycoside resistance	JQ414041
+armA	100	774/774	100	1..774	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	2766529..2767302	Aminoglycoside resistance	AY220558
+armA	100	774/774	100	1..774	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	3875917..3876690	Aminoglycoside resistance	AY220558
+aac(6')-Ib3	99.64	555/555	100	1..555	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	2773565..2774119	Warning: gene is missing from Notes file. Please inform curator.	X60321
+aph(6)-Id	100	837/837	100	1..837	NZ_CP091364.1 Acinetobacter baumannii strain AB173-VUB chromosome, complete genome	1184548..1185384	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+armA	100	774/774	100	1..774	NZ_CP091364.1 Acinetobacter baumannii strain AB173-VUB chromosome, complete genome	3595507..3596280	Aminoglycoside resistance	AY220558
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3215290..3216105	Aminoglycoside resistance	X62115
+aadA1	99.75	792/792	100	1..792	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3220224..3221015	Aminoglycoside resistance	JX185132
+aadA1	99.75	792/792	100	1..792	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3220224..3221015	Aminoglycoside resistance	JQ414041
+aac(3)-Ia	99.06	534/534	100	1..534	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3218647..3219180	Aminoglycoside resistance	X15852
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP091596.1 Acinetobacter baumannii strain Nord4-2 chromosome, complete genome	1834737..1835552	Aminoglycoside resistance	X62115
+aph(3')-Ia	99.88	816/816	100	1..816	NZ_CP096681.1 Acinetobacter baumannii strain 6080 chromosome, complete genome	2593674..2594489	Aminoglycoside resistance	X62115
+aadA1	100	792/792	100	1..792	NZ_CP096681.1 Acinetobacter baumannii strain 6080 chromosome, complete genome	2589699..2590490	Aminoglycoside resistance	JQ414041
+armA	100	774/774	100	1..774	NZ_CP096681.1 Acinetobacter baumannii strain 6080 chromosome, complete genome	2584237..2585010	Aminoglycoside resistance	AY220558
+aac(6')-Ib3	99.64	555/555	100	1..555	NZ_CP096681.1 Acinetobacter baumannii strain 6080 chromosome, complete genome	2591273..2591827	Warning: gene is missing from Notes file. Please inform curator.	X60321
+aadA5	99.62	789/789	100	1..789	NZ_CP104347.1 Acinetobacter baumannii strain 2021CK-01332 chromosome, complete genome	3804823..3805611	Aminoglycoside resistance	AF137361
+aph(3')-VIa	98.08	780/780	100	1..780	NZ_CP104347.1 Acinetobacter baumannii strain 2021CK-01332 chromosome, complete genome	384681..385460	Aminoglycoside resistance	X07753
+aph(3')-VIa	98.08	780/780	100	1..780	NZ_CP104347.1 Acinetobacter baumannii strain 2021CK-01332 chromosome, complete genome	3144552..3145331	Aminoglycoside resistance	X07753
+ant(2'')-Ia	99.81	534/534	100	1..534	NZ_CP104347.1 Acinetobacter baumannii strain 2021CK-01332 chromosome, complete genome	3804232..3804765	Aminoglycoside resistance Alternate name; ant(2'')-Ia	GQ466184
+ant(2'')-Ia	99.81	534/534	100	1..534	NZ_CP104347.1 Acinetobacter baumannii strain 2021CK-01332 chromosome, complete genome	3804232..3804765	Aminoglycoside resistance Alternate name; ant(2'')-Ia	DQ176450
+aph(6)-Id	100	837/837	100	1..837	NZ_CP121345.1 Acinetobacter baumannii strain 96 chromosome, complete genome	3874016..3874852	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+armA	100	774/774	100	1..774	NZ_CP121345.1 Acinetobacter baumannii strain 96 chromosome, complete genome	1469536..1470309	Aminoglycoside resistance	AY220558
+aph(6)-Id	100	837/837	100	1..837	NZ_CP130328.1 Acinetobacter variabilis strain TB2-2B chromosome, complete genome	2712034..2712870	Aminoglycoside resistance Alternate name; aph(6)-Id	M28829
+aph(3')-Ia	100	816/816	100	1..816	NZ_CP140420.1 Acinetobacter baumannii strain 2023CK-00893 chromosome, complete genome	239725..240540	Aminoglycoside resistance	X62115
+aac(6')-Ian	100	573/573	100	1..573	NZ_CP140420.1 Acinetobacter baumannii strain 2023CK-00893 chromosome, complete genome	235487..236059	Warning: gene is missing from Notes file. Please inform curator.	AP014611
+ant(2'')-Ia	100	534/534	100	1..534	NZ_CP140420.1 Acinetobacter baumannii strain 2023CK-00893 chromosome, complete genome	239141..239674	Aminoglycoside resistance Alternate name; ant(2'')-Ia	X04555
+aph(3')-Ia	99.88	816/816	100	1..816	NZ_CP144240.1 Acinetobacter baumannii strain SRM25 chromosome, complete genome	2759813..2760628	Aminoglycoside resistance	X62115
+aadA1	100	792/792	100	1..792	NZ_CP144240.1 Acinetobacter baumannii strain SRM25 chromosome, complete genome	2755838..2756629	Aminoglycoside resistance	JQ414041
+armA	100	774/774	100	1..774	NZ_CP144240.1 Acinetobacter baumannii strain SRM25 chromosome, complete genome	2750376..2751149	Aminoglycoside resistance	AY220558
+aac(6')-Ib3	99.64	555/555	100	1..555	NZ_CP144240.1 Acinetobacter baumannii strain SRM25 chromosome, complete genome	2757412..2757966	Warning: gene is missing from Notes file. Please inform curator.	X60321
+blaADC-25	92.19	1152/1152	100	1..1152	NC_016603.1 Acinetobacter pittii PHEA-2 chromosome, complete genome	1995662..1996813	Beta-lactam resistance	EF016355
+blaOXA-533	98.05	821/822	99.87834549878345	1..821	NC_016603.1 Acinetobacter pittii PHEA-2 chromosome, complete genome	953501..954321	Warning: gene is missing from Notes file. Please inform curator.	KX668472
+blaADC-25	91.76	1153/1152	99.91319444444444	1..1152	NZ_AP021936.1 Acinetobacter pittii strain WP2-W18-ESBL-11 chromosome, complete genome	1201984..1203135	Beta-lactam resistance	EF016355
+blaOXA-417	100	822/822	100	1..822	NZ_AP021936.1 Acinetobacter pittii strain WP2-W18-ESBL-11 chromosome, complete genome	2218048..2218869	Warning: gene is missing from Notes file. Please inform curator.	KM220587
+blaADC-25	96.1	1153/1152	99.91319444444444	1..1152	NZ_CP009257.1 Acinetobacter baumannii strain AB30 chromosome, complete genome	1609789..1610940	Beta-lactam resistance	EF016355
+blaTEM-1B	100	861/861	100	1..861	NZ_CP009257.1 Acinetobacter baumannii strain AB30 chromosome, complete genome	2463128..2463988	Beta-lactam resistance Alternate name; RblaTEM-1	AY458016
+blaOXA-65	100	825/825	100	1..825	NZ_CP009257.1 Acinetobacter baumannii strain AB30 chromosome, complete genome	457632..458456	Beta-lactam resistance	AY750908
+blaOXA-23	100	822/822	100	1..822	NZ_CP009257.1 Acinetobacter baumannii strain AB30 chromosome, complete genome	3304369..3305190	Beta-lactam resistance	AY795964
+blaOXA-23	100	822/822	100	1..822	NZ_CP009257.1 Acinetobacter baumannii strain AB30 chromosome, complete genome	4297011..4297832	Beta-lactam resistance	AY795964
+blaADC-25	90.04	1155/1152	99.73958333333334	1..1152	NZ_CP014019.1 Acinetobacter nosocomialis strain FDAARGOS_129 chromosome, complete genome	743129..744280	Beta-lactam resistance	EF016355
+blaADC-25	92.11	1153/1152	99.91319444444444	1..1152	NZ_CP014477.1 Acinetobacter pittii strain AP_882 chromosome, complete genome	3808077..3809228	Beta-lactam resistance	EF016355
+blaOXA-421	100	822/822	100	1..822	NZ_CP014477.1 Acinetobacter pittii strain AP_882 chromosome, complete genome	2837207..2838028	Warning: gene is missing from Notes file. Please inform curator.	KM401566
+blaADC-25	96.53	1152/1152	100	1..1152	NZ_CP014528.1 Acinetobacter baumannii strain XH858 chromosome, complete genome	2971689..2972840	Beta-lactam resistance	EF016355
+blaOXA-68	100	825/825	100	1..825	NZ_CP014528.1 Acinetobacter baumannii strain XH858 chromosome, complete genome	1894761..1895585	Beta-lactam resistance	AY750910
+blaOXA-23	100	822/822	100	1..822	NZ_CP014528.1 Acinetobacter baumannii strain XH858 chromosome, complete genome	1065186..1066007	Beta-lactam resistance	AY795964
+blaOXA-23	100	822/822	100	1..822	NZ_CP014528.1 Acinetobacter baumannii strain XH858 chromosome, complete genome	1072430..1073251	Beta-lactam resistance	AY795964
+blaOXA-23	100	822/822	100	1..822	NZ_CP014528.1 Acinetobacter baumannii strain XH858 chromosome, complete genome	1079674..1080495	Beta-lactam resistance	AY795964
+blaOXA-23	100	822/822	100	1..822	NZ_CP014528.1 Acinetobacter baumannii strain XH858 chromosome, complete genome	1094159..1094980	Beta-lactam resistance	AY795964
+blaOXA-23	99.88	822/822	99.87834549878345	1..822	NZ_CP014528.1 Acinetobacter baumannii strain XH858 chromosome, complete genome	1086916..1087736	Beta-lactam resistance	AY795964
+blaADC-25	93.67	1153/1152	99.91319444444444	1..1152	NZ_CP017938.1 Acinetobacter pittii strain YMC2010/8/T346 chromosome, complete genome	3653669..3654820	Beta-lactam resistance	EF016355
+blaOXA-499	100	828/828	100	1..828	NZ_CP017938.1 Acinetobacter pittii strain YMC2010/8/T346 chromosome, complete genome	1484979..1485806	Warning: gene is missing from Notes file. Please inform curator.	KT964029
+blaOXA-506	100	822/822	100	1..822	NZ_CP017938.1 Acinetobacter pittii strain YMC2010/8/T346 chromosome, complete genome	2668852..2669673	Warning: gene is missing from Notes file. Please inform curator.	KU571454
+blaADC-25	96.18	1153/1152	99.91319444444444	1..1152	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	1229394..1230545	Beta-lactam resistance	EF016355
+blaTEM-1B	100	861/861	100	1..861	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	306256..307116	Beta-lactam resistance Alternate name; RblaTEM-1	AY458016
+blaOXA-235	100	831/831	100	1..831	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	321279..322109	Beta-lactam resistance	JQ820240
+blaOXA-65	100	825/825	100	1..825	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	2474433..2475257	Beta-lactam resistance	AY750908
+blaOXA-301	99.28	831/831	100	1..831	NZ_CP018259.1 Acinetobacter bereziniae strain XH901 chromosome, complete genome	229381..230211	Beta-lactam resistance	APQG01000050
+blaOXA-264	99.4	828/828	100	1..828	NZ_CP018260.1 Acinetobacter haemolyticus strain XH900 chromosome, complete genome	179289..180116	Beta-lactam resistance	APQQ01000012
+blaADC-25	92.89	1153/1152	99.91319444444444	1..1152	NZ_CP018909.1 Acinetobacter pittii strain XJ88 chromosome, complete genome	217889..219040	Beta-lactam resistance	EF016355
+blaOXA-502	99.27	822/822	100	1..822	NZ_CP018909.1 Acinetobacter pittii strain XJ88 chromosome, complete genome	1284997..1285818	Warning: gene is missing from Notes file. Please inform curator.	KU167111
+blaOXA-283	99.64	831/831	100	1..831	NZ_CP019143.2 Acinetobacter lwoffii strain ZS207 chromosome, complete genome	16554..17384	Beta-lactam resistance	AYHO01000005
+blaOXA-323	97.81	822/822	100	1..822	NZ_CP020000.1 Acinetobacter calcoaceticus strain CA16 chromosome, complete genome	1708229..1709050	Beta-lactam resistance	KF203097
+blaADC-25	91.93	1153/1152	99.91319444444444	1..1152	NZ_CP021428.1 Acinetobacter pittii strain HUMV-6483 chromosome, complete genome	146292..147443	Beta-lactam resistance	EF016355
+blaOXA-506	100	822/822	100	1..822	NZ_CP021428.1 Acinetobacter pittii strain HUMV-6483 chromosome, complete genome	3053767..3054588	Warning: gene is missing from Notes file. Please inform curator.	KU571454
+blaADC-25	96.53	1153/1152	99.91319444444444	1..1152	NZ_CP022283.1 Acinetobacter baumannii strain 7804 chromosome, complete genome	1460213..1461364	Beta-lactam resistance	EF016355
+blaOXA-64	100	825/825	100	1..825	NZ_CP022283.1 Acinetobacter baumannii strain 7804 chromosome, complete genome	2665499..2666323	Beta-lactam resistance	AY750907
+blaADC-25	96.1	1153/1152	99.91319444444444	1..1152	NZ_CP023020.1 Acinetobacter baumannii strain 9201 chromosome, complete genome	1585760..1586911	Beta-lactam resistance	EF016355
+blaTEM-1B	100	861/861	100	1..861	NZ_CP023020.1 Acinetobacter baumannii strain 9201 chromosome, complete genome	2839774..2840634	Beta-lactam resistance Alternate name; RblaTEM-1	AY458016
+blaOXA-2	100	828/828	100	1..828	NZ_CP023020.1 Acinetobacter baumannii strain 9201 chromosome, complete genome	2842526..2843353	Beta-lactam resistance	DQ112222
+blaOXA-65	100	825/825	100	1..825	NZ_CP023020.1 Acinetobacter baumannii strain 9201 chromosome, complete genome	1032733..1033557	Beta-lactam resistance	AY750908
+blaOXA-500	99.88	822/822	100	1..822	NZ_CP027658.1 Acinetobacter pittii strain Ap-W20 chromosome, complete genome	2967305..2968126	Warning: gene is missing from Notes file. Please inform curator.	JMNQ01000002
+blaOXA-500	99.88	822/822	100	1..822	NZ_CP029005.1 Acinetobacter pittii strain AbW39 chromosome, complete genome	2150161..2150982	Warning: gene is missing from Notes file. Please inform curator.	JMNQ01000002
+blaADC-25	90.04	1155/1152	99.73958333333334	1..1152	NZ_CP029351.1 Acinetobacter nosocomialis strain NCTC 8102 chromosome, complete genome	1135975..1137126	Beta-lactam resistance	EF016355
+blaADC-25	92.1	1152/1152	100	1..1152	NZ_CP029610.1 Acinetobacter pittii strain ST220 chromosome, complete genome	1247016..1248167	Beta-lactam resistance	EF016355
+blaNDM-1	100	813/813	100	1..813	NZ_CP029610.1 Acinetobacter pittii strain ST220 chromosome, complete genome	763779..764591	Beta-lactam resistance	FN396876
+blaOXA-526	98.54	822/822	100	1..822	NZ_CP029610.1 Acinetobacter pittii strain ST220 chromosome, complete genome	2301858..2302679	Warning: gene is missing from Notes file. Please inform curator.	KX599409
+blaOXA-102	99.64	822/822	100	1..822	NZ_CP030031.1 Acinetobacter radioresistens strain LH6 chromosome, complete genome	1054211..1055032	Beta-lactam resistance	NZ_LWGP01000001
+blaOXA-264	99.52	828/828	100	1..828	NZ_CP030880.1 Acinetobacter haemolyticus strain HW-2A chromosome, complete genome	177879..178706	Beta-lactam resistance	APQQ01000012
+blaOXA-215	99.52	828/828	100	1..828	NZ_CP030880.1 Acinetobacter haemolyticus strain HW-2A chromosome, complete genome	177879..178706	Beta-lactam resistance	JN861783
+blaNDM-1	100	813/813	100	1..813	NZ_CP031716.1 Acinetobacter wuhouensis strain WCHA60 chromosome, complete genome	2091118..2091930	Beta-lactam resistance	FN396876
+blaOXA-265	98.07	828/828	100	1..828	NZ_CP031984.1 Acinetobacter haemolyticus strain AN3 chromosome, complete genome	198823..199650	Beta-lactam resistance	APQR01000003
+blaOXA-265	100	828/828	100	1..828	NZ_CP031988.1 Acinetobacter haemolyticus strain 5227 chromosome, complete genome	199596..200423	Beta-lactam resistance	APQR01000003
+blaOXA-214	100	828/828	100	1..828	NZ_CP031991.1 Acinetobacter haemolyticus strain 2126ch chromosome, complete genome	198988..199815	Beta-lactam resistance	JN861782
+blaNDM-1	100	813/813	100	1..813	NZ_CP033133.1 Acinetobacter wuhouensis strain WCHAW010062 chromosome, complete genome	3793019..3793831	Beta-lactam resistance	FN396876
+blaADC-25	95.44	1162/1152	99.91319444444444	1..1152	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	1177176..1178336	Beta-lactam resistance	EF016355
+blaTEM-1A	100	861/861	100	1..861	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	1650847..1651707	Beta-lactam resistance Alternate name; RblaTEM-1	HM749966
+blaTEM-1A	100	861/861	100	1..861	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	1905714..1906574	Beta-lactam resistance Alternate name; RblaTEM-1	HM749966
+blaTEM-1A	100	861/861	100	1..861	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	94180..95040	Beta-lactam resistance Alternate name; RblaTEM-1	HM749966
+blaOXA-65	100	825/825	100	1..825	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	2491207..2492031	Beta-lactam resistance	AY750908
+blaOXA-23	100	822/822	100	1..822	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	1785238..1786059	Beta-lactam resistance	AY795964
+blaOXA-500	99.88	822/822	100	1..822	NZ_CP035109.1 Acinetobacter pittii strain NQ-003 chromosome, complete genome	2680380..2681201	Warning: gene is missing from Notes file. Please inform curator.	JMNQ01000002
+blaOXA-102	100	822/822	100	1..822	NZ_CP038022.1 Acinetobacter radioresistens strain DD78 chromosome, complete genome	1120819..1121640	Beta-lactam resistance	NZ_LWGP01000001
+blaADC-25	90.04	1155/1152	99.73958333333334	1..1152	NZ_CP040105.1 Acinetobacter nosocomialis M2 chromosome, complete genome	3155262..3156413	Beta-lactam resistance	EF016355
+blaADC-25	96.62	1153/1152	99.91319444444444	1..1152	NZ_CP040259.1 Acinetobacter baumannii strain P7774 chromosome, complete genome	4084078..4085229	Beta-lactam resistance	EF016355
+blaOXA-64	100	825/825	100	1..825	NZ_CP040259.1 Acinetobacter baumannii strain P7774 chromosome, complete genome	2885530..2886354	Beta-lactam resistance	AY750907
+blaOXA-23	100	822/822	100	1..822	NZ_CP040259.1 Acinetobacter baumannii strain P7774 chromosome, complete genome	1586119..1586940	Beta-lactam resistance	AY795964
+blaOXA-23	99.64	825/822	100	1..822	NZ_CP040259.1 Acinetobacter baumannii strain P7774 chromosome, complete genome	1355499..1356323	Beta-lactam resistance	AY795964
+blaADC-25	92.11	1153/1152	99.91319444444444	1..1152	NZ_CP040903.1 Acinetobacter pittii strain AP007 chromosome	1911766..1912917	Beta-lactam resistance	EF016355
+blaOXA-501	98.17	821/822	99.87834549878345	1..821	NZ_CP040903.1 Acinetobacter pittii strain AP007 chromosome	884797..885617	Warning: gene is missing from Notes file. Please inform curator.	KU167110
+blaOXA-500	98.17	821/822	99.87834549878345	1..821	NZ_CP040903.1 Acinetobacter pittii strain AP007 chromosome	884797..885617	Warning: gene is missing from Notes file. Please inform curator.	JMNQ01000002
+blaADC-25	95.92	1153/1152	99.91319444444444	1..1152	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	1271941..1273092	Beta-lactam resistance	EF016355
+blaOXA-69	100	825/825	100	1..825	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	2338682..2339506	Beta-lactam resistance	AY859527
+blaOXA-291	98.09	837/837	100	1..837	NZ_CP041970.1 Acinetobacter dispersus strain NCCP 16014 chromosome, complete genome	3281280..3282116	Beta-lactam resistance	APRL01000010
+blaADC-25	96.7	1153/1152	99.91319444444444	1..1152	NZ_CP043953.1 Acinetobacter baumannii strain K09-14 chromosome, complete genome	1220309..1221460	Beta-lactam resistance	EF016355
+blaOXA-203	99.88	825/825	100	1..825	NZ_CP043953.1 Acinetobacter baumannii strain K09-14 chromosome, complete genome	2227873..2228697	Beta-lactam resistance	HQ998857
+blaOXA-282	93.86	831/831	100	1..831	NZ_CP044463.1 Acinetobacter schindleri strain HZE23-1 chromosome, complete genome	16681..17511	Beta-lactam resistance	APQS01000019
+blaOXA-360	93.74	831/831	100	1..831	NZ_CP044474.1 Acinetobacter schindleri strain HZE33-1 chromosome, complete genome	1556963..1557793	Beta-lactam resistance	KF421163
+blaOXA-283	93.23	827/831	99.51865222623346	1..827	NZ_CP044483.1 Acinetobacter schindleri strain HZE30-1 chromosome, complete genome	16686..17512	Beta-lactam resistance	AYHO01000005
+blaOXA-282	93.23	827/831	99.51865222623346	1..827	NZ_CP044483.1 Acinetobacter schindleri strain HZE30-1 chromosome, complete genome	16686..17512	Beta-lactam resistance	APQS01000019
+blaADC-25	97.14	1152/1152	100	1..1152	NZ_CP045110.1 Acinetobacter baumannii strain ATCC 19606 chromosome, complete genome	2872625..2873776	Beta-lactam resistance	EF016355
+blaOXA-98	99.88	825/825	100	1..825	NZ_CP045110.1 Acinetobacter baumannii strain ATCC 19606 chromosome, complete genome	1887843..1888667	Beta-lactam resistance	EU255288
+blaADC-25	99.91	1152/1152	100	1..1152	NZ_CP045528.1 Acinetobacter baumannii strain 6507 chromosome, complete genome	3594117..3595268	Beta-lactam resistance	EF016355
+blaOXA-66	100	825/825	100	1..825	NZ_CP045528.1 Acinetobacter baumannii strain 6507 chromosome, complete genome	173991..174815	Beta-lactam resistance	AY750909
+blaOXA-23	100	822/822	100	1..822	NZ_CP045528.1 Acinetobacter baumannii strain 6507 chromosome, complete genome	2790348..2791169	Beta-lactam resistance	AY795964
+blaOXA-23	99.88	822/822	99.87834549878345	1..822	NZ_CP045528.1 Acinetobacter baumannii strain 6507 chromosome, complete genome	2545348..2546168	Beta-lactam resistance	AY795964
+blaADC-25	96.53	1152/1152	100	1..1152	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	2989369..2990520	Beta-lactam resistance	EF016355
+blaPER-1	100	927/927	100	1..927	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	2361712..2362638	Beta-lactam resistance	GU944725
+blaCARB-2	100	867/867	100	1..867	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	2369601..2370467	Beta-lactam resistance Alternate name; PSE-1, blaP1b	M69058
+blaOXA-68	100	825/825	100	1..825	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	1855772..1856596	Beta-lactam resistance	AY750910
+blaOXA-23	100	822/822	100	1..822	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	1054074..1054895	Beta-lactam resistance	AY795964
+blaCARB-2	100	867/867	100	1..867	NZ_CP046045.1 Acinetobacter towneri strain 19110F47 chromosome, complete genome	166857..167723	Beta-lactam resistance Alternate name; PSE-1, blaP1b	M69058
+blaADC-25	97.14	1152/1152	100	1..1152	NZ_CP046654.1 Acinetobacter baumannii strain ATCC 19606 chromosome, complete genome	194052..195203	Beta-lactam resistance	EF016355
+blaOXA-98	99.88	825/825	100	1..825	NZ_CP046654.1 Acinetobacter baumannii strain ATCC 19606 chromosome, complete genome	3190153..3190977	Beta-lactam resistance	EU255288
+blaADC-25	96.62	1153/1152	99.91319444444444	1..1152	NZ_CP048849.1 Acinetobacter baumannii strain D4 chromosome, complete genome	3013015..3014166	Beta-lactam resistance	EF016355
+blaPER-1	99.89	927/927	100	1..927	NZ_CP048849.1 Acinetobacter baumannii strain D4 chromosome, complete genome	57415..58341	Beta-lactam resistance	GU944725
+blaOXA-64	100	825/825	100	1..825	NZ_CP048849.1 Acinetobacter baumannii strain D4 chromosome, complete genome	1838019..1838843	Beta-lactam resistance	AY750907
+blaADC-25	92.11	1153/1152	99.91319444444444	1..1152	NZ_CP049806.1 Acinetobacter pittii strain A1254 chromosome, complete genome	1151777..1152928	Beta-lactam resistance	EF016355
+blaOXA-499	100	828/828	100	1..828	NZ_CP049806.1 Acinetobacter pittii strain A1254 chromosome, complete genome	3403256..3404083	Warning: gene is missing from Notes file. Please inform curator.	KT964029
+blaOXA-500	98.66	822/822	100	1..822	NZ_CP049806.1 Acinetobacter pittii strain A1254 chromosome, complete genome	2281825..2282646	Warning: gene is missing from Notes file. Please inform curator.	JMNQ01000002
+blaADC-25	96.62	1153/1152	99.91319444444444	1..1152	NZ_CP050385.1 Acinetobacter baumannii strain VB82 chromosome, complete genome	2575313..2576464	Beta-lactam resistance	EF016355
+blaOXA-64	100	825/825	100	1..825	NZ_CP050385.1 Acinetobacter baumannii strain VB82 chromosome, complete genome	1294870..1295694	Beta-lactam resistance	AY750907
+blaOXA-23	100	822/822	100	1..822	NZ_CP050385.1 Acinetobacter baumannii strain VB82 chromosome, complete genome	3983058..3983879	Beta-lactam resistance	AY795964
+blaADC-25	97.14	1152/1152	100	1..1152	NZ_CP058289.1 Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841 strain ATCC 19606 chromosome, complete genome	898905..900056	Beta-lactam resistance	EF016355
+blaOXA-98	99.88	825/825	100	1..825	NZ_CP058289.1 Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841 strain ATCC 19606 chromosome, complete genome	1884014..1884838	Beta-lactam resistance	EU255288
+blaADC-25	97.14	1152/1152	100	1..1152	NZ_CP059040.1 Acinetobacter baumannii strain ATCC 19606 chromosome, complete genome	1125825..1126976	Beta-lactam resistance	EF016355
+blaOXA-98	99.88	825/825	100	1..825	NZ_CP059040.1 Acinetobacter baumannii strain ATCC 19606 chromosome, complete genome	2110940..2111764	Beta-lactam resistance	EU255288
+blaOXA-282	96.51	832/831	99.87966305655836	1..831	NZ_CP059081.1 Acinetobacter lwoffii strain 12CE1 chromosome, complete genome	16551..17381	Beta-lactam resistance	APQS01000019
+blaADC-25	96.19	1154/1152	99.91319444444444	1..1152	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	2339824..2340976	Beta-lactam resistance	EF016355
+blaCTX-M-124	99.89	876/876	100	1..876	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	624080..624955	Beta-lactam resistance	JQ429324
+blaOXA-90	100	825/825	100	1..825	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	3528732..3529556	Beta-lactam resistance	EU547443
+blaOXA-23	99.88	823/822	100	1..822	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	988560..989382	Beta-lactam resistance	AY795964
+blaADC-25	99.91	1152/1152	100	1..1152	NZ_CP060732.1 Acinetobacter baumannii strain abA1 chromosome, complete genome	2942121..2943272	Beta-lactam resistance	EF016355
+blaTEM-1D	100	861/861	100	1..861	NZ_CP060732.1 Acinetobacter baumannii strain abA1 chromosome, complete genome	1365113..1365973	Beta-lactam resistance Alternate name; RblaTEM-1	AF188200
+blaOXA-66	100	825/825	100	1..825	NZ_CP060732.1 Acinetobacter baumannii strain abA1 chromosome, complete genome	2110464..2111288	Beta-lactam resistance	AY750909
+blaOXA-23	100	822/822	100	1..822	NZ_CP060732.1 Acinetobacter baumannii strain abA1 chromosome, complete genome	1020319..1021140	Beta-lactam resistance	AY795964
+blaOXA-23	100	822/822	100	1..822	NZ_CP060732.1 Acinetobacter baumannii strain abA1 chromosome, complete genome	1027563..1028384	Beta-lactam resistance	AY795964
+blaOXA-301	99.88	831/831	100	1..831	NZ_CP066119.1 Acinetobacter bereziniae strain GD03185 chromosome, complete genome	228225..229055	Beta-lactam resistance	APQG01000050
+blaNDM-1	100	813/813	100	1..813	NZ_CP066119.1 Acinetobacter bereziniae strain GD03185 chromosome, complete genome	1484011..1484823	Beta-lactam resistance	FN396876
+blaOXA-301	99.52	831/831	100	1..831	NZ_CP066121.1 Acinetobacter bereziniae strain GD0320 chromosome, complete genome	4333212..4334042	Beta-lactam resistance	APQG01000050
+blaADC-25	91.07	1153/1152	99.91319444444444	1..1152	NZ_CP066124.1 Acinetobacter pittii strain 32292 chromosome, complete genome	1161297..1162448	Beta-lactam resistance	EF016355
+blaOXA-255	100	828/828	100	1..828	NZ_CP066124.1 Acinetobacter pittii strain 32292 chromosome, complete genome	3423253..3424080	Beta-lactam resistance	KC479325
+blaOXA-564	98.54	822/822	100	1..822	NZ_CP066124.1 Acinetobacter pittii strain 32292 chromosome, complete genome	2221043..2221864	Warning: gene is missing from Notes file. Please inform curator.	KY767022
+blaOXA-506	98.54	822/822	100	1..822	NZ_CP066124.1 Acinetobacter pittii strain 32292 chromosome, complete genome	2221043..2221864	Warning: gene is missing from Notes file. Please inform curator.	KU571454
+blaADC-25	92.27	1152/1152	100	1..1152	NZ_CP069586.1 Acinetobacter pittii strain FDAARGOS_1216 chromosome, complete genome	3749946..3751097	Beta-lactam resistance	EF016355
+blaOXA-500	97.57	822/822	100	1..822	NZ_CP069586.1 Acinetobacter pittii strain FDAARGOS_1216 chromosome, complete genome	2712676..2713497	Warning: gene is missing from Notes file. Please inform curator.	JMNQ01000002
+blaOXA-323	100	822/822	100	1..822	NZ_CP070518.1 Acinetobacter calcoaceticus strain FDAARGOS_1218 chromosome, complete genome	241604..242425	Beta-lactam resistance	KF203097
+blaADC-25	96.7	1153/1152	99.91319444444444	1..1152	NZ_CP072270.1 Acinetobacter baumannii strain KSK6 chromosome, complete genome	1237507..1238658	Beta-lactam resistance	EF016355
+blaOXA-203	99.88	825/825	100	1..825	NZ_CP072270.1 Acinetobacter baumannii strain KSK6 chromosome, complete genome	2267467..2268291	Beta-lactam resistance	HQ998857
+blaOXA-23	100	822/822	100	1..822	NZ_CP072270.1 Acinetobacter baumannii strain KSK6 chromosome, complete genome	3830064..3830885	Beta-lactam resistance	AY795964
+blaNDM-1	100	813/813	100	1..813	NZ_CP072270.1 Acinetobacter baumannii strain KSK6 chromosome, complete genome	138168..138980	Beta-lactam resistance	FN396876
+blaOXA-283	99.88	831/831	100	1..831	NZ_CP072549.1 Acinetobacter lwoffii strain H7 chromosome, complete genome	2200008..2200838	Beta-lactam resistance	AYHO01000005
+blaOXA-237	95.77	827/831	99.51865222623346	1..827	NZ_CP076603.1 Acinetobacter schindleri strain MCDA01 chromosome, complete genome	16627..17453	Beta-lactam resistance	JQ820241
+blaOXA-235	95.77	827/831	99.51865222623346	1..827	NZ_CP076603.1 Acinetobacter schindleri strain MCDA01 chromosome, complete genome	16627..17453	Beta-lactam resistance	JQ820240
+blaADC-25	96.96	1152/1152	100	1..1152	NZ_CP076812.1 Acinetobacter baumannii strain UC23022 chromosome, complete genome	2056262..2057413	Beta-lactam resistance	EF016355
+blaTEM-1A	100	861/861	100	1..861	NZ_CP076812.1 Acinetobacter baumannii strain UC23022 chromosome, complete genome	3138197..3139057	Beta-lactam resistance Alternate name; RblaTEM-1	HM749966
+blaOXA-65	100	825/825	100	1..825	NZ_CP076812.1 Acinetobacter baumannii strain UC23022 chromosome, complete genome	791360..792184	Beta-lactam resistance	AY750908
+blaOXA-23	100	822/822	100	1..822	NZ_CP076812.1 Acinetobacter baumannii strain UC23022 chromosome, complete genome	2888303..2889124	Beta-lactam resistance	AY795964
+blaOXA-270	96.72	822/822	100	1..822	NZ_CP077205.1 Acinetobacter pittii strain FDAARGOS 1398 chromosome, complete genome	2809954..2810775	Beta-lactam resistance	APQM01000006
+blaNDM-1	100	813/813	100	1..813	NZ_CP078027.1 Acinetobacter variabilis strain AV_175 chromosome, complete genome	321126..321938	Beta-lactam resistance	FN396876
+blaADC-25	92.37	1153/1152	99.91319444444444	1..1152	NZ_CP078524.1 Acinetobacter pittii strain Colony142 chromosome	1189629..1190780	Beta-lactam resistance	EF016355
+blaOXA-502	97.93	822/822	100	1..822	NZ_CP078524.1 Acinetobacter pittii strain Colony142 chromosome	2162593..2163414	Warning: gene is missing from Notes file. Please inform curator.	KU167111
+blaOXA-362	100	831/831	100	1..831	NZ_CP080576.1 Acinetobacter lwoffii strain VS15 chromosome, complete genome	1428381..1429211	Beta-lactam resistance	KF460532
+blaOXA-283	99.88	831/831	100	1..831	NZ_CP080636.1 Acinetobacter lwoffii strain EK30A chromosome, complete genome	850183..851013	Beta-lactam resistance	AYHO01000005
+blaOXA-267	97.57	822/822	100	1..822	NZ_CP088954.1 Acinetobacter calcoaceticus strain ACa13 chromosome, complete genome	2224742..2225563	Beta-lactam resistance	APQH01000006
+blaOXA-349	97.57	822/822	100	1..822	NZ_CP088954.1 Acinetobacter calcoaceticus strain ACa13 chromosome, complete genome	2224742..2225563	Beta-lactam resistance	KF297578
+blaOXA-348	97.57	822/822	100	1..822	NZ_CP088954.1 Acinetobacter calcoaceticus strain ACa13 chromosome, complete genome	2224742..2225563	Beta-lactam resistance	KF297577
+blaOXA-332	97.57	822/822	100	1..822	NZ_CP088954.1 Acinetobacter calcoaceticus strain ACa13 chromosome, complete genome	2224742..2225563	Beta-lactam resistance	KF203106
+blaOXA-323	97.57	822/822	100	1..822	NZ_CP088954.1 Acinetobacter calcoaceticus strain ACa13 chromosome, complete genome	2224742..2225563	Beta-lactam resistance	KF203097
+blaOXA-330	99.76	822/822	100	1..822	NZ_CP088955.1 Acinetobacter calcoaceticus strain ARu19 chromosome, complete genome	2183872..2184693	Beta-lactam resistance	KF203104
+blaOXA-392	100	831/831	100	1..831	NZ_CP090382.1 Acinetobacter towneri strain SCLZS30 chromosome, complete genome	1374407..1375237	Warning: gene is missing from Notes file. Please inform curator.	AB901044
+blaADC-25	96.36	1153/1152	99.91319444444444	1..1152	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	3055775..3056926	Beta-lactam resistance	EF016355
+blaOXA-69	100	825/825	100	1..825	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	2015578..2016402	Beta-lactam resistance	AY859527
+blaOXA-23	100	822/822	100	1..822	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	1191525..1192346	Beta-lactam resistance	AY795964
+blaOXA-23	100	822/822	100	1..822	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	4129212..4130033	Beta-lactam resistance	AY795964
+blaADC-25	96.36	1153/1152	99.91319444444444	1..1152	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	2916323..2917474	Beta-lactam resistance	EF016355
+blaOXA-69	100	825/825	100	1..825	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	1876126..1876950	Beta-lactam resistance	AY859527
+blaOXA-23	100	822/822	100	1..822	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	1052073..1052894	Beta-lactam resistance	AY795964
+blaOXA-23	100	822/822	100	1..822	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	3989748..3990569	Beta-lactam resistance	AY795964
+blaADC-25	99.91	1152/1152	100	1..1152	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	1233592..1234743	Beta-lactam resistance	EF016355
+blaPER-7	100	927/927	100	1..927	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	3867555..3868481	Beta-lactam resistance	HQ713678
+blaOXA-66	100	825/825	100	1..825	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	1879881..1880705	Beta-lactam resistance	AY750909
+blaOXA-23	100	822/822	100	1..822	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	302203..303024	Beta-lactam resistance	AY795964
+blaOXA-23	99.88	823/822	100	1..822	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	273551..274373	Beta-lactam resistance	AY795964
+blaADC-25	99.83	1152/1152	100	1..1152	NZ_CP091364.1 Acinetobacter baumannii strain AB173-VUB chromosome, complete genome	3815484..3816635	Beta-lactam resistance	EF016355
+blaOXA-66	100	825/825	100	1..825	NZ_CP091364.1 Acinetobacter baumannii strain AB173-VUB chromosome, complete genome	2747244..2748068	Beta-lactam resistance	AY750909
+blaOXA-23	100	822/822	100	1..822	NZ_CP091364.1 Acinetobacter baumannii strain AB173-VUB chromosome, complete genome	2120770..2121591	Beta-lactam resistance	AY795964
+blaOXA-23	100	822/822	100	1..822	NZ_CP091364.1 Acinetobacter baumannii strain AB173-VUB chromosome, complete genome	1175704..1176525	Beta-lactam resistance	AY795964
+blaADC-25	99.65	1153/1152	99.91319444444444	1..1152	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	1675880..1677031	Beta-lactam resistance	EF016355
+blaTEM-1D	100	861/861	100	1..861	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3208656..3209516	Beta-lactam resistance Alternate name; RblaTEM-1	AF188200
+blaOXA-69	100	825/825	100	1..825	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	721071..721895	Beta-lactam resistance	AY859527
+blaADC-25	96.62	1153/1152	99.91319444444444	1..1152	NZ_CP091596.1 Acinetobacter baumannii strain Nord4-2 chromosome, complete genome	3303011..3304162	Beta-lactam resistance	EF016355
+blaOXA-64	100	825/825	100	1..825	NZ_CP091596.1 Acinetobacter baumannii strain Nord4-2 chromosome, complete genome	4000659..4001483	Beta-lactam resistance	AY750907
+blaNDM-1	100	813/813	100	1..813	NZ_CP091596.1 Acinetobacter baumannii strain Nord4-2 chromosome, complete genome	1941208..1942020	Beta-lactam resistance	FN396876
+blaADC-25	92.1	1152/1152	100	1..1152	NZ_CP095407.1 Acinetobacter pittii strain TCM chromosome, complete genome	1249048..1250199	Beta-lactam resistance	EF016355
+blaNDM-1	100	813/813	100	1..813	NZ_CP095407.1 Acinetobacter pittii strain TCM chromosome, complete genome	766022..766834	Beta-lactam resistance	FN396876
+blaOXA-526	98.54	822/822	100	1..822	NZ_CP095407.1 Acinetobacter pittii strain TCM chromosome, complete genome	2363566..2364387	Warning: gene is missing from Notes file. Please inform curator.	KX599409
+blaOXA-360	100	831/831	100	1..831	NZ_CP095872.1 Acinetobacter schindleri strain H4-3-C1 chromosome, complete genome	17871..18701	Beta-lactam resistance	KF421163
+blaADC-25	99.91	1152/1152	100	1..1152	NZ_CP096681.1 Acinetobacter baumannii strain 6080 chromosome, complete genome	2816858..2818009	Beta-lactam resistance	EF016355
+blaOXA-66	100	825/825	100	1..825	NZ_CP096681.1 Acinetobacter baumannii strain 6080 chromosome, complete genome	2062996..2063820	Beta-lactam resistance	AY750909
+blaOXA-23	100	822/822	100	1..822	NZ_CP096681.1 Acinetobacter baumannii strain 6080 chromosome, complete genome	823715..824536	Beta-lactam resistance	AY795964
+blaOXA-23	100	822/822	100	1..822	NZ_CP096681.1 Acinetobacter baumannii strain 6080 chromosome, complete genome	830946..831767	Beta-lactam resistance	AY795964
+blaOXA-23	99.88	823/822	100	1..822	NZ_CP096681.1 Acinetobacter baumannii strain 6080 chromosome, complete genome	816480..817302	Beta-lactam resistance	AY795964
+blaADC-25	96.44	1153/1152	99.91319444444444	1..1152	NZ_CP098791.1 Acinetobacter baumannii strain 280820 chromosome, complete genome	2928136..2929287	Beta-lactam resistance	EF016355
+blaOXA-64	100	825/825	100	1..825	NZ_CP098791.1 Acinetobacter baumannii strain 280820 chromosome, complete genome	1800396..1801220	Beta-lactam resistance	AY750907
+blaADC-25	96.1	1153/1152	99.91319444444444	1..1152	NZ_CP104347.1 Acinetobacter baumannii strain 2021CK-01332 chromosome, complete genome	2520421..2521572	Beta-lactam resistance	EF016355
+blaTEM-1B	100	861/861	100	1..861	NZ_CP104347.1 Acinetobacter baumannii strain 2021CK-01332 chromosome, complete genome	3803294..3804154	Beta-lactam resistance Alternate name; RblaTEM-1	AY458016
+blaOXA-2	100	828/828	100	1..828	NZ_CP104347.1 Acinetobacter baumannii strain 2021CK-01332 chromosome, complete genome	3806046..3806873	Beta-lactam resistance	DQ112222
+blaOXA-65	100	825/825	100	1..825	NZ_CP104347.1 Acinetobacter baumannii strain 2021CK-01332 chromosome, complete genome	1404115..1404939	Beta-lactam resistance	AY750908
+blaOXA-565	99.88	822/822	100	1..822	NZ_CP104651.1 Acinetobacter variabilis strain 2021CK-01005 chromosome, complete genome	2740878..2741699	Warning: gene is missing from Notes file. Please inform curator.	KY883665
+blaADC-25	92.02	1153/1152	99.91319444444444	1..1152	NZ_CP118933.1 Acinetobacter pittii strain ML4 chromosome, complete genome	2781472..2782623	Beta-lactam resistance	EF016355
+blaOXA-421	100	822/822	100	1..822	NZ_CP118933.1 Acinetobacter pittii strain ML4 chromosome, complete genome	1750015..1750836	Warning: gene is missing from Notes file. Please inform curator.	KM401566
+blaADC-25	99.83	1152/1152	100	1..1152	NZ_CP121345.1 Acinetobacter baumannii strain 96 chromosome, complete genome	1197133..1198284	Beta-lactam resistance	EF016355
+blaTEM-1D	100	861/861	100	1..861	NZ_CP121345.1 Acinetobacter baumannii strain 96 chromosome, complete genome	2773785..2774645	Beta-lactam resistance Alternate name; RblaTEM-1	AF188200
+blaOXA-66	100	825/825	100	1..825	NZ_CP121345.1 Acinetobacter baumannii strain 96 chromosome, complete genome	2331847..2332671	Beta-lactam resistance	AY750909
+blaOXA-23	100	822/822	100	1..822	NZ_CP121345.1 Acinetobacter baumannii strain 96 chromosome, complete genome	2892583..2893404	Beta-lactam resistance	AY795964
+blaOXA-23	100	822/822	100	1..822	NZ_CP121345.1 Acinetobacter baumannii strain 96 chromosome, complete genome	3882874..3883695	Beta-lactam resistance	AY795964
+blaADC-25	92.1	1152/1152	100	1..1152	NZ_CP123765.1 Acinetobacter pittii strain AP8900 chromosome, complete genome	1241685..1242836	Beta-lactam resistance	EF016355
+blaNDM-1	100	813/813	100	1..813	NZ_CP123765.1 Acinetobacter pittii strain AP8900 chromosome, complete genome	2089817..2090629	Beta-lactam resistance	FN396876
+blaOXA-526	98.54	822/822	100	1..822	NZ_CP123765.1 Acinetobacter pittii strain AP8900 chromosome, complete genome	2246939..2247760	Warning: gene is missing from Notes file. Please inform curator.	KX599409
+blaOXA-301	99.88	831/831	100	1..831	NZ_CP123912.1 Acinetobacter bereziniae strain UCO-553 chromosome, complete genome	228209..229039	Beta-lactam resistance	APQG01000050
+blaOXA-301	99.88	831/831	100	1..831	NZ_CP123918.1 Acinetobacter bereziniae strain UCO-554 chromosome, complete genome	228224..229054	Beta-lactam resistance	APQG01000050
+blaADC-25	91.93	1152/1152	100	1..1152	NZ_CP125227.1 Acinetobacter pittii strain SO1 chromosome, complete genome	3277983..3279134	Beta-lactam resistance	EF016355
+blaOXA-506	99.76	822/822	100	1..822	NZ_CP125227.1 Acinetobacter pittii strain SO1 chromosome, complete genome	2338563..2339384	Warning: gene is missing from Notes file. Please inform curator.	KU571454
+blaADC-25	92.45	1152/1152	100	1..1152	NZ_CP139248.1 Acinetobacter pittii strain HCG18 chromosome, complete genome	319523..320674	Beta-lactam resistance	EF016355
+blaOXA-506	99.27	822/822	100	1..822	NZ_CP139248.1 Acinetobacter pittii strain HCG18 chromosome, complete genome	1467398..1468219	Warning: gene is missing from Notes file. Please inform curator.	KU571454
+blaOXA-564	99.51	822/822	100	1..822	NZ_CP139266.1 Acinetobacter pittii strain HUM14 chromosome, complete genome	3815627..3816448	Warning: gene is missing from Notes file. Please inform curator.	KY767022
+blaOXA-506	99.51	822/822	100	1..822	NZ_CP139266.1 Acinetobacter pittii strain HUM14 chromosome, complete genome	3815627..3816448	Warning: gene is missing from Notes file. Please inform curator.	KU571454
+blaADC-25	91.93	1153/1152	99.91319444444444	1..1152	NZ_CP139270.1 Acinetobacter pittii strain HCG62 chromosome, complete genome	1283544..1284695	Beta-lactam resistance	EF016355
+blaOXA-506	100	822/822	100	1..822	NZ_CP139270.1 Acinetobacter pittii strain HCG62 chromosome, complete genome	2280738..2281559	Warning: gene is missing from Notes file. Please inform curator.	KU571454
+blaADC-25	92.27	1152/1152	100	1..1152	NZ_CP139275.1 Acinetobacter pittii strain HCG138 chromosome, complete genome	1199020..1200171	Beta-lactam resistance	EF016355
+blaOXA-533	97.69	822/822	100	1..822	NZ_CP139275.1 Acinetobacter pittii strain HCG138 chromosome, complete genome	2243684..2244505	Warning: gene is missing from Notes file. Please inform curator.	KX668472
+blaOXA-500	100	822/822	100	1..822	NZ_CP139282.1 Acinetobacter pittii strain AE13 chromosome, complete genome	1101941..1102762	Warning: gene is missing from Notes file. Please inform curator.	JMNQ01000002
+blaADC-25	95.92	1152/1152	100	1..1152	NZ_CP139286.1 Acinetobacter pittii strain AbaK chromosome, complete genome	1081513..1082664	Beta-lactam resistance	EF016355
+blaOXA-270	97.81	822/822	100	1..822	NZ_CP139286.1 Acinetobacter pittii strain AbaK chromosome, complete genome	2008620..2009441	Beta-lactam resistance	APQM01000006
+blaOXA-500	99.88	822/822	100	1..822	NZ_CP139944.1 Acinetobacter pittii strain CARB128 chromosome, complete genome	2574367..2575188	Warning: gene is missing from Notes file. Please inform curator.	JMNQ01000002
+blaADC-25	94.03	1155/1152	99.73958333333334	1..1152	NZ_CP140420.1 Acinetobacter baumannii strain 2023CK-00893 chromosome, complete genome	3025303..3026454	Beta-lactam resistance	EF016355
+blaOXA-51	99.88	825/825	100	1..825	NZ_CP140420.1 Acinetobacter baumannii strain 2023CK-00893 chromosome, complete genome	1861247..1862071	Beta-lactam resistance	DQ385606
+blaOXA-23	100	822/822	100	1..822	NZ_CP140420.1 Acinetobacter baumannii strain 2023CK-00893 chromosome, complete genome	3002822..3003643	Beta-lactam resistance	AY795964
+blaADC-25	99.91	1152/1152	100	1..1152	NZ_CP144240.1 Acinetobacter baumannii strain SRM25 chromosome, complete genome	2982987..2984138	Beta-lactam resistance	EF016355
+blaTEM-1D	100	861/861	100	1..861	NZ_CP144240.1 Acinetobacter baumannii strain SRM25 chromosome, complete genome	1412800..1413660	Beta-lactam resistance Alternate name; RblaTEM-1	AF188200
+blaOXA-66	100	825/825	100	1..825	NZ_CP144240.1 Acinetobacter baumannii strain SRM25 chromosome, complete genome	2301307..2302131	Beta-lactam resistance	AY750909
+blaOXA-23	100	822/822	100	1..822	NZ_CP144240.1 Acinetobacter baumannii strain SRM25 chromosome, complete genome	1066845..1067666	Beta-lactam resistance	AY795964
+blaOXA-23	100	822/822	100	1..822	NZ_CP144240.1 Acinetobacter baumannii strain SRM25 chromosome, complete genome	1370677..1371498	Beta-lactam resistance	AY795964
+blaOXA-23	100	822/822	100	1..822	NZ_CP144240.1 Acinetobacter baumannii strain SRM25 chromosome, complete genome	2276368..2277189	Beta-lactam resistance	AY795964
+blaOXA-363	95.19	831/831	100	1..831	NZ_CP147682.1 Acinetobacter lwoffii strain CCTCC M20191004 chromosome, complete genome	16883..17713	Beta-lactam resistance	KF460533
+blaOXA-359	96.53	807/822	98.17518248175182	1..807	NZ_LS999521.1 Acinetobacter calcoaceticus isolate Acinetobacter calcoaceticus str. 2117 chromosome 1, complete sequence	2195694..2196500	Beta-lactam resistance	KF421162
+msr(E)	100	1476/1476	100	1..1476	NZ_CP045528.1 Acinetobacter baumannii strain 6507 chromosome, complete genome	1055836..1057311	Macrolide, Lincosamide and Streptogramin B resistance	FR751518
+mph(E)	100	885/885	100	1..885	NZ_CP045528.1 Acinetobacter baumannii strain 6507 chromosome, complete genome	1054896..1055780	Macrolide resistance	DQ839391
+msr(E)	100	1476/1476	100	1..1476	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	2348037..2349512	Macrolide, Lincosamide and Streptogramin B resistance	FR751518
+ere(B)	100	1260/1260	100	1..1260	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	2373408..2374667	Macrolide resistance	X03988
+mph(E)	100	885/885	100	1..885	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	2347097..2347981	Macrolide resistance	DQ839391
+msr(E)	100	1476/1476	100	1..1476	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	648582..650057	Macrolide, Lincosamide and Streptogramin B resistance	FR751518
+mph(E)	100	885/885	100	1..885	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	650113..650997	Macrolide resistance	DQ839391
+msr(E)	100	1476/1476	100	1..1476	NZ_CP060732.1 Acinetobacter baumannii strain abA1 chromosome, complete genome	1665914..1667389	Macrolide, Lincosamide and Streptogramin B resistance	FR751518
+mph(E)	100	885/885	100	1..885	NZ_CP060732.1 Acinetobacter baumannii strain abA1 chromosome, complete genome	1667445..1668329	Macrolide resistance	DQ839391
+msr(E)	100	1476/1476	100	1..1476	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	2762755..2764230	Macrolide, Lincosamide and Streptogramin B resistance	FR751518
+msr(E)	100	1476/1476	100	1..1476	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	3878989..3880464	Macrolide, Lincosamide and Streptogramin B resistance	FR751518
+mph(E)	100	885/885	100	1..885	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	2761815..2762699	Macrolide resistance	DQ839391
+mph(E)	100	885/885	100	1..885	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	3880520..3881404	Macrolide resistance	DQ839391
+msr(E)	100	1476/1476	100	1..1476	NZ_CP091364.1 Acinetobacter baumannii strain AB173-VUB chromosome, complete genome	3591733..3593208	Macrolide, Lincosamide and Streptogramin B resistance	FR751518
+mph(E)	100	885/885	100	1..885	NZ_CP091364.1 Acinetobacter baumannii strain AB173-VUB chromosome, complete genome	3590793..3591677	Macrolide resistance	DQ839391
+msr(E)	100	1476/1476	100	1..1476	NZ_CP121345.1 Acinetobacter baumannii strain 96 chromosome, complete genome	1472608..1474083	Macrolide, Lincosamide and Streptogramin B resistance	FR751518
+mph(E)	100	885/885	100	1..885	NZ_CP121345.1 Acinetobacter baumannii strain 96 chromosome, complete genome	1474139..1475023	Macrolide resistance	DQ839391
+msr(E)	100	1476/1476	100	1..1476	NZ_CP144240.1 Acinetobacter baumannii strain SRM25 chromosome, complete genome	2746602..2748077	Macrolide, Lincosamide and Streptogramin B resistance	FR751518
+mph(E)	100	885/885	100	1..885	NZ_CP144240.1 Acinetobacter baumannii strain SRM25 chromosome, complete genome	2745662..2746546	Macrolide resistance	DQ839391
+floR	98.35	1214/1215	99.91769547325104	1..1214	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	289304..290517	Phenicol resistance	AF118107
+catB8	100	633/633	100	1..633	NZ_CP045528.1 Acinetobacter baumannii strain 6507 chromosome, complete genome	1065921..1066553	Phenicol resistance	AF227506
+cmlA1	99.84	1260/1260	100	1..1260	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	2367171..2368430	Phenicol resistance	M64556
+cmlA1	99.76	1260/1260	100	1..1260	NZ_CP046045.1 Acinetobacter towneri strain 19110F47 chromosome, complete genome	168894..170153	Phenicol resistance	M64556
+floR	98.19	1214/1215	99.91769547325104	1..1214	NZ_CP046045.1 Acinetobacter towneri strain 19110F47 chromosome, complete genome	187192..188405	Phenicol resistance	AF118107
+floR	98.35	1214/1215	99.91769547325104	1..1214	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	1252301..1253514	Phenicol resistance	AF118107
+catA1	99.85	660/660	100	1..660	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	618357..619016	Phenicol resistance	V00622
+catB8	100	633/633	100	1..633	NZ_CP060732.1 Acinetobacter baumannii strain abA1 chromosome, complete genome	1656672..1657304	Phenicol resistance	AF227506
+floR	98.35	1214/1215	99.91769547325104	1..1214	NZ_CP076603.1 Acinetobacter schindleri strain MCDA01 chromosome, complete genome	2417105..2418318	Phenicol resistance	AF118107
+floR	98.35	1214/1215	99.91769547325104	1..1214	NZ_CP078027.1 Acinetobacter variabilis strain AV_175 chromosome, complete genome	2769206..2770419	Phenicol resistance	AF118107
+catB3	100	633/633	100	1..633	NZ_CP090382.1 Acinetobacter towneri strain SCLZS30 chromosome, complete genome	1373636..1374268	Phenicol resistance	U13880
+cmlA1	99.68	1260/1260	100	1..1260	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	3862653..3863912	Phenicol resistance	M64556
+catB8	100	633/633	100	1..633	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	2772840..2773472	Phenicol resistance	AF227506
+catA1	99.85	660/660	100	1..660	NZ_CP091364.1 Acinetobacter baumannii strain AB173-VUB chromosome, complete genome	2301352..2302011	Phenicol resistance	V00622
+catA1	99.85	660/660	100	1..660	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3203101..3203760	Phenicol resistance	V00622
+catB8	100	633/633	100	1..633	NZ_CP096681.1 Acinetobacter baumannii strain 6080 chromosome, complete genome	2590548..2591180	Phenicol resistance	AF227506
+floR	98.35	1214/1215	99.91769547325104	1..1214	NZ_CP104651.1 Acinetobacter variabilis strain 2021CK-01005 chromosome, complete genome	2732688..2733901	Phenicol resistance	AF118107
+floR	98.35	1214/1215	99.91769547325104	1..1214	NZ_CP130328.1 Acinetobacter variabilis strain TB2-2B chromosome, complete genome	2702202..2703415	Phenicol resistance	AF118107
+catB8	100	633/633	100	1..633	NZ_CP144240.1 Acinetobacter baumannii strain SRM25 chromosome, complete genome	2756687..2757319	Phenicol resistance	AF227506
+ARR-2	100	453/453	100	1..453	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	3861880..3862332	Rifampicin resistance	HQ141279
+sul2	100	816/816	100	1..816	NZ_AP024524.1 Acinetobacter variabilis strain RYU24 chromosome, complete genome	2444263..2445078	Sulphonamide resistance	AY034138
+sul2	100	816/816	100	1..816	NZ_CP009257.1 Acinetobacter baumannii strain AB30 chromosome, complete genome	2540172..2540987	Sulphonamide resistance	AY034138
+sul2	100	816/816	100	1..816	NZ_CP014528.1 Acinetobacter baumannii strain XH858 chromosome, complete genome	3102655..3103470	Sulphonamide resistance	AY034138
+sul2	100	816/816	100	1..816	NZ_CP018254.1 Acinetobacter baumannii strain AF-401 chromosome, complete genome	312935..313750	Sulphonamide resistance	AY034138
+sul1	100	840/840	100	1..840	NZ_CP023020.1 Acinetobacter baumannii strain 9201 chromosome, complete genome	2844150..2844989	Sulphonamide resistance	U12338
+sul2	99.88	816/816	100	1..816	NZ_CP023020.1 Acinetobacter baumannii strain 9201 chromosome, complete genome	759253..760068	Sulphonamide resistance	AY034138
+sul2	100	816/816	100	1..816	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	293021..293836	Sulphonamide resistance	AY034138
+sul1	100	840/840	100	1..840	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	3873893..3874732	Sulphonamide resistance	U12338
+sul1	100	840/840	100	1..840	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	3855062..3855901	Sulphonamide resistance	U12338
+sul2	100	816/816	100	1..816	NZ_CP045110.1 Acinetobacter baumannii strain ATCC 19606 chromosome, complete genome	101401..102216	Sulphonamide resistance	AY034138
+sul2	100	816/816	100	1..816	NZ_CP045198.1 Acinetobacter indicus strain TQ23 chromosome, complete genome	2627709..2628524	Sulphonamide resistance	AY034138
+sul1	100	840/840	100	1..840	NZ_CP045528.1 Acinetobacter baumannii strain 6507 chromosome, complete genome	1063728..1064567	Sulphonamide resistance	U12338
+sul1	100	840/840	100	1..840	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	2364943..2365782	Sulphonamide resistance	U12338
+sul1	99.88	840/840	99.88095238095238	1..840	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	2355928..2356766	Sulphonamide resistance	U12338
+sul2	100	816/816	100	1..816	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	3120344..3121159	Sulphonamide resistance	AY034138
+sul1	100	840/840	100	1..840	NZ_CP046045.1 Acinetobacter towneri strain 19110F47 chromosome, complete genome	171542..172381	Sulphonamide resistance	U12338
+sul2	100	816/816	100	1..816	NZ_CP046045.1 Acinetobacter towneri strain 19110F47 chromosome, complete genome	197448..198263	Sulphonamide resistance	AY034138
+sul2	100	816/816	100	1..816	NZ_CP046654.1 Acinetobacter baumannii strain ATCC 19606 chromosome, complete genome	1404820..1405635	Sulphonamide resistance	AY034138
+sul1	100	840/840	100	1..840	NZ_CP048849.1 Acinetobacter baumannii strain D4 chromosome, complete genome	52933..53772	Sulphonamide resistance	U12338
+sul1	100	840/840	100	1..840	NZ_CP048849.1 Acinetobacter baumannii strain D4 chromosome, complete genome	72302..73141	Sulphonamide resistance	U12338
+sul2	100	816/816	100	1..816	NZ_CP058289.1 Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841 strain ATCC 19606 chromosome, complete genome	3616372..3617187	Sulphonamide resistance	AY034138
+sul2	100	816/816	100	1..816	NZ_CP059040.1 Acinetobacter baumannii strain ATCC 19606 chromosome, complete genome	3896282..3897097	Sulphonamide resistance	AY034138
+sul1	100	840/840	100	1..840	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	641326..642165	Sulphonamide resistance	U12338
+sul2	100	816/816	100	1..816	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	664318..665133	Sulphonamide resistance	AY034138
+sul2	99.63	819/816	100	1..816	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	1256018..1256836	Sulphonamide resistance	AY034138
+sul2	99.63	819/816	100	1..816	NZ_CP060029.1 Acinetobacter baumannii strain AbCTX1 chromosome, complete genome	1256018..1256836	Sulphonamide resistance	AJ830714
+sul1	100	840/840	100	1..840	NZ_CP060732.1 Acinetobacter baumannii strain abA1 chromosome, complete genome	1658658..1659497	Sulphonamide resistance	U12338
+sul2	100	816/816	100	1..816	NZ_CP076603.1 Acinetobacter schindleri strain MCDA01 chromosome, complete genome	2413786..2414601	Sulphonamide resistance	AY034138
+sul2	100	816/816	100	1..816	NZ_CP076812.1 Acinetobacter baumannii strain UC23022 chromosome, complete genome	2940826..2941641	Sulphonamide resistance	AY034138
+sul2	100	816/816	100	1..816	NZ_CP078027.1 Acinetobacter variabilis strain AV_175 chromosome, complete genome	2765887..2766702	Sulphonamide resistance	AY034138
+sul2	99.51	816/816	99.50980392156865	1..816	NZ_CP078045.1 Acinetobacter lwoffii strain AL_065 chromosome, complete genome	1272594..1273405	Sulphonamide resistance	AY232670
+sul2	99.51	816/816	99.50980392156865	1..816	NZ_CP078045.1 Acinetobacter lwoffii strain AL_065 chromosome, complete genome	1272594..1273405	Sulphonamide resistance	AY034138
+sul1	100	840/840	100	1..840	NZ_CP090382.1 Acinetobacter towneri strain SCLZS30 chromosome, complete genome	1372299..1373138	Sulphonamide resistance	U12338
+sul1	100	840/840	100	1..840	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	256634..257473	Sulphonamide resistance	U12338
+sul2	100	816/816	100	1..816	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	4163878..4164693	Sulphonamide resistance	AY034138
+sul1	100	840/840	100	1..840	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	256652..257491	Sulphonamide resistance	U12338
+sul1	100	840/840	100	1..840	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	271859..272698	Sulphonamide resistance	U12338
+sul1	100	840/840	100	1..840	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	287066..287905	Sulphonamide resistance	U12338
+sul1	100	840/840	100	1..840	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	302273..303112	Sulphonamide resistance	U12338
+sul1	100	840/840	100	1..840	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	317480..318319	Sulphonamide resistance	U12338
+sul1	100	840/840	100	1..840	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	332687..333526	Sulphonamide resistance	U12338
+sul1	100	840/840	100	1..840	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	347894..348733	Sulphonamide resistance	U12338
+sul2	100	816/816	100	1..816	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	4024414..4025229	Sulphonamide resistance	AY034138
+sul1	100	840/840	100	1..840	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	2770647..2771486	Sulphonamide resistance	U12338
+sul1	100	840/840	100	1..840	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	3870396..3871235	Sulphonamide resistance	U12338
+sul1	99.88	840/840	100	1..840	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	3864445..3865284	Sulphonamide resistance	U12338
+sul2	100	816/816	100	1..816	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	3850962..3851777	Sulphonamide resistance	AY034138
+sul2	100	816/816	100	1..816	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	288222..289037	Sulphonamide resistance	AY034138
+sul1	100	840/840	100	1..840	NZ_CP091364.1 Acinetobacter baumannii strain AB173-VUB chromosome, complete genome	2293393..2294232	Sulphonamide resistance	U12338
+sul1	100	840/840	100	1..840	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3189658..3190497	Sulphonamide resistance	U12338
+sul1	100	840/840	100	1..840	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3221520..3222359	Sulphonamide resistance	U12338
+sul1	99.88	840/840	100	1..840	NZ_CP096681.1 Acinetobacter baumannii strain 6080 chromosome, complete genome	2588355..2589194	Sulphonamide resistance	U12338
+sul2	100	816/816	100	1..816	NZ_CP096681.1 Acinetobacter baumannii strain 6080 chromosome, complete genome	3977905..3978720	Sulphonamide resistance	AY034138
+sul1	100	840/840	100	1..840	NZ_CP104347.1 Acinetobacter baumannii strain 2021CK-01332 chromosome, complete genome	3807671..3808510	Sulphonamide resistance	U12338
+sul2	99.75	816/816	99.87745098039215	1..816	NZ_CP104347.1 Acinetobacter baumannii strain 2021CK-01332 chromosome, complete genome	1631760..1632574	Sulphonamide resistance	AY034138
+sul2	100	816/816	100	1..816	NZ_CP104651.1 Acinetobacter variabilis strain 2021CK-01005 chromosome, complete genome	2729369..2730184	Sulphonamide resistance	AY034138
+sul2	100	816/816	100	1..816	NZ_CP121345.1 Acinetobacter baumannii strain 96 chromosome, complete genome	3896858..3897673	Sulphonamide resistance	AY034138
+sul2	100	816/816	100	1..816	NZ_CP121345.1 Acinetobacter baumannii strain 96 chromosome, complete genome	2037365..2038180	Sulphonamide resistance	AY034138
+sul2	100	816/816	100	1..816	NZ_CP130328.1 Acinetobacter variabilis strain TB2-2B chromosome, complete genome	2698883..2699698	Sulphonamide resistance	AY034138
+sul2	100	816/816	100	1..816	NZ_CP140420.1 Acinetobacter baumannii strain 2023CK-00893 chromosome, complete genome	232224..233039	Sulphonamide resistance	AY034138
+sul1	100	840/840	100	1..840	NZ_CP144240.1 Acinetobacter baumannii strain SRM25 chromosome, complete genome	2754494..2755333	Sulphonamide resistance	U12338
+tet(B)	100	1206/1206	100	1..1206	NZ_CP014528.1 Acinetobacter baumannii strain XH858 chromosome, complete genome	3104085..3105290	Tetracycline resistance	AP000342
+tet(G)	100	1176/1176	100	1..1176	NZ_CP023020.1 Acinetobacter baumannii strain 9201 chromosome, complete genome	762943..764118	Tetracycline resistance	AF133140
+tet(A)	100	1200/1200	100	1..1200	NZ_CP041035.1 Acinetobacter baumannii strain 11W359501 chromosome, complete genome	3865135..3866334	Tetracycline resistance	AJ517790
+tet(X3)	100	1167/1167	100	1..1167	NZ_CP045198.1 Acinetobacter indicus strain TQ23 chromosome, complete genome	2623167..2624333	Warning: gene is missing from Notes file. Please inform curator.	MK134375
+tet(B)	100	1200/1206	99.50248756218906	1..1200	NZ_CP045528.1 Acinetobacter baumannii strain 6507 chromosome, complete genome	2150464..2151663	Tetracycline resistance	AP000342
+tet(B)	100	1206/1206	100	1..1206	NZ_CP045645.1 Acinetobacter baumannii strain XH1056 chromosome, complete genome	3121774..3122979	Tetracycline resistance	AP000342
+tet(X4)	100	1158/1158	100	1..1158	NZ_CP046045.1 Acinetobacter towneri strain 19110F47 chromosome, complete genome	191963..193120	Warning: gene is missing from Notes file. Please inform curator.	MK134376
+tet(B)	100	1200/1206	99.50248756218906	1..1200	NZ_CP060732.1 Acinetobacter baumannii strain abA1 chromosome, complete genome	234341..235540	Tetracycline resistance	AP000342
+tet(X5)	97.83	1151/1167	98.62896315338476	17..1167	NZ_CP060811.1 Acinetobacter variabilis strain XM9F202-2 chromosome, complete genome	1190790..1191940	Warning: gene is missing from Notes file. Please inform curator.	CP040912
+tet(B)	100	1206/1206	100	1..1206	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	4162058..4163263	Tetracycline resistance	AP000342
+tet(B)	100	1206/1206	100	1..1206	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	4022594..4023799	Tetracycline resistance	AP000342
+tet(B)	100	1200/1206	99.50248756218906	1..1200	NZ_CP091358.1 Acinetobacter baumannii strain AB181-VUB chromosome, complete genome	306285..307484	Tetracycline resistance	AP000342
+tet(B)	100	1200/1206	99.50248756218906	1..1200	NZ_CP091364.1 Acinetobacter baumannii strain AB173-VUB chromosome, complete genome	1179976..1181175	Tetracycline resistance	AP000342
+tet(A)	100	1200/1200	100	1..1200	NZ_CP091367.1 Acinetobacter baumannii strain AB169-VUB chromosome, complete genome	3198056..3199255	Tetracycline resistance	AJ517790
+tet(B)	100	1200/1206	99.50248756218906	1..1200	NZ_CP121345.1 Acinetobacter baumannii strain 96 chromosome, complete genome	3878225..3879424	Tetracycline resistance	AP000342
+dfrA1	100	474/474	100	1..474	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	100390..100863	Trimethoprim resistance	X00926
+dfrA1	100	474/474	100	1..474	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	1899891..1900364	Trimethoprim resistance	X00926
+dfrA1	100	474/474	100	1..474	NZ_CP033869.1 Acinetobacter baumannii strain MRSN15313 chromosome, complete genome	1645024..1645497	Trimethoprim resistance	X00926
+dfrA16	100	474/474	100	1..474	NZ_CP046045.1 Acinetobacter towneri strain 19110F47 chromosome, complete genome	166219..166692	Trimethoprim resistance	AF174129
+dfrA1	100	474/474	100	1..474	NZ_CP076812.1 Acinetobacter baumannii strain UC23022 chromosome, complete genome	3132374..3132847	Trimethoprim resistance	X00926
+dfrA1	100	474/474	100	1..474	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	4155244..4155717	Trimethoprim resistance	X00926
+dfrA1	100	474/474	100	1..474	NZ_CP090607.1 Acinetobacter baumannii strain MRSN 58 chromosome, complete genome	2343940..2344413	Trimethoprim resistance	X00926
+dfrA1	100	474/474	100	1..474	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	4015780..4016253	Trimethoprim resistance	X00926
+dfrA1	100	474/474	100	1..474	NZ_CP091172.1 Acinetobacter baumannii strain MRSN57 chromosome, complete genome	2204488..2204961	Trimethoprim resistance	X00926
+aph(6)-Id	100	837/837	100	1..837	CP007577.1	3128816..3129652	Streptomycin	M28829
+aph(3'')-Ib	100	803/804	99.87562189054728	2..804	CP007577.1	3129652..3130454	Streptomycin	AF024602
+aph(3'')-Ib	99.88	804/804	100	1..804	CP007577.1	3129652..3130455	Streptomycin	AF321551
+aph(3'')-Ib	99.88	804/804	100	1..804	CP007577.1	3129652..3130455	Streptomycin	AF313472
+aph(3'')-Ib	99.88	804/804	100	1..804	CP007577.1	3129652..3130455	Streptomycin	AF321550
+aph(6)-Id	100	837/837	100	1..837	CP007535.1	3631915..3632751	Streptomycin	M28829
+aph(3')-Ia	100	816/816	100	1..816	CP007535.1	3921432..3922247	Kanamycin, Neomycin, Kanamycin, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin, Unknown Aminoglycoside	X62115
+aph(3'')-Ib	100	803/804	99.87562189054728	2..804	CP007535.1	3632751..3633553	Streptomycin	AF024602
+aph(3'')-Ib	99.88	804/804	100	1..804	CP007535.1	3632751..3633554	Streptomycin	AF321551
+aph(3'')-Ib	99.88	804/804	100	1..804	CP007535.1	3632751..3633554	Streptomycin	AF313472
+aph(3'')-Ib	99.88	804/804	100	1..804	CP007535.1	3632751..3633554	Streptomycin	AF321550
+armA	100	774/774	100	1..774	CP007535.1	3786083..3786856	Amikacin, Gentamicin, Tobramycin, Isepamicin, Netilmicin	AY220558
+aph(6)-Id	100	837/837	100	1..837	NC_017847.1	3675833..3676669	Streptomycin	M28829
+aph(3'')-Ib	99.75	804/804	99.87562189054728	1..804	NC_017847.1	3675031..3675833	Streptomycin	AF321551
+aph(3'')-Ib	99.75	804/804	99.87562189054728	1..804	NC_017847.1	3675031..3675833	Streptomycin	AF313472
+aph(3'')-Ib	99.75	804/804	99.87562189054728	1..804	NC_017847.1	3675031..3675833	Streptomycin	AF321550
+aadA1	100	792/792	100	1..792	NC_017847.1	1379359..1380150	Spectinomycin, Streptomycin	JQ414041
+aadA1	99.75	792/792	100	1..792	NC_017847.1	2667825..2668616	Spectinomycin, Streptomycin	JQ414041
+aadA1	99.75	792/792	100	1..792	NC_017847.1	2667825..2668616	Spectinomycin, Streptomycin	JX185132
+armA	100	774/774	100	1..774	NC_017847.1	1384839..1385612	Amikacin, Gentamicin, Tobramycin, Isepamicin, Netilmicin	AY220558
+aac(6')-Ib3	99.64	555/555	100	1..555	NC_017847.1	1378022..1378576	Amikacin, Tobramycin	X60321
+aac(3)-Ia	99.06	534/534	100	1..534	NC_017847.1	2665172..2665705	Gentamicin, Astromicin, Fortimicin	X15852
+aph(6)-Id	100	837/837	100	1..837	NC_017171.1	290244..291080	Streptomycin	M28829
+aph(3'')-Ib	100	803/804	99.87562189054728	2..804	NC_017171.1	291080..291882	Streptomycin	AF024602
+aph(3'')-Ib	99.88	804/804	100	1..804	NC_017171.1	291080..291883	Streptomycin	AF321551
+aph(3'')-Ib	99.88	804/804	100	1..804	NC_017171.1	291080..291883	Streptomycin	AF313472
+aph(3'')-Ib	99.88	804/804	100	1..804	NC_017171.1	291080..291883	Streptomycin	AF321550
+aadA1	99.75	792/792	100	1..792	NC_017171.1	1344723..1345514	Spectinomycin, Streptomycin	JX185132
+aadA1	99.75	792/792	100	1..792	NC_017171.1	1344723..1345514	Spectinomycin, Streptomycin	JQ414041
+aac(6')-Ib3	99.64	555/555	100	1..555	NC_017171.1	1343386..1343940	Amikacin, Tobramycin	X60321
+aph(6)-Id	100	837/837	100	1..837	NC_017387.1	292267..293103	Streptomycin	M28829
+aph(3')-Ia	100	816/816	100	1..816	NC_017387.1	271044..271859	Kanamycin, Neomycin, Kanamycin, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin, Unknown Aminoglycoside	X62115
+aph(3')-Ia	100	816/816	100	1..816	NC_017387.1	260372..261187	Kanamycin, Neomycin, Kanamycin, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin, Unknown Aminoglycoside	X62115
+aph(3'')-Ib	100	803/804	99.87562189054728	2..804	NC_017387.1	293103..293905	Streptomycin	AF024602
+aph(3'')-Ib	99.88	804/804	100	1..804	NC_017387.1	293103..293906	Streptomycin	AF321551
+aph(3'')-Ib	99.88	804/804	100	1..804	NC_017387.1	293103..293906	Streptomycin	AF313472
+aph(3'')-Ib	99.88	804/804	100	1..804	NC_017387.1	293103..293906	Streptomycin	AF321550
+aadA1	100	792/792	100	1..792	NC_017387.1	266824..267615	Spectinomycin, Streptomycin	JQ414041
+aadA1	100	792/792	100	1..792	NC_017387.1	277658..278449	Spectinomycin, Streptomycin	JQ414041
+aac(6')-Ib3	99.82	555/555	100	1..555	NC_017387.1	265487..266041	Amikacin, Tobramycin	X60321
+aac(3)-Ia	99.06	534/534	100	1..534	NC_017387.1	276081..276614	Gentamicin, Astromicin, Fortimicin	X15852
+aph(6)-Id	100	837/837	100	1..837	NC_018706.1	513296..514132	Streptomycin	M28829
+aph(3'')-Ib	100	803/804	99.87562189054728	2..804	NC_018706.1	514132..514934	Streptomycin	AF024602
+aph(3'')-Ib	99.88	804/804	100	1..804	NC_018706.1	514132..514935	Streptomycin	AF321551
+aph(3'')-Ib	99.88	804/804	100	1..804	NC_018706.1	514132..514935	Streptomycin	AF313472
+aph(3'')-Ib	99.88	804/804	100	1..804	NC_018706.1	514132..514935	Streptomycin	AF321550
+aadA1	100	792/792	100	1..792	NC_018706.1	2825659..2826450	Spectinomycin, Streptomycin	JQ414041
+armA	100	774/774	100	1..774	NC_018706.1	2820197..2820970	Amikacin, Gentamicin, Tobramycin, Isepamicin, Netilmicin	AY220558
+aac(6')-Ib3	99.64	555/555	100	1..555	NC_018706.1	2827233..2827787	Amikacin, Tobramycin	X60321
+aph(6)-Id	100	837/837	100	1..837	NC_021726.1	303287..304123	Streptomycin	M28829
+aph(3'')-Ib	100	803/804	99.87562189054728	2..804	NC_021726.1	304123..304925	Streptomycin	AF024602
+aph(3'')-Ib	99.88	804/804	100	1..804	NC_021726.1	304123..304926	Streptomycin	AF321551
+aph(3'')-Ib	99.88	804/804	100	1..804	NC_021726.1	304123..304926	Streptomycin	AF313472
+aph(3'')-Ib	99.88	804/804	100	1..804	NC_021726.1	304123..304926	Streptomycin	AF321550
+aph(6)-Id	100	837/837	100	1..837	NC_021729.1	299041..299877	Streptomycin	M28829
+aph(3'')-Ib	99.88	803/804	99.87562189054728	2..804	NC_021729.1	299877..300679	Streptomycin	AF024602
+aph(3'')-Ib	99.75	804/804	100	1..804	NC_021729.1	299877..300680	Streptomycin	AF321551
+aph(3'')-Ib	99.75	804/804	100	1..804	NC_021729.1	299877..300680	Streptomycin	AF313472
+aph(3'')-Ib	99.75	804/804	100	1..804	NC_021729.1	299877..300680	Streptomycin	AF321550
+aac(6')-Ib3	100	555/555	100	1..555	NC_010611.1	250860..251414	Amikacin, Tobramycin	X60321
+aph(6)-Id	100	837/837	100	1..837	CP006963.1	282361..283197	Streptomycin	M28829
+aph(3'')-Ib	100	803/804	99.87562189054728	2..804	CP006963.1	283197..283999	Streptomycin	AF024602
+aph(3'')-Ib	99.88	804/804	100	1..804	CP006963.1	283197..284000	Streptomycin	AF321551
+aph(3'')-Ib	99.88	804/804	100	1..804	CP006963.1	283197..284000	Streptomycin	AF313472
+aph(3'')-Ib	99.88	804/804	100	1..804	CP006963.1	283197..284000	Streptomycin	AF321550
+armA	100	774/774	100	1..774	CP006963.1	2659196..2659969	Amikacin, Gentamicin, Tobramycin, Isepamicin, Netilmicin	AY220558
+blaADC-25	99.83	1152/1152	100	1..1152	CP007577.1	3027199..3028350	Unknown Beta-lactam	EF016355
+blaTEM-1D	100	861/861	100	1..861	CP007577.1	3823231..3824091	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin	AF188200
+blaOXA-66	100	825/825	100	1..825	CP007577.1	3207503..3208327	Unknown Beta-lactam	AY750909
+blaOXA-23	100	822/822	100	1..822	CP007577.1	3658536..3659357	Imipenem, Meropenem	AY795964
+blaADC-25	99.83	1152/1152	100	1..1152	CP007535.1	947625..948776	Unknown Beta-lactam	EF016355
+blaTEM-1D	100	861/861	100	1..861	CP007535.1	3917519..3918379	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin	AF188200
+blaOXA-66	100	825/825	100	1..825	CP007535.1	3762204..3763028	Unknown Beta-lactam	AY750909
+blaOXA-23	100	822/822	100	1..822	CP007535.1	3626447..3627268	Imipenem, Meropenem	AY795964
+blaADC-25	99.83	1152/1152	100	1..1152	NC_017847.1	1196033..1197184	Unknown Beta-lactam	EF016355
+blaOXA-66	100	825/825	100	1..825	NC_017847.1	2221153..2221977	Unknown Beta-lactam	AY750909
+blaADC-25	99.91	1152/1152	100	1..1152	NC_017171.1	2817154..2818305	Unknown Beta-lactam	EF016355
+blaOXA-66	100	825/825	100	1..825	NC_017171.1	1784538..1785362	Unknown Beta-lactam	AY750909
+blaOXA-23	100	822/822	100	1..822	NC_017171.1	2058122..2058943	Imipenem, Meropenem	AY795964
+blaADC-25	99.91	1152/1152	100	1..1152	NC_017387.1	2983628..2984779	Unknown Beta-lactam	EF016355
+blaTEM-1D	100	861/861	100	1..861	NC_017387.1	258624..259484	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin	AF188200
+blaOXA-66	100	825/825	100	1..825	NC_017387.1	1874344..1875168	Unknown Beta-lactam	AY750909
+blaOXA-66	100	825/825	100	1..825	NC_017387.1	1328008..1328832	Unknown Beta-lactam	AY750909
+blaOXA-23	100	822/822	100	1..822	NC_017387.1	2760689..2761510	Imipenem, Meropenem	AY795964
+blaADC-25	99.83	1152/1152	100	1..1152	NC_018706.1	3008631..3009782	Unknown Beta-lactam	EF016355
+blaOXA-66	100	825/825	100	1..825	NC_018706.1	2027777..2028601	Unknown Beta-lactam	AY750909
+blaADC-25	99.91	1152/1152	100	1..1152	NC_021726.1	2831435..2832586	Unknown Beta-lactam	EF016355
+blaOXA-66	100	825/825	100	1..825	NC_021726.1	2268795..2269619	Unknown Beta-lactam	AY750909
+blaOXA-23	100	822/822	100	1..822	NC_021726.1	1999104..1999925	Imipenem, Meropenem	AY795964
+blaADC-25	99.91	1152/1152	100	1..1152	NC_021729.1	2739991..2741142	Unknown Beta-lactam	EF016355
+blaTEM-1D	100	861/861	100	1..861	NC_021729.1	1339185..1340045	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin	AF188200
+blaOXA-66	100	825/825	100	1..825	NC_021729.1	1766821..1767645	Unknown Beta-lactam	AY750909
+blaOXA-23	100	822/822	100	1..822	NC_021729.1	2038905..2039726	Imipenem, Meropenem	AY795964
+blaADC-25	96.7	1153/1152	99.82638888888889	1..1152	NC_010611.1	2715789..2716939	Unknown Beta-lactam	EF016355
+blaOXA-66	100	825/825	100	1..825	NC_010611.1	1672369..1673193	Unknown Beta-lactam	AY750909
+blaOXA-20	100	801/801	100	1..801	NC_010611.1	251962..252762	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid	AY307114
+blaADC-25	99.83	1152/1152	100	1..1152	CP006963.1	2837268..2838419	Unknown Beta-lactam	EF016355
+blaOXA-66	100	825/825	100	1..825	CP006963.1	1761164..1761988	Unknown Beta-lactam	AY750909
+msr(E)	100	1476/1476	100	1..1476	CP007535.1	3782309..3783784	Erythromycin, Azithromycin, Quinupristin, Pristinamycin IA, Virginiamycin S	FR751518
+mph(E)	100	885/885	100	1..885	CP007535.1	3781369..3782253	Erythromycin	DQ839391
+msr(E)	100	1476/1476	100	1..1476	NC_017847.1	1387911..1389386	Erythromycin, Azithromycin, Quinupristin, Pristinamycin IA, Virginiamycin S	FR751518
+mph(E)	100	885/885	100	1..885	NC_017847.1	1389442..1390326	Erythromycin	DQ839391
+msr(E)	100	1476/1476	100	1..1476	NC_018706.1	2816423..2817898	Erythromycin, Azithromycin, Quinupristin, Pristinamycin IA, Virginiamycin S	FR751518
+mph(E)	100	885/885	100	1..885	NC_018706.1	2815483..2816367	Erythromycin	DQ839391
+msr(E)	100	1476/1476	100	1..1476	CP006963.1	2655422..2656897	Erythromycin, Azithromycin, Quinupristin, Pristinamycin IA, Virginiamycin S	FR751518
+mph(E)	100	885/885	100	1..885	CP006963.1	2654482..2655366	Erythromycin	DQ839391
+catB8	100	633/633	100	1..633	NC_017847.1	1378669..1379301	Chloramphenicol	AF227506
+catB8	100	633/633	100	1..633	NC_017171.1	1344033..1344665	Chloramphenicol	AF227506
+catB8	100	633/633	100	1..633	NC_017387.1	266134..266766	Chloramphenicol	AF227506
+catB8	100	633/633	100	1..633	NC_018706.1	2826508..2827140	Chloramphenicol	AF227506
+sul1	100	840/840	100	1..840	NC_017847.1	1380655..1381494	Sulfamethoxazole	U12338
+sul1	100	840/840	100	1..840	NC_017847.1	2669121..2669960	Sulfamethoxazole	U12338
+sul2	100	816/816	100	1..816	NC_017847.1	3693865..3694680	Sulfamethoxazole	AY034138
+sul1	100	840/840	100	1..840	NC_017171.1	1346019..1346858	Sulfamethoxazole	U12338
+sul1	100	840/840	100	1..840	NC_017387.1	268120..268959	Sulfamethoxazole	U12338
+sul1	100	840/840	100	1..840	NC_017387.1	278954..279793	Sulfamethoxazole	U12338
+sul2	100	816/816	100	1..816	NC_017387.1	2570722..2571537	Sulfamethoxazole	AY034138
+sul1	100	840/840	100	1..840	NC_018706.1	2824315..2825154	Sulfamethoxazole	U12338
+sul2	100	816/816	100	1..816	NC_018706.1	495285..496100	Sulfamethoxazole	AY034138
+sul2	100	816/816	100	1..816	NC_021726.1	268732..269547	Sulfamethoxazole	AY034138
+sul2	99.88	816/816	100	1..816	NC_021729.1	265677..266492	Sulfamethoxazole	AY034138
+sul1	100	840/840	100	1..840	NC_010611.1	253343..254182	Sulfamethoxazole	U12338
+tet(B)	100	1200/1206	99.50248756218906	1..1200	CP007577.1	3124244..3125443	Doxycycline, Tetracycline, Minocycline	AP000342
+tet(B)	100	1200/1206	99.50248756218906	1..1200	CP007535.1	3627343..3628542	Doxycycline, Tetracycline, Minocycline	AP000342
+tet(B)	100	1200/1206	99.50248756218906	1..1200	NC_017847.1	3680042..3681241	Doxycycline, Tetracycline, Minocycline	AP000342
+tet(B)	100	1200/1206	99.50248756218906	1..1200	NC_017171.1	285672..286871	Doxycycline, Tetracycline, Minocycline	AP000342
+tet(B)	100	1200/1206	99.50248756218906	1..1200	NC_017387.1	287695..288894	Doxycycline, Tetracycline, Minocycline	AP000342
+tet(B)	99.92	1200/1206	99.50248756218906	1..1200	NC_018706.1	508724..509923	Doxycycline, Tetracycline, Minocycline	AP000342
+tet(B)	100	1200/1206	99.50248756218906	1..1200	NC_021726.1	298715..299914	Doxycycline, Tetracycline, Minocycline	AP000342
+tet(B)	100	1200/1206	99.50248756218906	1..1200	NC_021729.1	294469..295668	Doxycycline, Tetracycline, Minocycline	AP000342
+tet(B)	100	1200/1206	99.50248756218906	1..1200	CP006963.1	277718..278917	Doxycycline, Tetracycline, Minocycline	AP000342
