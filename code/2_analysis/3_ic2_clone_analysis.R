@@ -17,7 +17,7 @@ library(ggupset)  # For upset plots
 
 # Set paths
 defensefinder_file <- "results/consolidated/consolidated_defense_systems.tsv"
-metadata_file <- "data/metadata/acinetobacter_metadata.xlsx"
+metadata_file <- "data/metadata/ab_genome_id.xlsx"
 output_dir <- "results/figures"
 
 # Create output directory if it doesn't exist
@@ -44,13 +44,11 @@ clone_colors <- c("IC2 Clone" = "#E41A1C", "Other A. baumannii" = "#377EB8")
 # ============================================================================
 
 # Load defense systems data
-message("Loading DefenseFinder data...")
-defense_df <- read_tsv(defensefinder_file, show_col_types = FALSE) %>% 
+defense_df <- read_tsv(defensefinder_file, show_col_types = FALSE)
   
 
 # Load metadata
-message("Loading metadata...")
-metadata <- readxl::read_excel(metadata_file, show_col_types = FALSE)
+metadata <- readxl::read_excel(metadata_file)
 
 # Add IC2 clone status to metadata if not already present
 # This assumes metadata has a column that can identify IC2 clones
@@ -60,7 +58,7 @@ if (!"Clone_Status" %in% colnames(metadata)) {
   # Create a mock classification - in a real scenario, use actual data
   metadata <- metadata %>%
     mutate(Clone_Status = ifelse(
-      grepl("IC2|ST2|GC2", Strain, ignore.case = TRUE) | 
+      grepl("IC2|ST2|GC2", Genome_ID, ignore.case = TRUE) | 
         row_number() %% 3 == 0,  # Every 3rd genome for demonstration
       "IC2 Clone", 
       "Other A. baumannii"
@@ -69,15 +67,12 @@ if (!"Clone_Status" %in% colnames(metadata)) {
 
 # Filter data to include only A. baumannii
 baumannii_data <- defense_df %>%
-  left_join(metadata %>% select(Genome_ID, Species, Clone_Status), by = "Genome_ID") %>%
-  filter(grepl("baumannii", Species, ignore.case = TRUE))
+  left_join(metadata %>% select(Genome_ID, Taxon, Clone_Status), by = "Genome_ID") %>%
+  filter(grepl("baumannii", Taxon, ignore.case = TRUE))
 
 # Count number of genomes in each group for reporting
 ic2_count <- n_distinct(baumannii_data$Genome_ID[baumannii_data$Clone_Status == "IC2 Clone"])
 other_count <- n_distinct(baumannii_data$Genome_ID[baumannii_data$Clone_Status == "Other A. baumannii"])
-
-message(sprintf("Analysis includes %d IC2 clone genomes and %d other A. baumannii genomes", 
-                ic2_count, other_count))
 
 # ============================================================================
 # Panel A: Defense System Count Comparison
@@ -145,12 +140,6 @@ defense_prevalence_top <- defense_prevalence %>%
 panel_b <- ggplot(defense_prevalence_top, 
                   aes(x = reorder(type, -prevalence), y = prevalence, fill = Clone_Status)) +
   geom_bar(stat = "identity", position = position_dodge(width = 0.9)) +
-  geom_text(
-    aes(label = sprintf("%.1f%%", prevalence)),
-    position = position_dodge(width = 0.9),
-    vjust = -0.5,
-    size = 3
-  ) +
   scale_fill_manual(values = clone_colors) +
   labs(
     title = "B. Defense System Prevalence",
