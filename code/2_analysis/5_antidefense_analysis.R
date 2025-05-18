@@ -28,8 +28,8 @@ custom_theme <- theme(
 )
 
 # Set file paths
-antidefense_file <- "results/consolidated/consolidated_antidefense_systems.tsv"
-defensefinder_file <- "results/consolidated/consolidated_defense_systems.tsv"
+antidefense_file <- "results/consolidated/consolidated_anti_defense_systems.tsv"
+defensefinder_file <- "results/consolidated/consolidated_defense_systems_2_accession.tsv"
 output_dir <- "results/figures"
 
 # Create output directory if it doesn't exist
@@ -48,6 +48,11 @@ anti_defense_df <- read_tsv(antidefense_file, show_col_types = FALSE)
 # Load DefenseFinder data for correlation analysis
 message("Loading DefenseFinder results...")
 defense_df <- read_tsv(defensefinder_file, show_col_types = FALSE)
+
+# Clean AntiDefenseFinder data 
+anti_defense_clean <- anti_defense_df %>%
+  # Keep only unique type per genome
+  distinct(Genome_ID, type)
 
 # Clean DefenseFinder data - ensure unique defense systems per genome
 defense_clean <- defense_df %>%
@@ -153,7 +158,7 @@ panel_c <- ggplot(combined_counts, aes(x = defense_count, y = antidefense_count)
 # Get top defense systems for analysis
 top_defense_systems <- defense_clean %>%
   count(type, sort = TRUE) %>%
-  head(10) %>%
+  head(20) %>%
   pull(type)
 
 # Get all anti-defense systems for analysis
@@ -257,7 +262,6 @@ panel_d <- ggplot(heatmap_data, aes(x = antidefense_system, y = defense_system))
     mid = "white",      # White for neutral
     high = "#B2182B",   # Red for positive associations
     midpoint = 0,
-    limits = c(-10, 10),
     name = expression(log[2](OR))
   ) +
   
