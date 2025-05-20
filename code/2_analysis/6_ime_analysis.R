@@ -45,7 +45,6 @@ if (!dir.exists(ime_output_dir)) {
 # ==============================================================================
 
 # Load IME BLAST data
-message("Loading IME BLAST results...")
 ime_blast_data <- read.delim(ime_blast_file, header = FALSE)
 
 # Rename columns
@@ -53,6 +52,7 @@ col_names <- c("QueryID", "SubjectID", "PercentIdentity", "AlignmentLength",
                "Mismatches", "GapOpens", "QueryStart", "QueryEnd", 
                "SubjectStart", "SubjectEnd", "Evalue", "BitScore")
 names(ime_blast_data)[1:min(ncol(ime_blast_data), length(col_names))] <- col_names
+
 
 # Filter hits by quality
 filtered_hits <- ime_blast_data %>%
@@ -92,7 +92,7 @@ parsed_hits <- parsed_hits %>%
       TRUE ~ "unknown"
     ),
     
-    # Extract protein function - simplest approach
+    # Extract protein function
     raw_function = sub(".*\\|(ref|gb|emb)\\|[^\\|]+\\|(.*)\\[.*", "\\2", full_header)
   )
 
@@ -103,18 +103,17 @@ parsed_hits <- parsed_hits %>%
     protein_function = ifelse(raw_function != full_header, 
                               gsub("\\|", " ", raw_function),
                               "unknown"),
-    
-    # Extract protein name (first word of function if possible)
-    protein_name = case_when(
-      grepl("^[A-Za-z0-9]+", protein_function) ~ 
-        sub("^([A-Za-z0-9]+).*", "\\1", protein_function),
-      TRUE ~ "unknown"
-    ),
-    
     # Extract organism if present
-    organism = ifelse(grepl("\\[.*\\]", full_header), 
-                      sub(".*\\[(.*)\\].*", "\\1", full_header), 
-                      "unknown")
+    organism = ifelse(
+      grepl("\\[.*\\]", full_header),
+      # 1) grab everything inside the brackets
+      sub(".*\\[(.*)\\].*", "\\1", full_header) %>%
+        # 2) replace internal '|' with spaces
+        gsub("\\|", " ", .) %>%
+        # 3) trim any leading/trailing whitespace
+        trimws(),
+      "unknown"
+    )
   )
 
 # Save parsed hits for reference
@@ -148,7 +147,6 @@ write_csv(protein_prevalence, file.path(ime_output_dir, "protein_prevalence.csv"
 write_csv(element_prevalence, file.path(ime_output_dir, "element_prevalence.csv"))
 
 # Load DefenseFinder data
-message("Loading DefenseFinder results...")
 defense_df <- read_tsv(defensefinder_file, show_col_types = FALSE)
 
 # Clean defense data - ensure unique defense systems per genome
@@ -544,7 +542,6 @@ analyze_defense_protein_correlations <- function(defense_df, ime_protein_data, o
 }
 
 # Run correlation analysis
-message("Running defense-IME protein correlation analysis...")
 correlation_results <- analyze_defense_protein_correlations(
   defense_df = defense_clean,
   ime_protein_data = protein_prevalence,
@@ -581,4 +578,3 @@ combined_figure <- grid.arrange(
 ggsave(file.path(output_dir, "Figure11_ime_analysis.png"), combined_figure, width = 12, height = 10, dpi = 300)
 ggsave(file.path(output_dir, "Figure11_ime_analysis.pdf"), combined_figure, width = 12, height = 10)
 
-message("IME analysis complete! Results saved to ", output_dir)
