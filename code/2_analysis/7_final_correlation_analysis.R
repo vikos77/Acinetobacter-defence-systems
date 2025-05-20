@@ -30,7 +30,6 @@ defensefinder_file <- "results/consolidated/consolidated_defense_systems.tsv"
 resfinder_file <- "results/consolidated/consolidated_resfinder_results.tsv"
 antidefense_file <- "results/consolidated/consolidated_antidefense_systems.tsv"
 ime_blast_file <- "results/ime_analysis/blast_results/IME_proteins_vs_acinetobacter.tblastn"
-metadata_file <- "data/metadata/genome_metadata.xlsx"
 output_dir <- "results/figures"
 
 # Create output directory if it doesn't exist
@@ -45,10 +44,9 @@ if (!dir.exists(output_dir)) {
 create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_blast_file, 
                                        output_file = "correlation_heatmap.png") {
   
-  message("Starting correlation analysis between all genomic elements...")
-  
+
   # 1. DEFENSE SYSTEMS - count distinct defense types per genome
-  message("Processing defense systems...")
+
   defense_counts <- defense_df %>%
     select(Genome_ID, type) %>%
     # Remove duplicates: same genome with same defense system type
@@ -60,20 +58,13 @@ create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_
       round(mean(defense_counts$defense_count), 2), "\n")
   
   # 2. ARGS - count distinct resistance genes per genome
-  message("Processing antibiotic resistance genes...")
+
   if ("arg_count" %in% colnames(arg_df)) {
     # If already processed
     arg_counts <- arg_df %>% select(Genome_ID, arg_count)
   } else if ("Resistance gene" %in% colnames(arg_df)) {
     arg_counts <- arg_df %>%
       select(Genome_ID, `Resistance gene`) %>%
-      # Remove duplicates: same genome with same resistance gene
-      distinct() %>%
-      group_by(Genome_ID) %>%
-      summarize(arg_count = n(), .groups = "drop")
-  } else if ("Resistance_gene" %in% colnames(arg_df)) {
-    arg_counts <- arg_df %>%
-      select(Genome_ID, Resistance_gene) %>%
       # Remove duplicates: same genome with same resistance gene
       distinct() %>%
       group_by(Genome_ID) %>%
@@ -165,7 +156,6 @@ create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_
       round(mean(ime_data$ime_count), 2), "\n")
   
   # 5. MERGE ALL COUNTS - ensure all are numeric
-  message("Merging all genomic element counts...")
   combined_data <- defense_counts %>%
     full_join(arg_counts, by = "Genome_ID") %>%
     full_join(anti_defense_counts, by = "Genome_ID") %>%
@@ -190,7 +180,6 @@ create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_
   print(summary_stats)
   
   # 6. CALCULATE CORRELATION MATRIX
-  message("Calculating correlation matrix...")
   # Convert to matrix and ensure numeric
   cor_data <- as.matrix(combined_data[, c("defense_count", "arg_count", "anti_defense_count", "ime_count")])
   colnames(cor_data) <- c("Defence", "ARG", "Anti-Defence", "IME")
@@ -214,7 +203,6 @@ create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_
   print(round(cor_matrix, 3))
   
   # 7. CALCULATE P-VALUES FOR CORRELATIONS
-  message("Calculating p-values...")
   n <- nrow(cor_data)
   p_values <- matrix(NA, nrow = ncol(cor_data), ncol = ncol(cor_data))
   rownames(p_values) <- colnames(p_values) <- colnames(cor_data)
@@ -237,7 +225,6 @@ create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_
   print(round(p_values, 4))
   
   # 8. CREATE SIGNIFICANCE ANNOTATIONS
-  message("Creating significance annotations...")
   sig_matrix <- matrix("", nrow = nrow(cor_matrix), ncol = ncol(cor_matrix))
   rownames(sig_matrix) <- rownames(cor_matrix)
   colnames(sig_matrix) <- colnames(cor_matrix)
@@ -257,8 +244,6 @@ create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_
   }
   
   # 9. CREATE THE HEATMAP
-  message("Creating correlation heatmap...")
-  
   # Ensure all graphics devices are closed
   while (!is.null(dev.list())) {
     dev.off()
@@ -329,7 +314,6 @@ create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_
   cat("\nHeatmap saved to:", output_file, "\n")
   
   # 10. SAVE DETAILED RESULTS
-  message("Saving detailed results...")
   write_csv(as.data.frame(cor_matrix), sub("\\.png$", "_correlations.csv", output_file))
   write_csv(as.data.frame(p_values), sub("\\.png$", "_pvalues.csv", output_file))
   write_csv(combined_data, sub("\\.png$", "_counts_data.csv", output_file))
@@ -340,9 +324,6 @@ create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_
 # ==============================================================================
 # Load all data files
 # ==============================================================================
-
-message("Loading all genomic data files...")
-
 # Load DefenseFinder data
 defense_df <- read_tsv(defensefinder_file, show_col_types = FALSE)
 
@@ -352,15 +333,9 @@ resfinder_df <- read_tsv(resfinder_file, show_col_types = FALSE)
 # Load AntiDefenseFinder data
 antidefense_df <- read_tsv(antidefense_file, show_col_types = FALSE)
 
-# Load metadata (optional, for reference)
-metadata <- readxl::read_excel(metadata_file)
-
 # ==============================================================================
 # Run the correlation analysis
 # ==============================================================================
-
-message("Running final correlation analysis...")
-
 results <- create_correlation_heatmap(
   defense_df = defense_df,
   arg_df = resfinder_df,
@@ -409,13 +384,3 @@ if (nrow(sig_pairs) > 0) {
 } else {
   cat("No significant correlations found\n")
 }
-
-cat("\n" + paste(rep("=", 80), collapse = "") + "\n")
-cat("Analysis complete! Files saved to:", output_dir, "\n")
-cat("- Correlation heatmap: final_correlation_matrix.png\n")
-cat("- Correlation matrix: final_correlation_matrix_correlations.csv\n")
-cat("- P-values: final_correlation_matrix_pvalues.csv\n")
-cat("- Count data: final_correlation_matrix_counts_data.csv\n")
-cat(paste(rep("=", 80), collapse = "") + "\n")
-
-message("Final correlation analysis complete!")
