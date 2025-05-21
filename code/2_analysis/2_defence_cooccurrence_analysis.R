@@ -44,11 +44,10 @@
   
   
   # Load data
-  message("Loading defense system data...")
   defense_df <- read_tsv(defensefinder_file, show_col_types = FALSE)
   padloc_df <- read_csv(padloc_file, show_col_types = FALSE)
   
-  # Clean data - keep only unique defense system types per genome
+  # Clean data - keep only unique defence system types per genome
   defense_df_clean <- defense_df %>%
     group_by(Genome_ID) %>%
     distinct(type, .keep_all = TRUE) %>%
@@ -121,9 +120,6 @@
     # Use a visually distinct palette like viridis
     system_colors_dynamic <- viridis::viridis_pal(option = "turbo")(length(top_systems))
     names(system_colors_dynamic) <- top_systems
-    
-    # For better reproducibility, assign colors consistently by system frequency
-    # This ensures the most common systems always get the same colors
     system_colors_subset <- system_colors_dynamic
 
     
@@ -356,15 +352,13 @@
   }
   
   # Run co-occurrence analysis for both tools
-  message("Running co-occurrence analysis for DefenseFinder...")
-  defense_cooccur <- analyze_cooccurrence(
+   defense_cooccur <- analyze_cooccurrence(
     data = defense_df_clean,
     system_col = "type",
     tool_name = "DefenseFinder",
     output_prefix = "defensefinder_cooccur"
   )
   
-  message("Running co-occurrence analysis for PADLOC...")
   padloc_cooccur <- analyze_cooccurrence(
     data = padloc_df_simplified,
     system_col = "Simple_System_Type",
@@ -374,5 +368,3 @@
   
   # Clean up temporary files
   file.remove(list.files(temp_dir, full.names = TRUE))
-  
-  message("Co-occurrence analysis complete. Results saved to", output_dir)

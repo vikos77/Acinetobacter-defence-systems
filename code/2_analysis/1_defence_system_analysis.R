@@ -1,8 +1,10 @@
 # ==============================================================================
-# defense_system_analysis.R
+# defence_system_analysis.R
 # 
-# Analysis of defense systems in Acinetobacter species using
+# Analysis of defence systems in Acinetobacter species using
 # consolidated outputs from DefenseFinder and PADLOC
+#
+# Author: Vigneshwaran Muthuraman
 # ==============================================================================
 
 # Load required libraries
@@ -42,7 +44,7 @@ if (!dir.exists(output_dir)) {
 
 defense_df <- read_tsv(defensefinder_file, show_col_types = FALSE)
 
-# Clean DefenseFinder data - ensure unique defense systems per genome
+# Clean DefenseFinder data - ensure unique defence systems per genome
 defense_df_clean <- defense_df %>%
   group_by(Genome_ID) %>%
   distinct(type, .keep_all = TRUE) %>%
@@ -52,7 +54,7 @@ defense_df_clean <- defense_df %>%
 
 padloc_df <- read_tsv(padloc_file, show_col_types = FALSE)
 
-# Clean PADLOC data - ensure unique defense systems per genome
+# Clean PADLOC data - ensure unique defence systems per genome
 padloc_df_clean <- padloc_df %>%
   group_by(Genome_ID) %>%
   distinct(system, .keep_all = TRUE) %>%
@@ -67,7 +69,7 @@ total_genomes_defense <- n_distinct(defense_df_clean$Genome_ID)
 total_genomes_padloc <- n_distinct(padloc_df_clean$Genome_ID)
 
 #-----------------------------------------------------------------
-# Panel A: Distribution of Defense System Counts per Genome
+# Panel A: Distribution of Defence System Counts per Genome
 #-----------------------------------------------------------------
 
 # Count systems per genome for DefenseFinder
@@ -118,13 +120,13 @@ panel_a <- grid.arrange(
 # Panel B: Prevalence of Defense System Types
 #-----------------------------------------------------------------
 
-# Count occurrences of each defense system type for DefenseFinder
+# Count occurrences of each defence system type for DefenseFinder
 defense_type_counts_defense <- defense_df_clean %>%
   count(type, name = "count") %>%
   arrange(desc(count)) %>%
   mutate(percentage = count / total_genomes_defense * 100)
 
-# Count occurrences of each defense system type for PADLOC
+# Count occurrences of each defence system type for PADLOC
 defense_type_counts_padloc <- padloc_df_clean %>%
   count(system, name = "count") %>%
   arrange(desc(count)) %>%
@@ -171,10 +173,10 @@ panel_b <- grid.arrange(
 )
 
 #-----------------------------------------------------------------
-# Panel C: Species-Specific Defense System Comparison
+# Panel C: Species-Specific Defence System Comparison
 #-----------------------------------------------------------------
 
-# Join defense systems with metadata for species information
+# Join defence systems with metadata for species information
 defense_with_species <- defense_df_clean %>%
   left_join(metadata %>% select(Genome_ID, Taxon), by = "Genome_ID")
 
