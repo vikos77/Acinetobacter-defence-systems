@@ -32,7 +32,7 @@ custom_theme <- theme(
 # Set file paths based on the repository structure
 defensefinder_file <- "results/consolidated/consolidated_defense_systems.tsv"
 padloc_file <- "results/consolidated/consolidated_padloc_results.tsv"
-metadata_file <- "data/metadata/genome_metadata.xlsx" 
+metadata_file <- "data/metadata/Acinetobacter_metadata.xlsx" 
 
 # Create output directory for figures
 output_dir <- "results/figures"

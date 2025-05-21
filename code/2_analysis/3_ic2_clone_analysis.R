@@ -1,7 +1,7 @@
 # ==============================================================================
 # ic2_clone_analysis.R
 # 
-# Comparison of defense systems between IC2 clone contigs and other
+# Comparison of defence systems between IC2 clone Contigs and other
 # A. baumannii complete genomes using DefenseFinder results
 #
 # Author: Vigneshwaran Muthuraman
@@ -13,11 +13,11 @@ library(ggplot2)
 library(ggrepel)
 library(cowplot)
 library(RColorBrewer)
-library(ggupset)  # For upset plots
+library(ggupset)
 
 # Set paths
 defensefinder_file <- "results/consolidated/consolidated_defense_systems.tsv"
-metadata_file <- "data/metadata/ab_genome_id.xlsx"
+metadata_file <- "data/metadata/Acinetobacter_metadata.xlsx"
 output_dir <- "results/figures"
 
 # Create output directory if it doesn't exist
@@ -75,7 +75,7 @@ ic2_count <- n_distinct(baumannii_data$Genome_ID[baumannii_data$Clone_Status == 
 other_count <- n_distinct(baumannii_data$Genome_ID[baumannii_data$Clone_Status == "Other A. baumannii"])
 
 # ============================================================================
-# Panel A: Defense System Count Comparison
+# Panel A: Defence System Count Comparison
 # ============================================================================
 
 # Count defense systems per genome
@@ -107,10 +107,10 @@ panel_a <- ggplot(defense_counts, aes(x = Clone_Status, y = defense_count, fill 
   theme(legend.position = "bottom")
 
 # ============================================================================
-# Panel B: Defense System Prevalence Comparison
+# Panel B: Defence System Prevalence Comparison
 # ============================================================================
 
-# Calculate prevalence of each defense system in IC2 vs. other A. baumannii
+# Calculate prevalence of each defence system in IC2 vs. other A. baumannii
 defense_prevalence <- baumannii_data %>%
   group_by(Clone_Status, type) %>%
   summarize(
@@ -124,7 +124,7 @@ defense_prevalence <- baumannii_data %>%
   ) %>%
   ungroup()
 
-# Get top defense systems overall to include in the plot
+# Get top defence systems overall to include in the plot
 top_systems <- defense_prevalence %>%
   group_by(type) %>%
   summarize(total_count = sum(genome_count), .groups = "drop") %>%
@@ -142,7 +142,7 @@ panel_b <- ggplot(defense_prevalence_top,
   geom_bar(stat = "identity", position = position_dodge(width = 0.9)) +
   scale_fill_manual(values = clone_colors) +
   labs(
-    title = "B. Defense System Prevalence",
+    title = "B. Defence System Prevalence",
     x = NULL,
     y = "Percentage of Genomes (%)",
     fill = "Genome Group"
@@ -157,14 +157,14 @@ panel_b <- ggplot(defense_prevalence_top,
 # Panel C: Statistical Enrichment Analysis
 # ============================================================================
 
-# Function to perform Fisher's exact test for a defense system
+# Function to perform Fisher's exact test for a defence system
 perform_enrichment_test <- function(defense_system, data) {
   # Get distinct genomes
   all_genomes <- unique(data$Genome_ID)
   ic2_genomes <- unique(data$Genome_ID[data$Clone_Status == "IC2 Clone"])
   other_genomes <- unique(data$Genome_ID[data$Clone_Status == "Other A. baumannii"])
   
-  # Get genomes with this defense system
+  # Get genomes with this defence system
   genomes_with_defense <- unique(data$Genome_ID[data$type == defense_system])
   
   # Create 2x2 contingency table
@@ -182,7 +182,7 @@ perform_enrichment_test <- function(defense_system, data) {
   
   # Check if we can perform the test
   if (sum(contingency == 0) > 0) {
-    # Add a small pseudocount to avoid errors with zero cells
+    # Add a small pseudo count to avoid errors with zero cells
     contingency <- contingency + 0.5
   }
   
@@ -210,7 +210,7 @@ perform_enrichment_test <- function(defense_system, data) {
   })
 }
 
-# Get all unique defense systems
+# Get all unique defence systems
 all_defense_systems <- unique(baumannii_data$type)
 
 # Perform enrichment test for each system
@@ -256,7 +256,7 @@ if (length(significant_systems) == 0) {
 # Create forest plot data
 forest_plot_data <- enrichment_results %>%
   filter(defense_system %in% significant_systems) %>%
-  # Ensure nice ordering by log2 odds ratio
+  # Ensure proper ordering by log2 odds ratio
   mutate(defense_system = fct_reorder(defense_system, log2_odds_ratio))
 
 # Create forest plot
@@ -275,7 +275,7 @@ panel_c <- ggplot(forest_plot_data,
   scale_size_continuous(range = c(2, 5), guide = "none") +
   # Labels
   labs(
-    title = "C. Defense System Enrichment in IC2 Clones",
+    title = "C. Defence System Enrichment in IC2 Clones",
     subtitle = "Log2 Odds Ratio with 95% Confidence Intervals",
     x = expression(log[2](Odds~Ratio)),
     y = NULL,
@@ -298,7 +298,7 @@ panel_c <- ggplot(forest_plot_data,
   )
 
 # ============================================================================
-# Panel D: Defense System Combinations in IC2 Clones
+# Panel D: Defence System Combinations in IC2 Clones
 # ============================================================================
 
 # Focus on just IC2 clone genomes
@@ -306,7 +306,7 @@ ic2_defense_data <- baumannii_data %>%
   filter(Clone_Status == "IC2 Clone") %>%
   distinct(Genome_ID, type)
 
-# Count occurrences of each defense system combination
+# Count occurrences of each defence system combination
 defense_combinations <- ic2_defense_data %>%
   group_by(Genome_ID) %>%
   summarize(systems = list(type)) %>%
@@ -317,7 +317,7 @@ panel_d <- ggplot(defense_combinations, aes(x = systems)) +
   geom_bar() +
   scale_x_upset() +
   labs(
-    title = "D. Defense System Combinations in IC2 Clones",
+    title = "D. Defence System Combinations in IC2 Clones",
     x = "Combination",
     y = "Number of Genomes"
   ) +
@@ -362,5 +362,3 @@ enrichment_summary <- enrichment_results %>%
   select(defense_system, odds_ratio, log2_odds_ratio, p_value, p_adjusted, significant)
 
 write_csv(enrichment_summary, file.path(output_dir, "ic2_enrichment_results.csv"))
-
-message("Analysis complete. Results saved to ", output_dir)
