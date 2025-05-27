@@ -64,7 +64,8 @@ Resfinder : Follow instructions at [Resfinder](https://github.com/genomicepidemi
 
 ### Key Findings
 
-### 1. ![Defense System Distribution and Tool Comparison](results/figures/defense_system_distribution_comparison.png)
+### 1. Defense System Distribution and Tool Comparison
+![image](results/figures/defense_system_distribution_comparison.png)
 
 **DefenseFinder vs. PADLOC Detection Patterns**:
 - DefenseFinder identifies 3-6 defense systems per genome (mean = 5.0), with most genomes clustering around 4 systems
@@ -72,6 +73,7 @@ Resfinder : Follow instructions at [Resfinder](https://github.com/genomicepidemi
 - Both tools converge on RM systems as the most prevalent defense mechanism, but show quantitative differences in detection sensitivity
 
 ### 2. Restriction-Modification Systems Dominate the Defense Landscape
+![image](results/figures/defense_system_prevalence_comparison.png)
 
 **Universal RM Prevalence**:
 - RM systems are detected in 102/132 genomes (77.3%) by DefenseFinder, making them the overwhelmingly dominant defense mechanism
@@ -79,8 +81,10 @@ Resfinder : Follow instructions at [Resfinder](https://github.com/genomicepidemi
 - RM systems serve as the conserved baseline defense across all *Acinetobacter* species
 
 ### 3. Species-Specific Defense System Profiles
+![image](results/figures/defense_systems_by_species_simple.png)
 
 **A. baumannii Defense Signature**:
+
 - Enriched in Gao_Qat (17 genomes), SspBCDE (16 genomes), and PD-T7-5 (16 genomes) systems
 - SspBCDE emerges as a cornerstone system, frequently occurring as the sole defense mechanism in clinical isolates (47.8% of contig assemblies)
 
@@ -94,6 +98,7 @@ Resfinder : Follow instructions at [Resfinder](https://github.com/genomicepidemi
 - Display more diverse secondary defense profiles including CBASS, RosmerTA, and Cas systems
 
 ### 4. Complex Defense System Co-occurrence Networks
+![image](results/figures/defense_systems_by_species_simple.png)
 
 **Positive Associations (Cooperative Systems)**:
 - Gao_Qat and PD-T7-5 show strong positive correlation (log₂OR: 2.26, p<0.05)
