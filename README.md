@@ -168,19 +168,69 @@ The correlation heatmap with hierarchical clustering reveals a distinct cluster 
 
 **Multiple Testing Correction**:
 - **FDR Correction Applied**: All p-values adjusted for multiple comparisons using Benjamini-Hochberg procedure
-- **Significance Levels**: 
-  - *p<0.05: Moderate evidence of association
-  - **p<0.01: Strong evidence of association
-  - ***p<0.001: Very strong evidence of association
 - **Effect Sizes**: Correlation coefficients range from strong negative (-0.7) to strong positive (+0.8)
 
 
-### 6. Mobile Genetic Element Interactions
+### 6. Defense System-Mobile Genetic Element Interactions
 
-**Defense-Mobile Element Associations**:
-- Gao_Qat shows strong positive associations with SGI1-related elements (log₂OR > 5, p<0.001)
-- Anti-defense systems positively correlate with both ARGs (r = 0.25) and IMEs (r = 0.29)
-- Moderate positive correlation between IME and ARG abundance (r = 0.38, p<0.05) supports co-mobilization
+![image](results/figures/defence_protein_correlation.png)
+
+#### Hierarchical Clustering Reveals Mobile Element Processing Strategies
+
+**IME-Facilitative Defense Systems (Middle Blue Cluster)**:
+The correlation analysis reveals a distinct cluster of defense systems that show positive associations with integrative mobile element (IME) proteins, indicating facilitated horizontal gene transfer:
+
+- **SspBCDE Systems: The Primary IME Facilitator**:
+  - **Strongest Associations**: Shows highly significant positive correlations (***p<0.001) across all major IME protein functions
+  - **Transposase Compatibility**: Strong associations with Tnp25, Tnp26, Tnp28 transposases
+  - **Broad Spectrum**: Positive correlations with putative transposases (202-putative, 200-putative) and specialized functions (198-IS26, 196-transposase)
+  - **Biological Significance**: Indicates SspBCDE systems actively facilitate or tolerate mobile element integration
+
+- **Gao_Qat Systems: Selective IME Processing**:
+  - **Moderate Positive Associations**: Consistent (**p<0.01) positive correlations across IME protein categories
+  - **Functional Selectivity**: Particularly strong associations with specific transposase types
+  - **Integration with ARG Data**: Matches the pattern seen with antibiotic resistance genes, confirming coordinated facilitation
+
+- **PD-T7-5 and PD-T4-5 Systems: Auxiliary IME Facilitators**:
+  - **Coordinated Pattern**: Both systems show similar (*p<0.05) positive association profiles
+  - **Functional Clustering**: Hierarchical clustering groups these systems together, indicating similar mechanisms
+  - **Complementary Function**: May provide additional layers of mobile element tolerance
+
+#### IME-Restrictive Defense Systems (Top Red and Bottom Pink Clusters)
+
+**Lamassu-Fam and Mokosh: Specialized IME Restrictors**:
+- **Strong Negative Associations**: Intense red coloring with high statistical significance (**p<0.01) across most IME protein functions
+- **Broad Spectrum Restriction**: Negative correlations with multiple transposase types and mobile element proteins
+- **Functional Specialization**: These systems may have evolved specifically to counter mobile genetic element activity
+- **Contrasting Strategy**: Opposite approach to SspBCDE cluster, representing alternative evolutionary solutions
+
+**RM Systems: Universal Mobile Element Barriers**:
+- **Consistent Negative Pattern**: Significant negative associations (**p<0.01) across all IME protein categories
+- **Non-specific Restriction**: Broad-spectrum negative correlations indicate general foreign DNA restriction
+- **Classical Function**: Aligns with traditional understanding of RM systems as barriers to horizontal gene transfer
+- **Statistical Robustness**: High significance levels across multiple IME protein types
+
+**CBASS Systems: Moderate IME Restriction**:
+- **Selective Negative Associations**: Weaker but significant (*p<0.05) negative correlations
+- **Intermediate Strategy**: Less restrictive than RM systems but still generally antagonistic to mobile elements
+
+#### IME Protein Functional Categories and Defense System Specificity
+
+**Transposase Enzyme Families**:
+- **Tnp25/Tnp26/Tnp28 Series**: Major transposase families showing coordinated association patterns
+  - SspBCDE: Strong positive associations across all three
+  - RM systems: Consistent negative associations
+  - Functional clustering indicates these transposases have similar integration mechanisms
+
+**Putative Transposases (202-putative, 200-putative)**:
+- **Uncharacterized Functions**: Defense system associations may help predict functional roles
+- **Evolutionary Relationships**: Similar association patterns to characterized transposases suggest related functions
+- **Discovery Potential**: Defense system correlations could guide functional annotation efforts
+
+**Specialized Mobile Element Proteins**:
+- **IS26 Transposases**: Insertion sequence elements with specific integration preferences
+- **196-transposase and 169-transposase**: Distinct transposase families with unique association profiles
+- **Functional Diversity**: Different transposase types show varying compatibility with defense systems
 
 ### 7. Evolutionary Trade-Off Between Defense and Plasticity
 
