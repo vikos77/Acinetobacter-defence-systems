@@ -22,21 +22,6 @@ The analysis was performed on two distinct datasets:
 - 132 complete *Acinetobacter* genomes (including 43 *A. baumannii*, 27 *A. pittii*, and 62 other *Acinetobacter* species)
 - 90 contig-level assemblies of *A. baumannii* clinical isolates
 
-## Key Findings
-
-1. **Restriction-Modification (RM) Systems Dominate**: RM systems emerge as the predominant defence mechanism across all *Acinetobacter* species.
-
-2. **Species-Specific Defence Profiles**: 
-   - *A. baumannii* exhibits enrichment of Gao_Qat, SspBCDE, and PD-T7-5 systems
-   - *A. pittii* shows prevalence of CBASS and Septu systems but notably lacks SspBCDE
-
-3. **Defence System-ARG Relationships**: Significant associations between specific defence systems and antibiotic resistance genes:
-   - Gao_Qat systems show strong positive associations with multiple resistance genes
-   - RM systems display negative associations with the same resistance determinants
-
-4. **SspBCDE in Clinical Isolates**: SspBCDE emerges as a cornerstone defence system in *A. baumannii*, frequently occurring as the sole defence mechanism in clinical isolates.
-
-5. **Evolutionary Trade-Off**: Our findings reveal a fundamental evolutionary trade-off between phage protection and genomic plasticity.
 
 ## Repository Structure
 
@@ -57,13 +42,6 @@ The bioinformatic workflow involved:
 
 ![Methodology Workflow](results/figures/methodology_workflow.png)
 
-## Visualizations
-
-The repository includes key visualizations:
-
-![Defence System Distribution](results/figures/defensefinder_cooccur_circos.png)
-*Defence system Co-occurrence across 132 Acinetobacter species*
-
 ## Prerequisites
 
 - R (version 4.4.0 or higher)
@@ -82,6 +60,87 @@ The repository includes key visualizations:
 DefenseFinder: Follow instructions at [DefenseFinder](https://github.com/mdmparis/defense-finder)
 PADLOC: Follow instructions at [PADLOC](https://github.com/padlocbio/padloc)
 Resfinder : Follow instructions at [Resfinder](https://github.com/genomicepidemiology/resfinder)
+
+
+### Key Findings
+
+### 1. ![Defense System Distribution and Tool Comparison](results/figures/defense_system_distribution_comparison.png)
+
+**DefenseFinder vs. PADLOC Detection Patterns**:
+- DefenseFinder identifies 3-6 defense systems per genome (mean = 5.0), with most genomes clustering around 4 systems
+- PADLOC detects higher counts (mean = 8.6), with a broader distribution extending up to 20 systems per genome
+- Both tools converge on RM systems as the most prevalent defense mechanism, but show quantitative differences in detection sensitivity
+
+### 2. Restriction-Modification Systems Dominate the Defense Landscape
+
+**Universal RM Prevalence**:
+- RM systems are detected in 102/132 genomes (77.3%) by DefenseFinder, making them the overwhelmingly dominant defense mechanism
+- PADLOC identifies RM_type_I in 74/132 genomes (56.1%), confirming RM system prevalence across tools
+- RM systems serve as the conserved baseline defense across all *Acinetobacter* species
+
+### 3. Species-Specific Defense System Profiles
+
+**A. baumannii Defense Signature**:
+- Enriched in Gao_Qat (17 genomes), SspBCDE (16 genomes), and PD-T7-5 (16 genomes) systems
+- SspBCDE emerges as a cornerstone system, frequently occurring as the sole defense mechanism in clinical isolates (47.8% of contig assemblies)
+
+**A. pittii Defense Profile**:
+- Characterized by CBASS (10 genomes) and Septu (9 genomes) systems
+- Notably lacks SspBCDE enrichment, distinguishing it from *A. baumannii*
+- Shows different secondary defense strategies compared to its close relative
+
+**Other Acinetobacter Species**:
+- Maintain high RM system prevalence (57 genomes) as baseline defense
+- Display more diverse secondary defense profiles including CBASS, RosmerTA, and Cas systems
+
+### 4. Complex Defense System Co-occurrence Networks
+
+**Positive Associations (Cooperative Systems)**:
+- Gao_Qat and PD-T7-5 show strong positive correlation (log₂OR: 2.26, p<0.05)
+- CBASS and Retron systems demonstrate significant co-occurrence (log₂OR: 2.02, p<0.05)
+- Multiple defense systems cluster together suggesting functional compatibility
+
+**Negative Associations (Mutually Exclusive Systems)**:
+- RM systems show significant negative correlations with PD-T7-5 (log₂OR: -3.01, p<0.05)
+- RM and Gao_Qat display strong mutual exclusivity (log₂OR: -3.74, p<0.05)
+- Suggests evolutionary trade-offs between different defense strategies
+
+### 5. Defense System-Antibiotic Resistance Relationships
+
+**Gao_Qat Systems Facilitate Resistance Acquisition**:
+- Strong positive associations with tetracycline resistance (*tetB*: log₂OR = 5.12, p<0.001)
+- Correlate with aminoglycoside resistance (*armA*: log₂OR = 4.87; *aadA1*: log₂OR = 3.62)
+- Associated with sulfonamide resistance (*sul1*: log₂OR = 3.02, p<0.05)
+
+**RM Systems Restrict Horizontal Gene Transfer**:
+- Negative associations with the same resistance genes that positively associate with Gao_Qat
+- Overall negative correlation with mobile genetic elements (r = -0.07)
+- Function as barriers against foreign DNA acquisition
+
+### 6. Mobile Genetic Element Interactions
+
+**Defense-Mobile Element Associations**:
+- Gao_Qat shows strong positive associations with SGI1-related elements (log₂OR > 5, p<0.001)
+- Anti-defense systems positively correlate with both ARGs (r = 0.25) and IMEs (r = 0.29)
+- Moderate positive correlation between IME and ARG abundance (r = 0.38, p<0.05) supports co-mobilization
+
+### 7. Evolutionary Trade-Off Between Defense and Plasticity
+
+**Two Distinct Strategies**:
+- **Conservative Strategy**: RM-dominated genomes with restricted horizontal gene transfer but strong baseline defense
+- **Plastic Strategy**: Gao_Qat/SspBCDE-enriched genomes with enhanced resistance acquisition capability
+- **Clinical Relevance**: SspBCDE-dominant *A. baumannii* strains may represent adaptation to hospital environments with dual antibiotic and phage pressure
+
+### 8. IC2 Clone-Specific Defense Architecture
+
+**Reduced Defense Complexity**:
+- IC2 clones carry significantly fewer defense systems (1-2 per genome) compared to other *A. baumannii* strains (~5 systems)
+- SspBCDE system predominates in IC2 clones, often as the sole defense mechanism
+- Correlates with enhanced antibiotic resistance gene carriage (average 17.1 ARGs per genome)
+
+**Global Clinical Success**:
+- Minimal restriction barriers may facilitate rapid resistance acquisition through horizontal gene transfer
+- Trade-off between comprehensive phage defense and genetic plasticity may explain IC2's pandemic success
 
 ## Citation
 
