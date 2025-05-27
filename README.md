@@ -232,12 +232,111 @@ The correlation analysis reveals a distinct cluster of defense systems that show
 - **196-transposase and 169-transposase**: Distinct transposase families with unique association profiles
 - **Functional Diversity**: Different transposase types show varying compatibility with defense systems
 
-### 7. Evolutionary Trade-Off Between Defense and Plasticity
+### 7. Integrated Genomic Architecture: Cross-Element Correlations
 
-**Two Distinct Strategies**:
-- **Conservative Strategy**: RM-dominated genomes with restricted horizontal gene transfer but strong baseline defense
-- **Plastic Strategy**: Gao_Qat/SspBCDE-enriched genomes with enhanced resistance acquisition capability
-- **Clinical Relevance**: SspBCDE-dominant *A. baumannii* strains may represent adaptation to hospital environments with dual antibiotic and phage pressure
+![image](results/figures/final_correlation.png)
+
+#### System-Level Correlation Matrix Reveals Fundamental Genomic Trade-offs
+
+**Defense Systems as Universal Barriers**:
+The correlation matrix between genomic element counts reveals defense systems' role as broad-spectrum barriers to foreign genetic material:
+
+- **Defense vs. ARG Relationship**: Weak negative correlation (r = -0.11)
+  - Indicates defense systems generally restrict antibiotic resistance gene acquisition
+  - Consistent with previous findings showing RM systems' restrictive effects
+  - Represents the cost of maintaining comprehensive phage defense
+
+- **Defense vs. IME Relationship**: Weak negative correlation (r = -0.07)
+  - Defense systems moderately restrict integrative mobile element accumulation
+  - Aligns with detailed IME-defense system analysis showing restriction patterns
+  - Suggests defense systems limit horizontal gene transfer vectors
+
+- **Defense vs. Anti-Defense Relationship**: Essentially neutral (r = -0.01)
+  - Near-zero correlation indicates independent accumulation patterns
+  - May reflect different selective pressures acting on these system types
+  - Suggests anti-defense systems operate through different mechanisms than direct interference
+
+#### Mobile Genetic Elements Drive Resistance Dissemination
+
+**ARG-IME Co-mobilization**: Strongest positive correlation (r = 0.69, ***p<0.001)
+- **Biological Significance**: Very strong correlation confirms IMEs as primary vehicles for ARG dissemination
+- **Clinical Relevance**: Highest correlation coefficient in the matrix indicates tight functional coupling
+- **Mechanistic Basis**: Physical linkage of resistance genes on mobile genetic elements
+- **Evolutionary Implication**: Co-selection maintains both resistance genes and their mobilization machinery
+
+**Statistical Robustness**:
+- **Highest significance level** (***p<0.001) indicates extremely reliable association
+- **Large effect size** (r = 0.69) suggests substantial biological importance
+- **Clinical prediction**: IME abundance can predict ARG load in clinical isolates
+
+#### Anti-Defense Systems Facilitate Genetic Plasticity
+
+**Anti-Defense as HGT Facilitators**:
+- **Anti-Defense vs. ARG**: Moderate positive correlation (r = 0.50, ***p<0.001)
+  - Strong statistical significance indicates reliable association
+  - Anti-defense systems promote resistance gene acquisition
+  - Mechanistic explanation: counteract host defense systems that would otherwise restrict ARG uptake
+
+- **Anti-Defense vs. IME**: Weak-moderate positive correlation (r = 0.26, **p<0.01)
+  - Statistically significant association supports facilitatory role
+  - Anti-defense systems enable mobile element integration
+  - Lower correlation than ARG association suggests indirect relationship
+
+#### Quantitative Framework for Genomic Element Interactions
+
+**Correlation Strength Interpretation**:
+- **Strong Positive (r > 0.6)**: ARG-IME relationship represents tight functional coupling
+- **Moderate Positive (r = 0.3-0.6)**: Anti-Defense-ARG relationship indicates significant biological interaction
+- **Weak Correlations (r < 0.3)**: Defense system relationships suggest subtle but consistent effects
+- **Near-Zero Correlations**: Defense-Anti-Defense relationship indicates independent dynamics
+
+**Statistical Significance Hierarchy**:
+- **Highest Significance (***p<0.001)**: ARG-IME and Anti-Defense-ARG correlations
+- **High Significance (**p<0.01)**: Anti-Defense-IME correlation
+- **Non-significant relationships**: All defense system correlations (indicating general restrictive effects rather than specific associations)
+
+#### Evolutionary and Clinical Implications
+
+**Genomic Architecture Models**:
+
+1. **Conservative Genome Architecture**:
+   - High defense system counts
+   - Low ARG, IME, and anti-defense system counts
+   - Emphasis on phage protection over genetic plasticity
+   - Represented by RM-dominant genomes
+
+2. **Plastic Genome Architecture**:
+   - Moderate defense system counts (selective systems like SspBCDE/Gao_Qat)
+   - High ARG and IME counts
+   - Elevated anti-defense system presence
+   - Optimized for rapid adaptation in clinical environments
+
+**Clinical Prediction Framework**:
+- **ARG Load Prediction**: IME count (r = 0.69) is the strongest predictor of resistance gene abundance
+- **Genetic Plasticity Assessment**: Anti-defense system count predicts capacity for rapid genetic change
+- **Defense Strategy Classification**: Defense system composition indicates evolutionary strategy
+
+#### Mechanistic Integration Across Analyses
+
+**Validation of Previous Findings**:
+- **Defense System Dichotomy**: Confirmed by overall negative correlations with foreign genetic elements
+- **Mobile Element Centrality**: ARG-IME correlation validates mobile elements as resistance dissemination vehicles
+- **Anti-Defense Function**: Positive correlations with both ARGs and IMEs confirm facilitatory role
+
+**Network-Level Understanding**:
+- **Hub Elements**: IMEs serve as central hubs connecting resistance genes and facilitating mechanisms
+- **Barrier Elements**: Defense systems serve as network barriers reducing overall connectivity
+- **Facilitator Elements**: Anti-defense systems increase network connectivity and gene flow
+
+#### Statistical Framework and Methodology
+
+**Spearman Rank Correlation Justification**:
+- **Non-parametric approach**: Appropriate for count data without distributional assumptions
+- **Robust to outliers**: Resistant to extreme values in genomic element counts
+- **Ordinal relationships**: Captures monotonic relationships regardless of linearity
+
+**Multiple Testing Considerations**:
+- **Bonferroni correction applied**: Conservative approach for multiple correlation testing
 
 ### 8. IC2 Clone-Specific Defense Architecture
 
