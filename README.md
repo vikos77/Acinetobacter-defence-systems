@@ -98,29 +98,82 @@ Resfinder : Follow instructions at [Resfinder](https://github.com/genomicepidemi
 - Display more diverse secondary defense profiles including CBASS, RosmerTA, and Cas systems
 
 ### 4. Complex Defense System Co-occurrence Networks
-![image](results/figures/defense_systems_by_species_simple.png)
 
-**Positive Associations (Cooperative Systems)**:
-- Gao_Qat and PD-T7-5 show strong positive correlation (log₂OR: 2.26, p<0.05)
-- CBASS and Retron systems demonstrate significant co-occurrence (log₂OR: 2.02, p<0.05)
-- Multiple defense systems cluster together suggesting functional compatibility
+#### Network Topology and System Interconnectivity
+![image](results/figures/defensefinder_cooccur_circos.png)
 
-**Negative Associations (Mutually Exclusive Systems)**:
-- RM systems show significant negative correlations with PD-T7-5 (log₂OR: -3.01, p<0.05)
-- RM and Gao_Qat display strong mutual exclusivity (log₂OR: -3.74, p<0.05)
-- Suggests evolutionary trade-offs between different defense strategies
+**Circos Network Visualization Reveals Defense System Architecture**:
+- **RM System Dominance**: The largest sector in the network represents RM systems, with extensive connections to multiple other defense systems, confirming their role as the central hub in the *Acinetobacter* defense network
+- **Secondary System Clusters**: Gao_Qat, CBASS, Gabija, and PD-T7-5 form distinct network nodes with varying degrees of connectivity
+- **Interconnection Density**: The network shows dense interconnections between certain system pairs, indicating frequent co-occurrence patterns that exceed random expectation
+- **Sector Size Proportional to Prevalence**: Visual sector sizes directly correspond to system prevalence (RM: 102 genomes, RosmerTA: 37 genomes, Cas: 30 genomes), providing immediate insight into defense system hierarchy
+
+#### Statistical Co-occurrence Matrix Analysis
+![image](results/figures/defensefinder_cooccur_matrix.png)
+
+**Significant Positive Associations (Cooperative Defense Systems)**:
+- **Gao_Qat Network**: Shows multiple significant positive associations across the matrix (red circles with yellow backgrounds)
+  - Strong co-occurrence with PD-T7-5, PD-T4-5, and multiple secondary systems
+  - Suggests functional compatibility and potential synergistic protection mechanisms
+- **CBASS-Retron Partnership**: Statistically significant positive association (log₂OR: 2.02, p<0.05) indicates these systems frequently co-occur, possibly targeting different stages of phage infection
+- **SspBCDE Associations**: Multiple positive correlations with various defense systems, supporting its role as a cornerstone system that integrates well with other defense mechanisms
+
+**Significant Negative Associations (Mutually Exclusive Systems)**:
+- **RM System Exclusivity**: Strong negative correlations (blue circles) with multiple secondary systems:
+  - RM vs. PD-T7-5: log₂OR = -3.01 (p<0.05) - suggests functional redundancy or metabolic incompatibility
+  - RM vs. Gao_Qat: log₂OR = -3.74 (p<0.05) - indicates alternative evolutionary strategies
+- **Matrix Diagonal Significance**: Self-associations (diagonal elements) show maximum significance, validating the analytical approach
+- **RloC Antagonism**: Negative correlations with multiple systems suggest this nuclease-based defense may conflict with other mechanisms
+
 
 ### 5. Defense System-Antibiotic Resistance Relationships
 
-**Gao_Qat Systems Facilitate Resistance Acquisition**:
-- Strong positive associations with tetracycline resistance (*tetB*: log₂OR = 5.12, p<0.001)
-- Correlate with aminoglycoside resistance (*armA*: log₂OR = 4.87; *aadA1*: log₂OR = 3.62)
-- Associated with sulfonamide resistance (*sul1*: log₂OR = 3.02, p<0.05)
+![image](results/figures/defence_arg_correlation.png)
 
-**RM Systems Restrict Horizontal Gene Transfer**:
-- Negative associations with the same resistance genes that positively associate with Gao_Qat
-- Overall negative correlation with mobile genetic elements (r = -0.07)
-- Function as barriers against foreign DNA acquisition
+#### Hierarchical Clustering Reveals Functional Defense System Groups
+
+**ARG-Facilitative Defense Systems (Top Cluster)**:
+The correlation heatmap with hierarchical clustering reveals a distinct cluster of defense systems that consistently show positive associations with antibiotic resistance genes:
+
+- **Gao_Qat Systems**: The most ARG-associated defense system showing significant positive correlations with:
+  - Tetracycline resistance: *tetB* (***p<0.001) - strongest association
+  - Aminoglycoside resistance: *armA* (***p<0.001), *aph3-Ia* (*p<0.05), *aadA1* (**p<0.01)
+  - β-lactam resistance: *blaOXA-66* (*p<0.05), *blaOXA-23* (**p<0.01)
+  - Sulfonamide resistance: *sul1* (**p<0.01), *sul2* (*p<0.05)
+  - β-lactamase: *blaTDC-25* (*p<0.05)
+
+- **SspBCDE Systems**: Show broad positive associations across multiple ARG classes:
+  - Strong correlations with *tetB*, *armA*, *aadA1*, and β-lactamase genes
+  - Consistent pattern of ARG facilitation across resistance categories
+  - Statistical significance (***p<0.001 to *p<0.05) across multiple associations
+
+- **PD-T7-5 and PD-T4-5 Systems**: Cluster together with moderate positive correlations:
+  - Selective associations with specific ARGs rather than broad spectrum
+  - Particularly strong with certain β-lactamase and aminoglycoside resistance genes
+
+#### ARG-Restrictive Defense Systems (Bottom Cluster)
+
+**RM Systems: The Primary ARG Barrier**:
+- **Contrasting Pattern**: RM systems show the opposite correlation pattern (blue coloring) compared to the ARG-facilitative cluster
+- **Broad Negative Associations**: Significant negative correlations with the same ARGs that positively associate with Gao_Qat/SspBCDE
+- **Statistical Significance**: Multiple highly significant negative associations (**p<0.01 to ***p<0.001)
+- **Functional Interpretation**: Act as barriers to horizontal acquisition of resistance determinants
+
+**Intermediate Defense Systems**:
+- **Neutral/Variable Associations**: Systems like Retron, AbiH, Paris show weaker or variable correlations
+- **Selective Patterns**: Some systems show positive associations with specific ARG types while being neutral to others
+- **Functional Diversity**: Suggests different mechanisms of interaction with mobile genetic elements carrying ARGs
+
+#### Statistical Robustness and Clustering Validation
+
+**Multiple Testing Correction**:
+- **FDR Correction Applied**: All p-values adjusted for multiple comparisons using Benjamini-Hochberg procedure
+- **Significance Levels**: 
+  - *p<0.05: Moderate evidence of association
+  - **p<0.01: Strong evidence of association
+  - ***p<0.001: Very strong evidence of association
+- **Effect Sizes**: Correlation coefficients range from strong negative (-0.7) to strong positive (+0.8)
+
 
 ### 6. Mobile Genetic Element Interactions
 
