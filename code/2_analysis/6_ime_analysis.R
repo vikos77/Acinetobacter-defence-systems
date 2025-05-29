@@ -50,7 +50,9 @@ ime_blast_data <- read.delim(ime_blast_file, header = FALSE)
 # Rename columns
 col_names <- c("QueryID", "SubjectID", "PercentIdentity", "AlignmentLength", 
                "Mismatches", "GapOpens", "QueryStart", "QueryEnd", 
-               "SubjectStart", "SubjectEnd", "Evalue", "BitScore")
+               "SubjectStart", "SubjectEnd", "Evalue", "BitScore",
+               "QueryLength", "QueryCovS", "QueryCovHSP")
+
 names(ime_blast_data)[1:min(ncol(ime_blast_data), length(col_names))] <- col_names
 
 
