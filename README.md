@@ -311,22 +311,10 @@ The correlation matrix between genomic element counts reveals defense systems' r
    - Elevated anti-defense system presence
    - Optimized for rapid adaptation in clinical environments
 
-**Clinical Prediction Framework**:
-- **ARG Load Prediction**: IME count (r = 0.69) is the strongest predictor of resistance gene abundance
-- **Genetic Plasticity Assessment**: Anti-defense system count predicts capacity for rapid genetic change
-- **Defense Strategy Classification**: Defense system composition indicates evolutionary strategy
-
-#### Mechanistic Integration Across Analyses
-
-**Validation of Previous Findings**:
-- **Defense System Dichotomy**: Confirmed by overall negative correlations with foreign genetic elements
-- **Mobile Element Centrality**: ARG-IME correlation validates mobile elements as resistance dissemination vehicles
-- **Anti-Defense Function**: Positive correlations with both ARGs and IMEs confirm facilitatory role
-
 **Network-Level Understanding**:
-- **Hub Elements**: IMEs serve as central hubs connecting resistance genes and facilitating mechanisms
-- **Barrier Elements**: Defense systems serve as network barriers reducing overall connectivity
-- **Facilitator Elements**: Anti-defense systems increase network connectivity and gene flow
+- **Hub Elements**: IMEs might serve as central hubs connecting resistance genes and facilitating mechanisms
+- **Barrier Elements**: Defense systems may play an important role as network barriers reducing overall connectivity
+- **Facilitator Elements**: Anti-defence systems could facilitate increase network connectivity and gene flow
 
 #### Statistical Framework and Methodology
 

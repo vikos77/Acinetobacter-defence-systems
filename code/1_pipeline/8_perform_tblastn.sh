@@ -47,7 +47,8 @@ tblastn -query "$IME_DIR/ime_proteins.fasta" \
        -db results/databases/acinetobacter \
        -out "$BLAST_RESULTS_DIR/IME_proteins_vs_acinetobacter.tblastn" \
        -evalue 1e-6 \
-       -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore" \
+       -qcov_hsp_perc 80 \
+       -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen qcovs qcovhsp" \
        -num_threads 8
 
 echo "BLAST analysis completed. Results saved to $BLAST_RESULTS_DIR"
