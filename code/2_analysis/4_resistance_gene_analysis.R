@@ -281,12 +281,15 @@ fisher_results <- fisher_results %>%
   )
 
 # Create matrix for heatmap
-heatmap_matrix <- matrix(
-  fisher_results$LogOddsRatio,
-  nrow = length(defense_cols),
-  ncol = length(arg_cols),
-  dimnames = list(defense_cols, arg_cols)
-)
+heatmap_matrix <- fisher_results %>%
+  select(Defense_System, ARG, LogOddsRatio) %>%
+  pivot_wider(
+    names_from = ARG,
+    values_from = LogOddsRatio,
+    values_fill = 0   # or NA, as appropriate
+  ) %>%
+  column_to_rownames("Defense_System") %>%
+  as.matrix()
 
 # Create significance indicator matrix
 significance_matrix <- matrix(
@@ -349,7 +352,7 @@ pheatmap(
   fontsize = fontsize_main,
   number_color = "black",
   fontsize_number = fontsize_num,
-  border_color = NA,
+  border_color = black,
   angle_col = 45,
   labels_col = italic_col_labels,
 )
