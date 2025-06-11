@@ -64,7 +64,6 @@ Multiple correlation methods were employed:
 - **Spearman's Rank Correlation**: Used for examining relationships between defence system counts, anti-defence system counts, IME counts, and ARG counts
 - **Fisher's Exact Test**: For assessing associations between specific defence system pairs, defence-ARG pairs, and defence-IME pairs
 - **Multiple Testing Correction**: Benjamini-Hochberg procedure for controlling false discovery rate
-- **Co-occurrence Analysis**: Jaccard similarity indices for quantifying co-occurrence patterns
 
 ### 3. Visualization Techniques
 
