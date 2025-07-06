@@ -1,0 +1,21 @@
+name: crisprcasfinder_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - perl
+  - perl-bioperl
+  - perl-libwww-perl
+  - perl-html-parser
+  - perl-json
+  - perl-text-csv
+  - blast
+  - prodigal
+  - hmmer
+  - openjdk=8
+  - wget
+  - unzip
+  - git
+  - make
+  - coreutils
