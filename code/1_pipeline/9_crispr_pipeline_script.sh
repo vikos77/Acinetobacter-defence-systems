@@ -1,5 +1,11 @@
 #!/bin/bash
 # Script to run CRISPRCasFinder analysis on Acinetobacter genomes
+# 
+# Prerequisites:
+# 1. Create conda environment: conda env create -f environment/crisprcasfinder_env.yml
+# 2. Clone CRISPRCasFinder: git clone https://github.com/dcouvin/CRISPRCasFinder.git
+# 3. Update CRISPRCASFINDER_DIR variable below to point to your installation
+#
 # Author: Vigneshwaran Muthuraman
 
 # Set up paths and directories
@@ -7,7 +13,7 @@ GENOME_DIR="data/genomes"
 OUTPUT_DIR="results/crispr_analysis"
 CONSOLIDATED_DIR="results/consolidated"
 CRISPRCASFINDER_DIR="/path/to/CRISPRCasFinder"  # Update this to your actual path
-CONDA_ENV_NAME="crisprcasfinder"  # Your conda environment name
+CONDA_ENV_NAME="environment/crisprcasfinder_env.yml"  # Your conda environment name
 
 # Create output directories
 mkdir -p "$OUTPUT_DIR"
@@ -67,25 +73,6 @@ echo "Combining genomes into: $COMBINED_GENOMES"
 # Remove existing combined file if it exists
 rm -f "$COMBINED_GENOMES"
 
-# Combine genomes with proper headers
-for GENOME in $GENOMES; do
-    GENOME_ID=$(basename "$GENOME" | cut -d. -f1)
-    echo "Adding $GENOME_ID to combined file..."
-    
-    # Add genome with modified header to include genome ID
-    awk -v genome_id="$GENOME_ID" '
-        /^>/ { 
-            # Replace header with genome ID
-            print ">" genome_id
-            next
-        }
-        { print }
-    ' "$GENOME" >> "$COMBINED_GENOMES"
-done
-
-echo "Combined genomes created: $COMBINED_GENOMES"
-echo "Total sequences: $(grep -c "^>" "$COMBINED_GENOMES")"
-
 # Run CRISPRCasFinder
 echo "Running CRISPRCasFinder analysis..."
 echo "Command: perl CRISPRCasFinder.pl -cas -keep -in $COMBINED_GENOMES -out $OUTPUT_DIR_ABS/crispr_results"
@@ -137,11 +124,6 @@ if [ -d "$RESULTS_DIR" ]; then
     
     # Copy any TSV files
     find "$RESULTS_DIR" -name "*.tsv" -exec cp {} "$CONSOLIDATED_DIR/" \;
-    
-    # Copy JSON if exists
-    if [ -f "$RESULTS_DIR/result.json" ]; then
-        cp "$RESULTS_DIR/result.json" "$CONSOLIDATED_DIR/crispr_cas_results.json"
-    fi
     
     # Create a simple summary
     SUMMARY_OUTPUT="$CONSOLIDATED_DIR/crispr_cas_analysis_summary.txt"
