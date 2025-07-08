@@ -216,7 +216,7 @@ ph <- pheatmap(
   fontsize_col     = 12,
   cellwidth        = 45,
   cellheight       = 40,
-  main             = "",    # no built-in title
+  main             = "C. Correlation of defence systems and HMRG",    
   fontsize         = 16,
   number_color     = "black",
   fontsize_number  = 16,
@@ -401,7 +401,7 @@ panel_b <- ggplot(plot_data, aes(x = Species_Group, y = Count, fill = Species_Gr
     legend.position = "none"
   ) +
   labs(
-    title = "Species-Specific Resistance Gene Patterns",
+    title = "A. Species-Specific Resistance Gene Patterns",
     subtitle = "Pairwise comparisons: * p<0.05, ** p<0.01, *** p<0.001, ns = not significant",
     x = "Species Group",
     y = "Gene Count per Genome"
@@ -479,7 +479,7 @@ if (nrow(source_data) > 0 && length(unique(source_data$SourceType)) == 2) {
       legend.position = "none"
     ) +
     labs(
-      title = "Clinical vs Environmental Comparison",
+      title = "B. Clinical vs Environmental Comparison",
       x = "Isolation Source",
       y = "Gene Count per Genome"
     ) +
@@ -497,20 +497,19 @@ if (nrow(source_data) > 0 && length(unique(source_data$SourceType)) == 2) {
 # ==============================================================================
 
 # Create 2-panel layout using grid.arrange since panel_a is a raster grob
-# Convert right panels to a single grob
-right_panels_grob <- arrangeGrob(panel_b, panel_c, ncol = 1, heights = c(1, 1))
+
+left_panels_grob <- arrangeGrob(panel_b, panel_c, ncol = 1, heights = c(1, 1))
 
 # Create combined figure using grid.arrange
 combined_figure <- arrangeGrob(
-  panel_a, right_panels_grob, 
+   left_panels_grob, panel_a,
   ncol = 2, 
-  widths = c(1.2, 1),
+  widths = c(1, 1.2),
   top = textGrob("Heavy Metal Resistance Gene (HMRG) Analysis in Acinetobacter", 
                  gp = gpar(fontsize = 16, fontface = "bold"))
 )
 
 # Save individual panels
-# Panel A is already saved as PNG by pheatmap
 # Copy the heatmap file to the standard panel naming
 file.copy(file.path(output_dir, "defense_hmrg_heatmap.png"), 
           file.path(output_dir, "hmrg_panel_a_correlation.png"), 
@@ -519,7 +518,7 @@ file.copy(file.path(output_dir, "defense_hmrg_heatmap.png"),
 ggsave(file.path(output_dir, "hmrg_panel_b_species.png"), panel_b, width = 8, height = 6, dpi = 300)
 ggsave(file.path(output_dir, "hmrg_panel_c_source.png"), panel_c, width = 8, height = 6, dpi = 300)
 
-# Save combined figure using grid approach (since it's a grob)
+
 # Ensure any existing graphics devices are closed
 while (!is.null(dev.list())) {
   dev.off()
