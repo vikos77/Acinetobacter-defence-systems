@@ -25,17 +25,6 @@ if (!dir.exists(output_dir)) {
   dir.create(output_dir, recursive = TRUE)
 }
 
-# Set theme for consistent visualization
-theme_set(theme_bw(base_size = 12))
-custom_theme <- theme(
-  axis.title = element_text(face = "bold"),
-  axis.text = element_text(size = 10),
-  plot.title = element_text(size = 12, face = "bold"),
-  legend.title = element_text(size = 10, face = "bold"),
-  legend.text = element_text(size = 9),
-  panel.grid.minor = element_blank()
-)
-
 # Define color palette
 clone_colors <- c("IC2 Clone" = "#E41A1C", "Other A. baumannii" = "#377EB8")
 
@@ -95,16 +84,32 @@ panel_a <- ggplot(defense_counts, aes(x = Clone_Status, y = defense_count, fill 
   geom_violin(alpha = 0.5) +
   geom_boxplot(width = 0.2, alpha = 0.8) +
   geom_jitter(width = 0.1, alpha = 0.5, size = 2) +
+  stat_summary(fun = mean, geom = "point", shape = 23, size = 4, 
+               fill = "yellow", color = "black") +
   scale_fill_manual(values = clone_colors) +
   labs(
-    title = "A. Defense System Counts",
-    subtitle = sprintf("Wilcoxon p-value = %.3f", wilcox_test$p.value),
+    title = "Defence System Counts",
+    subtitle = sprintf("Wilcoxon p = %.4f", wilcox_test$p.value),
     x = NULL,
-    y = "Number of Defense Systems",
-    fill = "Genome Group"
+    y = "Number of Defence Systems",
+    fill = "Genome Group",
+    caption = "Yellow diamonds = group means"
   ) +
-  custom_theme +
-  theme(legend.position = "bottom")
+  theme_minimal() +
+  theme(
+    # Times New Roman consistency
+    text = element_text(family = "Times New Roman"),
+    plot.title = element_text(face = "bold", size = 16, family = "Times New Roman"),
+    plot.subtitle = element_text(size = 12, family = "Times New Roman"),
+    plot.caption = element_text(size = 9, family = "Times New Roman", color = "gray60"),
+    axis.text.x = element_text(size = 12, family = "Times New Roman"),
+    axis.text.y = element_text(size = 12, family = "Times New Roman"),
+    axis.title.y = element_text(size = 14, family = "Times New Roman"),
+    legend.title = element_text(size = 12, family = "Times New Roman"),
+    legend.text = element_text(size = 11, family = "Times New Roman"),
+    legend.position = "bottom",
+    plot.tag = element_text(size = 18, face = "bold", family = "Times New Roman")
+  )
 
 # ============================================================================
 # Panel B: Defence System Prevalence Comparison
@@ -142,15 +147,24 @@ panel_b <- ggplot(defense_prevalence_top,
   geom_bar(stat = "identity", position = position_dodge(width = 0.9)) +
   scale_fill_manual(values = clone_colors) +
   labs(
-    title = "B. Defence System Prevalence",
+    title = "Defence System Prevalence",
     x = NULL,
     y = "Percentage of Genomes (%)",
     fill = "Genome Group"
   ) +
-  custom_theme +
+  theme_minimal() +
   theme(
-    axis.text.x = element_text(angle = 45, hjust = 1, face = "italic"),
-    legend.position = "bottom"
+    # Times New Roman consistency
+    text = element_text(family = "Times New Roman"),
+    plot.title = element_text(face = "bold", size = 16, family = "Times New Roman"),
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 11, family = "Times New Roman"),
+    axis.text.y = element_text(size = 12, family = "Times New Roman"),
+    axis.title.y = element_text(size = 14, family = "Times New Roman"),
+    legend.title = element_text(size = 12, family = "Times New Roman"),
+    legend.text = element_text(size = 11, family = "Times New Roman"),
+    legend.position = "bottom",
+    panel.grid.minor = element_blank(),
+    plot.tag = element_text(size = 18, face = "bold", family = "Times New Roman")
   )
 
 # ============================================================================
@@ -275,7 +289,7 @@ panel_c <- ggplot(forest_plot_data,
   scale_size_continuous(range = c(2, 5), guide = "none") +
   # Labels
   labs(
-    title = "C. Defence System Enrichment in IC2 Clones",
+    title = "Defence System Enrichment in IC2 Clones",
     subtitle = "Log2 Odds Ratio with 95% Confidence Intervals",
     x = expression(log[2](Odds~Ratio)),
     y = NULL,
@@ -290,11 +304,19 @@ panel_c <- ggplot(forest_plot_data,
     direction = "y",
     segment.size = 0.2
   ) +
-  # Theme
-  custom_theme +
+  theme_minimal() +
   theme(
-    axis.text.y = element_text(face = "italic"),
-    legend.position = "bottom"
+    # Times New Roman consistency
+    text = element_text(family = "Times New Roman"),
+    plot.title = element_text(face = "bold", size = 16, family = "Times New Roman"),
+    plot.subtitle = element_text(size = 12, family = "Times New Roman"),
+    axis.text.x = element_text(size = 12, family = "Times New Roman"),
+    axis.text.y = element_text(size = 11, family = "Times New Roman"),
+    axis.title.x = element_text(size = 14, family = "Times New Roman"),
+    legend.title = element_text(size = 12, family = "Times New Roman"),
+    legend.text = element_text(size = 11, family = "Times New Roman"),
+    legend.position = "bottom",
+    plot.tag = element_text(size = 18, face = "bold", family = "Times New Roman")
   )
 
 # ============================================================================
@@ -314,18 +336,26 @@ defense_combinations <- ic2_defense_data %>%
 
 # Create upset plot
 panel_d <- ggplot(defense_combinations, aes(x = systems)) +
-  geom_bar() +
+  geom_bar(fill = "#E74C3C", alpha = 0.8) +
   scale_x_upset() +
   labs(
-    title = "D. Defence System Combinations in IC2 Clones",
-    x = "Combination",
+    title = "Defence System Combinations in IC2 Clone Contigs",
+    x = "System Combination",
     y = "Number of Genomes"
   ) +
-  theme_bw() +
+  theme_minimal() +
   theme(
-    axis.text.x = element_text(angle = 90, hjust = 1, size = 8, face = "italic"),
-    plot.title = element_text(face = "bold", size = 12)
+    # Times New Roman consistency
+    text = element_text(family = "Times New Roman"),
+    plot.title = element_text(face = "bold", size = 16, family = "Times New Roman"),
+    axis.text.x = element_text(angle = 90, hjust = 1, size = 9, family = "Times New Roman"),
+    axis.text.y = element_text(size = 12, family = "Times New Roman"),
+    axis.title.x = element_text(size = 14, family = "Times New Roman"),
+    axis.title.y = element_text(size = 14, family = "Times New Roman"),
+    panel.grid.minor = element_blank(),
+    plot.tag = element_text(size = 18, face = "bold", family = "Times New Roman")
   )
+
 
 # ============================================================================
 # Combine panels and save results
@@ -336,6 +366,12 @@ ggsave(file.path(output_dir, "figure4_panel_a.png"), panel_a, width = 6, height 
 ggsave(file.path(output_dir, "figure4_panel_b.png"), panel_b, width = 6, height = 5, dpi = 300) 
 ggsave(file.path(output_dir, "figure4_panel_c.png"), panel_c, width = 6, height = 5, dpi = 300)
 ggsave(file.path(output_dir, "figure4_panel_d.png"), panel_d, width = 6, height = 5, dpi = 300)
+
+# Add panel labels
+panel_a_labeled <- panel_a + labs(tag = "A")
+panel_b_labeled <- panel_b + labs(tag = "B") 
+panel_c_labeled <- panel_c + labs(tag = "C")
+panel_d_labeled <- panel_d + labs(tag = "D")
 
 # Combine all panels into one figure
 combined_plot <- plot_grid(
