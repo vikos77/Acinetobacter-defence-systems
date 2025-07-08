@@ -30,6 +30,7 @@ defensefinder_file <- "results/consolidated/consolidated_defense_systems.tsv"
 resfinder_file <- "results/consolidated/consolidated_resfinder_results.tsv"
 antidefense_file <- "results/consolidated/consolidated_antidefense_systems.tsv"
 ime_blast_file <- "results/ime_analysis/blast_results/IME_proteins_vs_acinetobacter.tblastn"
+hmrg_blast_file <- "HMRG/HMRG_proteins_vs_acinetobacter.tblastn"
 output_dir <- "results/figures"
 
 # Create output directory if it doesn't exist
@@ -41,8 +42,7 @@ if (!dir.exists(output_dir)) {
 # Enhanced function to create correlation heatmap with proper data handling
 # ==============================================================================
 
-create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_blast_file, 
-                                       output_file = "correlation_heatmap.png") {
+create_comprehensive_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_blast_file, hmrg_blast_file, output_file = "comprehensive_correlation_heatmap.png") {
   
 
   # 1. DEFENSE SYSTEMS - count distinct defense types per genome
@@ -155,17 +155,51 @@ create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_
   cat("IMEs: Found", nrow(ime_data), "genomes with mean count =", 
       round(mean(ime_data$ime_count), 2), "\n")
   
-  # 5. MERGE ALL COUNTS - ensure all are numeric
+  # 5. NEW: HMRG - count distinct heavy metal resistance genes per genome
+  hmrg_blast_cols <- c("qseqid", "sseqid", "pident", "length", "mismatch", "gapopen",
+                       "qstart", "qend", "sstart", "send", "evalue", "bitscore")
+  
+  hmrg_blast_data <- read.delim(hmrg_blast_file, header = FALSE, 
+                                col.names = hmrg_blast_cols[1:ncol(read.delim(hmrg_blast_file, header = FALSE, nrows = 1))])
+  
+  hmrg_data <- hmrg_blast_data %>%
+    filter(pident >= 80, evalue <= 1e-6) %>%
+    mutate(
+      gene_name = case_when(
+        grepl("\\|", qseqid) ~ {
+          parts <- str_split_fixed(qseqid, "\\|", 5)
+          toupper(parts[, 2])
+        },
+        TRUE ~ toupper(str_extract(qseqid, "^[A-Za-z0-9]+"))
+      ),
+      Genome_ID = case_when(
+        grepl("^[A-Z]{2,3}_[A-Z0-9]+\\.[0-9]+", sseqid) ~ str_extract(sseqid, "^[A-Z]{2,3}_[A-Z0-9]+\\.[0-9]+"),
+        grepl("^[A-Z0-9]+\\.[0-9]+", sseqid) ~ str_extract(sseqid, "^[A-Z0-9]+\\.[0-9]+"),
+        TRUE ~ str_extract(sseqid, "^[^\\s_]+")
+      )
+    ) %>%
+    filter(!is.na(gene_name), !is.na(Genome_ID), 
+           gene_name != "", Genome_ID != "") %>%
+    select(Genome_ID, gene_name) %>%
+    distinct() %>%
+    group_by(Genome_ID) %>%
+    summarize(hmrg_count = n(), .groups = "drop")
+  
+  cat("HMRGs: Found", nrow(hmrg_data), "genomes with mean count =", 
+      round(mean(hmrg_data$hmrg_count), 2), "\n")
+  
+  # Merge all counts - now including HMRG
   combined_data <- defense_counts %>%
     full_join(arg_counts, by = "Genome_ID") %>%
     full_join(anti_defense_counts, by = "Genome_ID") %>%
     full_join(ime_data, by = "Genome_ID") %>%
-    # Replace NA with 0 and ensure all counts are numeric
+    full_join(hmrg_data, by = "Genome_ID") %>%  # Add HMRG
     mutate(
       defense_count = as.numeric(ifelse(is.na(defense_count), 0, defense_count)),
       arg_count = as.numeric(ifelse(is.na(arg_count), 0, arg_count)),
       anti_defense_count = as.numeric(ifelse(is.na(anti_defense_count), 0, anti_defense_count)),
-      ime_count = as.numeric(ifelse(is.na(ime_count), 0, ime_count))
+      ime_count = as.numeric(ifelse(is.na(ime_count), 0, ime_count)),
+      hmrg_count = as.numeric(ifelse(is.na(hmrg_count), 0, hmrg_count))  # Add HMRG
     )
   
   cat("\nCombined data: Total", nrow(combined_data), "genomes\n")
@@ -179,10 +213,9 @@ create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_
   cat("\nSummary Statistics:\n")
   print(summary_stats)
   
-  # 6. CALCULATE CORRELATION MATRIX
-  # Convert to matrix and ensure numeric
-  cor_data <- as.matrix(combined_data[, c("defense_count", "arg_count", "anti_defense_count", "ime_count")])
-  colnames(cor_data) <- c("Defence", "ARG", "Anti-Defence", "IME")
+  # Calculate correlation matrix - now 5x5 matrix
+  cor_data <- as.matrix(combined_data[, c("defense_count", "arg_count", "anti_defense_count", "ime_count", "hmrg_count")])
+  colnames(cor_data) <- c("Defence", "ARG", "Anti-Defence", "IME", "HMRG")
   
   # Verify data is numeric
   cat("\nVerifying data types:\n")
@@ -192,7 +225,7 @@ create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_
   zero_var_cols <- which(apply(cor_data, 2, var) == 0)
   if (length(zero_var_cols) > 0) {
     cat("Warning: Columns with zero variance:", colnames(cor_data)[zero_var_cols], "\n")
-    # Don't remove them, but note them
+    cor_data <- cor_data[, -zero_var_cols]
   }
   
   # Calculate correlation matrix using Spearman correlation
@@ -202,7 +235,7 @@ create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_
   cat("\nCorrelation Matrix:\n")
   print(round(cor_matrix, 3))
   
-  # 7. CALCULATE P-VALUES FOR CORRELATIONS
+  # Calculate p-values for correlations
   n <- nrow(cor_data)
   p_values <- matrix(NA, nrow = ncol(cor_data), ncol = ncol(cor_data))
   rownames(p_values) <- colnames(p_values) <- colnames(cor_data)
@@ -210,7 +243,6 @@ create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_
   for (i in 1:ncol(cor_data)) {
     for (j in 1:ncol(cor_data)) {
       if (i != j) {
-        # Extract vectors properly and ensure they're numeric
         x <- as.numeric(cor_data[,i])
         y <- as.numeric(cor_data[,j])
         test_result <- cor.test(x, y, method = "spearman")
@@ -224,7 +256,7 @@ create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_
   cat("\nP-values:\n")
   print(round(p_values, 4))
   
-  # 8. CREATE SIGNIFICANCE ANNOTATIONS
+  # Create annotations for the heatmap (asterisks for significance)
   sig_matrix <- matrix("", nrow = nrow(cor_matrix), ncol = ncol(cor_matrix))
   rownames(sig_matrix) <- rownames(cor_matrix)
   colnames(sig_matrix) <- colnames(cor_matrix)
@@ -243,82 +275,71 @@ create_correlation_heatmap <- function(defense_df, arg_df, anti_defense_df, ime_
     }
   }
   
-  # 9. CREATE THE HEATMAP
-  # Ensure all graphics devices are closed
-  while (!is.null(dev.list())) {
-    dev.off()
-  }
+  # Create the enhanced heatmap
+  png(output_file, width = 8*300, height = 8*300, res = 300)  # Larger for 5x5 matrix
   
   # Create custom labels that include correlation values and significance
   custom_labels <- matrix("", nrow = nrow(cor_matrix), ncol = ncol(cor_matrix))
   for (i in 1:nrow(cor_matrix)) {
     for (j in 1:ncol(cor_matrix)) {
-      if (i == j) {
-        custom_labels[i,j] <- sprintf("%.2f", cor_matrix[i,j])
-      } else {
-        custom_labels[i,j] <- paste0(sprintf("%.2f", cor_matrix[i,j]), "\n", sig_matrix[i,j])
-      }
+      custom_labels[i,j] <- paste0(sprintf("%.2f", cor_matrix[i,j]), "\n", sig_matrix[i,j])
     }
   }
   
-  # Create PNG version
-  png(output_file, width = 10*300, height = 10*300, res = 300)
-  
   pheatmap(
     cor_matrix,
     display_numbers = custom_labels,
     number_color = "black",
     fontsize_number = 14,
-    color = colorRampPalette(c("#053061", "#2166AC", "#4393C3", "#92C5DE", 
-                               "#FFFFFF", "#F4A582", "#D6604D", "#B2182B", "#67001F"))(100),
+    color = colorRampPalette(c("blue","white","firebrick"))(100),
     breaks = seq(-1, 1, length.out = 101),
     cluster_rows = FALSE,
     cluster_cols = FALSE,
     angle_col = 45,
-    main = "D. Correlation Matrix Between Genomic Elements",
+    main = "Correlation of major genomic elements",
     fontsize = 16,
-    fontsize_row = 14,
+    fontsize_row = 16,
     fontsize_col = 14,
-    cellwidth = 80,
+    cellwidth = 80,   # Larger cells for 5x5 matrix
     cellheight = 80,
-    border_color = "white"
+    FONT_FAMILY = "Times New Roman"
   )
   
   dev.off()
   
-  # Create PDF version
-  pdf(sub("\\.png$", ".pdf", output_file), width = 10, height = 10)
+  cat("\nComprehensive correlation heatmap saved to:", output_file, "\n")
   
-  pheatmap(
-    cor_matrix,
-    display_numbers = custom_labels,
-    number_color = "black",
-    fontsize_number = 14,
-    color = colorRampPalette(c("#053061", "#2166AC", "#4393C3", "#92C5DE", 
-                               "#FFFFFF", "#F4A582", "#D6604D", "#B2182B", "#67001F"))(100),
-    breaks = seq(-1, 1, length.out = 101),
-    cluster_rows = FALSE,
-    cluster_cols = FALSE,
-    angle_col = 45,
-    main = "Correlation Matrix Between Genomic Elements",
-    fontsize = 16,
-    fontsize_row = 14,
-    fontsize_col = 14,
-    cellwidth = 80,
-    cellheight = 80,
-    border_color = "white"
+  # Save detailed results
+  write.csv(cor_matrix, gsub(".png", "_correlations.csv", output_file))
+  write.csv(p_values, gsub(".png", "_pvalues.csv", output_file))
+  write.csv(combined_data, gsub(".png", "_counts_data.csv", output_file))
+  
+  # Print specific HMRG correlations for your manuscript
+  cat("\n=== KEY HMRG CORRELATIONS FOR MANUSCRIPT ===\n")
+  hmrg_correlations <- data.frame(
+    Element = rownames(cor_matrix)[rownames(cor_matrix) != "HMRG"],
+    Correlation = cor_matrix["HMRG", rownames(cor_matrix) != "HMRG"],
+    P_value = p_values["HMRG", rownames(cor_matrix) != "HMRG"]
   )
   
-  dev.off()
+  # Highlight significant correlations
+  significant_hmrg <- hmrg_correlations[hmrg_correlations$P_value < 0.05, ]
+  if (nrow(significant_hmrg) > 0) {
+    cat("Significant HMRG correlations:\n")
+    for (i in 1:nrow(significant_hmrg)) {
+      cat(sprintf("HMRG vs %s: ρ = %.3f, p = %.4f\n", 
+                  significant_hmrg$Element[i],
+                  significant_hmrg$Correlation[i],
+                  significant_hmrg$P_value[i]))
+    }
+  }
   
-  cat("\nHeatmap saved to:", output_file, "\n")
-  
-  # 10. SAVE DETAILED RESULTS
-  write_csv(as.data.frame(cor_matrix), sub("\\.png$", "_correlations.csv", output_file))
-  write_csv(as.data.frame(p_values), sub("\\.png$", "_pvalues.csv", output_file))
-  write_csv(combined_data, sub("\\.png$", "_counts_data.csv", output_file))
-  
-  return(list(correlations = cor_matrix, p_values = p_values, data = combined_data))
+  return(list(
+    correlations = cor_matrix, 
+    p_values = p_values, 
+    data = combined_data,
+    hmrg_specific = hmrg_correlations
+  ))
 }
 
 # ==============================================================================
@@ -341,6 +362,7 @@ results <- create_correlation_heatmap(
   arg_df = resfinder_df,
   anti_defense_df = antidefense_df,
   ime_blast_file = ime_blast_file,
+  hmrg_blast_file = hmrg_blast_file,
   output_file = file.path(output_dir, "final_correlation_matrix.png")
 )
 
