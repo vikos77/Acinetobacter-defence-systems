@@ -187,27 +187,87 @@ fisher_results <- fisher_results %>%
     )
   )
 
-# Create correlation heatmap
-panel_a <- ggplot(fisher_results, aes(x = HMRG_Gene, y = Defense_System)) +
-  geom_tile(aes(fill = LogOddsRatio), color = "white", size = 0.5) +
-  scale_fill_gradient2(low = "blue", mid = "white", high = "red",
-                       midpoint = 0, limits = c(-10, 10),
-                       name = expression(log[2](OR))) +
-  geom_text(aes(label = Significance), size = 4, color = "black") +
-  theme_minimal() +
-  theme(
-    axis.text.x = element_text(angle = 45, hjust = 1, face = "italic"),
-    axis.text.y = element_text(face = "bold"),
-    panel.grid = element_blank(),
-    plot.title = element_text(face = "bold", size = 14)
-  ) +
-  labs(
-    title = "Defense System - HMRG Correlations",
-    subtitle = "Fisher's exact tests with FDR correction",
-    x = "Heavy Metal Resistance Genes",
-    y = "Defense Systems"
-  )
+# Create matrices for pheatmap
+heatmap_data <- matrix(NA, nrow = length(top_defense_systems), ncol = length(top_hmrg_genes))
+rownames(heatmap_data) <- top_defense_systems
+colnames(heatmap_data) <- top_hmrg_genes
 
+sig_matrix <- matrix("", nrow = length(top_defense_systems), ncol = length(top_hmrg_genes))
+rownames(sig_matrix) <- top_defense_systems
+colnames(sig_matrix) <- top_hmrg_genes
+
+# Fill matrices with data
+for (i in 1:nrow(fisher_results)) {
+  defense <- fisher_results$Defense_System[i]
+  hmrg <- fisher_results$HMRG_Gene[i]
+  heatmap_data[defense, hmrg] <- fisher_results$LogOddsRatio[i]
+  sig_matrix[defense, hmrg] <- fisher_results$Significance[i]
+}
+
+# Generate pheatmap heatmap (following original HMRG analysis pattern)
+ph <- pheatmap(
+  heatmap_data,
+  display_numbers = sig_matrix,
+  color            = colorRampPalette(c("blue","white","firebrick"))(100),
+  breaks           = seq(-10, 10, length.out = 101),
+  cluster_rows     = TRUE,
+  cluster_cols     = TRUE,
+  fontsize_row     = 16,
+  fontsize_col     = 12,
+  cellwidth        = 45,
+  cellheight       = 40,
+  main             = "",    # no built-in title
+  fontsize         = 16,
+  number_color     = "black",
+  fontsize_number  = 16,
+  border_color     = "black",
+  angle_col        = 45,
+  silent           = TRUE
+)
+
+# Ensure any existing graphics devices are closed
+while (!is.null(dev.list())) {
+  dev.off()
+}
+
+# Open PNG device
+png(file.path(output_dir, "defense_hmrg_heatmap.png"),
+    width  = 10*300, height = 14*300, res = 300)
+
+# Draw the heatmap
+grid.newpage()
+grid.draw(ph$gtable)
+
+# Add "Defence systems" label on the right
+grid.text(
+  "Defence systems",
+  x    = unit(0.92, "npc"),   # near right edge
+  y    = unit(0.5,  "npc"),   # centered vertically
+  rot  = -90,                 # vertical orientation
+  gp   = gpar(fontsize = 16, fontface = "bold")
+)
+
+# Add "Heavy metal resistance genes" label at the bottom
+grid.text(
+  "Heavy metal resistance genes",
+  x    = unit(0.47,  "npc"),   # centered horizontally
+  y    = unit(0.01, "npc"),   # near bottom edge
+  gp   = gpar(fontsize = 16, fontface = "bold")
+)
+
+# Close device
+dev.off()
+
+# Check if heatmap file was created successfully
+if (!file.exists(file.path(output_dir, "defense_hmrg_heatmap.png"))) {
+  stop("Failed to create heatmap PNG file")
+}
+
+# Load the generated heatmap PNG as grob for combined figure
+panel_a <- grid::rasterGrob(
+  png::readPNG(file.path(output_dir, "defense_hmrg_heatmap.png")),
+  interpolate = TRUE
+)
 # ==============================================================================
 # Panel B: Species-specific analysis with pairwise comparisons
 # ==============================================================================
@@ -436,26 +496,46 @@ if (nrow(source_data) > 0 && length(unique(source_data$SourceType)) == 2) {
 # Combine panels and save results
 # ==============================================================================
 
-# Create 2-panel layout: correlation heatmap on left, boxplots on right
-right_panels <- (panel_b / panel_c) + plot_layout(heights = c(1, 1))
+# Create 2-panel layout using grid.arrange since panel_a is a raster grob
+# Convert right panels to a single grob
+right_panels_grob <- arrangeGrob(panel_b, panel_c, ncol = 1, heights = c(1, 1))
 
-combined_figure <- (panel_a | right_panels) +
-  plot_layout(widths = c(1.2, 1)) +
-  plot_annotation(
-    title = "Heavy Metal Resistance Gene (HMRG) Analysis in Acinetobacter",
-    theme = theme(plot.title = element_text(size = 16, face = "bold", hjust = 0.5))
-  )
+# Create combined figure using grid.arrange
+combined_figure <- arrangeGrob(
+  panel_a, right_panels_grob, 
+  ncol = 2, 
+  widths = c(1.2, 1),
+  top = textGrob("Heavy Metal Resistance Gene (HMRG) Analysis in Acinetobacter", 
+                 gp = gpar(fontsize = 16, fontface = "bold"))
+)
 
 # Save individual panels
-ggsave(file.path(output_dir, "hmrg_panel_a_correlation.png"), panel_a, width = 12, height = 8, dpi = 300)
+# Panel A is already saved as PNG by pheatmap
+# Copy the heatmap file to the standard panel naming
+file.copy(file.path(output_dir, "defense_hmrg_heatmap.png"), 
+          file.path(output_dir, "hmrg_panel_a_correlation.png"), 
+          overwrite = TRUE)
+
 ggsave(file.path(output_dir, "hmrg_panel_b_species.png"), panel_b, width = 8, height = 6, dpi = 300)
 ggsave(file.path(output_dir, "hmrg_panel_c_source.png"), panel_c, width = 8, height = 6, dpi = 300)
 
-# Save combined figure
-ggsave(file.path(output_dir, "Supplement_Figure4_HMRG_analysis.png"), 
-       combined_figure, width = 18, height = 12, dpi = 300)
-ggsave(file.path(output_dir, "Supplement_Figure4_HMRG_analysis.pdf"), 
-       combined_figure, width = 18, height = 12)
+# Save combined figure using grid approach (since it's a grob)
+# Ensure any existing graphics devices are closed
+while (!is.null(dev.list())) {
+  dev.off()
+}
+
+png(file.path(output_dir, "Supplement_Figure4_HMRG_analysis.png"), 
+    width = 18*300, height = 12*300, res = 300)
+grid.newpage()
+grid.draw(combined_figure)
+dev.off()
+
+pdf(file.path(output_dir, "Supplement_Figure4_HMRG_analysis.pdf"), 
+    width = 18, height = 12)
+grid.newpage()
+grid.draw(combined_figure)
+dev.off()
 
 # Save analysis results
 write_csv(fisher_results, file.path(output_dir, "hmrg_defense_correlation_results.csv"))
