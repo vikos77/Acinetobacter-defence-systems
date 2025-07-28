@@ -1,0 +1,15 @@
+name: resfinder
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - resfinder = 4.6.0       
+  - blast           
+  - git             
+  - biopython
+  - tabulate
+  - gitpython
+  - python-dateutil
+  - cgecore
