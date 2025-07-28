@@ -76,6 +76,6 @@ The bioinformatic workflow involved:
 
 ## Contact & Support
 
-** Corresponding Author:** Saadlee Shehreen (s.shehreen@tees.ac.uk) 
-** Lead Analyst:** Vigneshwaran Muthuraman (vigneshwaran0594@gmail.com)
-** Institution:** Teesside University, UK
+- **Corresponding Author:** Saadlee Shehreen (s.shehreen@tees.ac.uk) 
+- **Lead Analyst:** Vigneshwaran Muthuraman (vigneshwaran0594@gmail.com)
+- **Institution:** Teesside University, UK
