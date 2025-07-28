@@ -66,7 +66,7 @@ The bioinformatic workflow involved:
 | **Mobile Element Networks** | Defense systems regulate HGT dynamics | Insights for phage therapy design |
 | **Species-Specific Patterns** | Distinct defense profiles across species | Species-targeted therapeutic strategies |
 
-### 🔬 Core Discoveries
+### Core Discoveries
 
 - **132 genomes analyzed** across 18 *Acinetobacter* species with comprehensive defense system mapping
 - **Novel IC2 adaptations**: Streamlined defense architecture (1-2 systems vs. ~5 in other strains) facilitates resistance acquisition
@@ -74,3 +74,8 @@ The bioinformatic workflow involved:
 - **Mobile element facilitation**: SspBCDE and Gao_Qat systems show positive associations with horizontal gene transfer
 - **Statistical rigor**: Correlation analyses with multiple testing correction reveal robust genomic patterns
 
+## Contact & Support
+
+** Corresponding Author:** Saadlee Shehreen (s.shehreen@tees.ac.uk) 
+** Lead Analyst:** Vigneshwaran Muthuraman (vigneshwaran0594@gmail.com)
+** Institution:** Teesside University, UK
