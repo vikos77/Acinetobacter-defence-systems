@@ -20,7 +20,7 @@ The analysis was performed on two distinct datasets:
 
 - `code/`: R and Bash scripts for computational analysis
 - `data/`: Metadata about genomes and example datasets
-- `results/`: Key figures and findings
+- `methods/`: Workflow figure
 - `environment/`: Conda environment files
 
 ## Methodology Overview
@@ -51,10 +51,10 @@ The bioinformatic workflow involved:
 2. Install R and required packages
 
 3. Install bioinformatics tools:
-DefenseFinder: Follow instructions at [DefenseFinder](https://github.com/mdmparis/defense-finder)
-PADLOC: Follow instructions at [PADLOC](https://github.com/padlocbio/padloc)
-Resfinder : Follow instructions at [Resfinder](https://github.com/genomicepidemiology/resfinder)
-Casfinder : Follow instructions at [Casfinder](https://github.com/macsy-models/CasFinder)
+- DefenseFinder: Follow instructions at [DefenseFinder](https://github.com/mdmparis/defense-finder)
+- PADLOC: Follow instructions at [PADLOC](https://github.com/padlocbio/padloc)
+- Resfinder : Follow instructions at [Resfinder](https://github.com/genomicepidemiology/resfinder)
+- Casfinder : Follow instructions at [Casfinder](https://github.com/macsy-models/CasFinder)
 
 
 ### Key Findings
