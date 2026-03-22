@@ -84,7 +84,7 @@ The pipeline runs in two stages:
 2. Defence system prediction with DefenseFinder and PADLOC
 3. Antibiotic resistance gene identification with ResFinder
 4. Anti-defence system prediction with AntiDefenseFinder
-5. Integrative mobile element (IME) identification via tBLASTn against SILVA
+5. Integrative mobile element (IME) identification via tBLASTn against ICEberg
 6. CRISPR-Cas system characterisation with CRISPRCasFinder
 7. Heavy metal resistance gene (HMRG) identification
 
