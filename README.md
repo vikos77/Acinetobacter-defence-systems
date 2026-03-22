@@ -124,12 +124,6 @@ install.packages(c(
 
 ## Figures
 
-### Figure 1: Analytical pipeline
-![Figure 1](results/figures/main/fig1_defence_pipeline.png)
-*Complete bioinformatic workflow from NCBI genome collection through parallel defence system, resistance gene, mobile element, and CRISPR-Cas analysis, to statistical analysis and visualisation.*
-
----
-
 ### Figure 2: Epidemiological distribution and genomic characteristics
 ![Figure 2](results/figures/main/fig2_epidemiological_analysis.png)
 *Geographic distribution of isolates (A), isolation source breakdown — 55% clinical-human (B), GC content vs genome size across species (C), and genomic feature comparison across A. baumannii, A. pittii, and other spp. (D).*
