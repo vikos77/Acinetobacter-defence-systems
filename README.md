@@ -33,7 +33,7 @@ The bioinformatic workflow involved:
 4. **Statistical Analysis**: Correlation analysis using Fisher's exact tests and Spearman's rank correlation
 5. **Visualization**: Generation of heatmaps, network visualizations, and statistical plots
 
-![Methodology Workflow](results/figures/methodology_workflow.png)
+![Methodology Workflow](methods/figures/methodology_workflow.png)
 
 ## Prerequisites
 
