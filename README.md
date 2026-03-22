@@ -67,7 +67,7 @@ Acinetobacter-defence-systems/
 │       └── methodology_workflow.png
 ├── results/
 │   └── figures/
-│       └── main/                 # Figures 1-6
+│       └── main/                 # Figures 1-5
 └── LICENSE
 ```
 
@@ -124,32 +124,32 @@ install.packages(c(
 
 ## Figures
 
-### Figure 2: Epidemiological distribution and genomic characteristics
-![Figure 2](results/figures/main/fig2_epidemiological_analysis.png)
+### Figure 1: Epidemiological distribution and genomic characteristics
+![Figure 1](results/figures/main/fig1_epidemiological_analysis.png)
 *Geographic distribution of isolates (A), isolation source breakdown — 55% clinical-human (B), GC content vs genome size across species (C), and genomic feature comparison across A. baumannii, A. pittii, and other spp. (D).*
 
 ---
 
-### Figure 3: Defence system distribution and species-specific patterns
-![Figure 3](results/figures/main/fig3_defence_distribution.png)
+### Figure 2: Defence system distribution and species-specific patterns
+![Figure 2](results/figures/main/fig2_defence_distribution.png)
 *Distribution of defence system counts per genome (A), top 20 defence system types across the dataset (B), and species-specific defence system profiles comparing A. baumannii, A. pittii, and others (C).*
 
 ---
 
-### Figure 4: IC2 clone defence system characterisation
-![Figure 4](results/figures/main/fig4_ic2_comparison.png)
+### Figure 3: IC2 clone defence system characterisation
+![Figure 3](results/figures/main/fig3_ic2_comparison.png)
 *Defence system counts in IC2 vs other A. baumannii (Wilcoxon p < 0.0001) (A), prevalence comparison (B), enrichment analysis by odds ratio with FDR correction showing SspBCDE enrichment in IC2 (C), and defence system combinations in IC2 contigs (D).*
 
 ---
 
-### Figure 5: Defence system co-occurrence analysis
-![Figure 5](results/figures/main/fig5_cooccurrence_analysis.png)
+### Figure 4: Defence system co-occurrence analysis
+![Figure 4](results/figures/main/fig4_cooccurrence_analysis.png)
 *Chord diagram of defence system co-occurrence network (A) and co-occurrence matrix showing statistically significant pairings (FDR-corrected, p < 0.05) by odds ratio (B).*
 
 ---
 
-### Figure 6: Comprehensive defence-resistance-HGT correlation analysis
-![Figure 6](results/figures/main/fig6_resistance_hgt.png)
+### Figure 5: Comprehensive defence-resistance-HGT correlation analysis
+![Figure 5](results/figures/main/fig5_resistance_hgt.png)
 *Correlation matrix of defence system categories vs anti-defence, mobile elements, and resistance genes (A), defence system vs IME protein function heatmap (B), and defence system vs resistance gene association heatmap (C).*
 
 ---
