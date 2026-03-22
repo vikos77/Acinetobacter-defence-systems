@@ -67,8 +67,7 @@ Acinetobacter-defence-systems/
 │       └── methodology_workflow.png
 ├── results/
 │   └── figures/
-│       ├── main/                 # Figures 1-6
-│       └── supplementary/       # Supplementary Figures 1, 3, 5
+│       └── main/                 # Figures 1-6
 └── LICENSE
 ```
 
@@ -133,7 +132,7 @@ install.packages(c(
 
 ### Figure 2: Epidemiological distribution and genomic characteristics
 ![Figure 2](results/figures/main/fig2_epidemiological_analysis.png)
-*Geographic distribution of isolates (A), isolation source breakdown — 51% clinical-human (B), GC content vs genome size across species (C), and genomic feature comparison across A. baumannii, A. pittii, and other spp. (D).*
+*Geographic distribution of isolates (A), isolation source breakdown — 55% clinical-human (B), GC content vs genome size across species (C), and genomic feature comparison across A. baumannii, A. pittii, and other spp. (D).*
 
 ---
 
@@ -158,17 +157,6 @@ install.packages(c(
 ### Figure 6: Comprehensive defence-resistance-HGT correlation analysis
 ![Figure 6](results/figures/main/fig6_resistance_hgt.png)
 *Correlation matrix of defence system categories vs anti-defence, mobile elements, and resistance genes (A), defence system vs IME protein function heatmap (B), and defence system vs resistance gene association heatmap (C).*
-
----
-
-### Supplementary Figure 1: Plasmid defence analysis
-![Sup Figure 1](results/figures/supplementary/supfig1_plasmid.png)
-
-### Supplementary Figure 3: CRISPR-Cas system analysis
-![Sup Figure 3](results/figures/supplementary/supfig3_crispr.png)
-
-### Supplementary Figure 5: Anti-defence and defence system correlation
-![Sup Figure 5](results/figures/supplementary/supfig5_antidefence.png)
 
 ---
 
